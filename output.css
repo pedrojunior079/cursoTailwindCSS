@@ -3575,7 +3575,11 @@ video {
 }
 
 
-/**-------------Bordas/Border Color/input-text----------------------------**/
+/*-------------Bordas/Border Color/input-text----------------------------*/
+/*-------------Utilitários para controlar a cor das bordas de um elemento.----------------------------*/
+.border-inherit{
+  border-color: inherit;
+}	
 
 .border-current{
   border-color: currentColor;
@@ -3583,6 +3587,156 @@ video {
 
 .border-black{
   border-color: rgb(0 0 0);
+}
+
+.border-slate-100{
+  border-color: rgb(241 245 249);
+}	
+.border-slate-200{
+  border-color: rgb(226 232 240);
+}	
+.border-slate-300{
+  border-color: rgb(203 213 225);
+}	
+.border-slate-400{
+  border-color: rgb(148 163 184);
+}	
+.border-slate-500{
+  border-color: rgb(100 116 139);
+} 	
+.border-slate-600{
+  border-color: rgb(71 85 105);
+}	
+.border-slate-700{
+  border-color: rgb(51 65 85);
+}	
+.border-slate-800{
+  border-color: rgb(30 41 59);
+}	
+.border-slate-900{
+  border-color: rgb(15 23 42);
+}	
+.border-slate-950{
+  border-color: rgb(2 6 23);
+}	
+
+.border-zinc-100{
+  border-color: rgb(244 244 245);
+}	
+
+.border-zinc-200{
+  border-color: rgb(228 228 231);
+}	
+
+.border-zinc-300{
+  border-color: rgb(212 212 216);
+}	
+
+.border-zinc-400{
+  border-color: rgb(161 161 170);
+}	
+
+.border-zinc-500{
+  border-color: rgb(113 113 122);
+}	
+
+.border-zinc-600{
+  border-color: rgb(82 82 91);
+}	
+
+.border-zinc-700{
+  border-color: rgb(63 63 70);
+}	
+
+.border-zinc-800{
+  border-color: rgb(39 39 42);
+}	
+.border-zinc-900{
+  border-color: rgb(24 24 27);
+}
+
+.border-zinc-950{
+  border-color: rgb(9 9 11);
+}	
+
+.border-neutral-100{
+  border-color: rgb(245 245 245);
+}
+
+.border-neutral-200{
+  border-color: rgb(229 229 229);
+}
+
+.border-neutral-300{
+  border-color: rgb(212 212 212);
+}
+
+.border-neutral-400{
+  border-color: rgb(163 163 163);
+}
+
+.border-neutral-500{
+  border-color: rgb(115 115 115);
+}	
+
+.border-neutral-600{
+  border-color: rgb(82 82 82);
+}	
+
+.border-neutral-700{
+  border-color: rgb(64 64 64);
+}	
+
+.border-neutral-800{
+  border-color: rgb(38 38 38);
+}	
+
+.border-neutral-900{
+  border-color: rgb(23 23 23);
+}	
+
+.border-neutral-950{
+  border-color: rgb(10 10 10);
+}	
+
+.border-stone-100{
+  border-color: rgb(245 245 244);
+}	
+
+.border-stone-200{
+  border-color: rgb(231 229 228);
+}	
+
+.border-stone-300{
+  border-color: rgb(214 211 209);
+}	
+
+.border-stone-400{
+  border-color: rgb(168 162 158);
+}	
+
+.border-stone-500{
+  border-color: rgb(120 113 108);
+}	
+
+.border-stone-600{
+  border-color: rgb(87 83 78);
+}	
+
+.border-stone-700{
+  border-color: rgb(68 64 60);
+}	
+
+.border-stone-800{
+  border-color: rgb(41 37 36);
+}	
+
+.border-stone-900{
+  border-color: rgb(28 25 23);
+}	
+
+.border-stone-950{
+  border-color: rgb(12 10 9);
 }
 
 .border-gray-200{
@@ -3693,6 +3847,19 @@ video {
   border-color: rgb(67 20 7);
 }
 
+
+.border-amber-100{border-color: rgb(254 243 199);}	
+.border-amber-200{border-color: rgb(253 230 138);}	
+.border-amber-300{border-color: rgb(252 211 77);}	
+.border-amber-400{border-color: rgb(251 191 36);}	
+.border-amber-500{border-color: rgb(245 158 11);}	
+.border-amber-600{border-color: rgb(217 119 6);}	
+.border-amber-700{border-color: rgb(180 83 9);}	
+.border-amber-800{border-color: rgb(146 64 14);}	
+.border-amber-900{border-color: rgb(120 53 15);}	
+.border-amber-950{border-color: rgb(69 26 3);}	
+
+
 .border-yellow-200{
   border-color: rgb(254 240 138);
 }
@@ -3801,6 +3968,51 @@ video {
   border-color: rgb(5 46 22);
 }
 
+.border-emerald-100{border-color: rgb(209 250 229);}	
+.border-emerald-200{border-color: rgb(167 243 208);}	
+.border-emerald-300{border-color: rgb(110 231 183);}	
+.border-emerald-400{border-color: rgb(52 211 153);}	
+.border-emerald-500{border-color: rgb(16 185 129);}	
+.border-emerald-600{border-color: rgb(5 150 105);}	
+.border-emerald-700{border-color: rgb(4 120 87);}	
+.border-emerald-800{border-color: rgb(6 95 70);}	
+.border-emerald-900{border-color: rgb(6 78 59);}	
+.border-emerald-950{border-color: rgb(2 44 34);}	
+
+.border-teal-100{border-color: rgb(204 251 241);}	
+.border-teal-200{border-color: rgb(153 246 228);}	
+.border-teal-300{border-color: rgb(94 234 212);}	
+.border-teal-400{border-color: rgb(45 212 191);}	
+.border-teal-500{border-color: rgb(20 184 166);}	
+.border-teal-600{border-color: rgb(13 148 136);}	
+.border-teal-700{border-color: rgb(15 118 110);}	
+.border-teal-800{border-color: rgb(17 94 89);}	
+.border-teal-900{border-color: rgb(19 78 74);}	
+.border-teal-950{border-color: rgb(4 47 46);}	
+
+.border-cyan-100{border-color: rgb(207 250 254);}	
+.border-cyan-200{border-color: rgb(165 243 252);}	
+.border-cyan-300{border-color: rgb(103 232 249);}	
+.border-cyan-400{border-color: rgb(34 211 238);}	
+.border-cyan-500{border-color: rgb(6 182 212);}	
+.border-cyan-600{border-color: rgb(8 145 178);}	
+.border-cyan-700{border-color: rgb(14 116 144);}	
+.border-cyan-800{border-color: rgb(21 94 117);}	
+.border-cyan-900{border-color: rgb(22 78 99);}	
+.border-cyan-950{border-color: rgb(8 51 68);}	
+
+.border-sky-100{border-color: rgb(224 242 254);}	
+.border-sky-200{border-color: rgb(186 230 253);}	
+.border-sky-300{border-color: rgb(125 211 252);}	
+.border-sky-400{border-color: rgb(56 189 248);}	
+.border-sky-500{border-color: rgb(14 165 233);}	
+.border-sky-600{border-color: rgb(2 132 199);}	
+.border-sky-700{border-color: rgb(3 105 161);}	
+.border-sky-800{border-color: rgb(7 89 133);}	
+.border-sky-900{border-color: rgb(12 74 110);}	
+.border-sky-950{border-color: rgb(8 47 73);}	
+
+
 .border-blue-200{
   border-color: rgb(191 219 254);
 }
@@ -3872,6 +4084,3388 @@ video {
 .border-violet-950{
   border-color: rgb(46 16 101);
 }
+
+.border-purple-100{border-color: rgb(243 232 255);}	
+.border-purple-200{border-color: rgb(233 213 255);}	
+.border-purple-300{border-color: rgb(216 180 254);}	
+.border-purple-400{border-color: rgb(192 132 252);}	
+.border-purple-500{border-color: rgb(168 85 247);}	
+.border-purple-600{border-color: rgb(147 51 234);}	
+.border-purple-700{border-color: rgb(126 34 206);}	
+.border-purple-800{border-color: rgb(107 33 168);}	
+.border-purple-900{border-color: rgb(88 28 135);}	
+.border-purple-950{border-color: rgb(59 7 100);}	
+
+.border-fuchsia-100{border-color: rgb(250 232 255);}	
+.border-fuchsia-200{border-color: rgb(245 208 254);}	
+.border-fuchsia-300{border-color: rgb(240 171 252);}	
+.border-fuchsia-400{border-color: rgb(232 121 249);}	
+.border-fuchsia-500{border-color: rgb(217 70 239);}	
+.border-fuchsia-600{border-color: rgb(192 38 211);}	
+.border-fuchsia-700{border-color: rgb(162 28 175);}	
+.border-fuchsia-800{border-color: rgb(134 25 143);}	
+.border-fuchsia-900{border-color: rgb(112 26 117);}	
+.border-fuchsia-950{border-color: rgb(74 4 78);}	
+
+.border-pink-100{border-color: rgb(252 231 243);}	
+.border-pink-200{border-color: rgb(251 207 232);}	
+.border-pink-300{border-color: rgb(249 168 212);}	
+.border-pink-400{border-color: rgb(244 114 182);}	
+.border-pink-500{border-color: rgb(236 72 153);}	
+.border-pink-600{border-color: rgb(219 39 119);}	
+.border-pink-700{border-color: rgb(190 24 93);}	
+.border-pink-800{border-color: rgb(157 23 77);}	
+.border-pink-900{border-color: rgb(131 24 67);}	
+.border-pink-950{border-color: rgb(80 7 36);}	
+
+.border-rose-100{border-color: rgb(255 228 230);}	
+.border-rose-200{border-color: rgb(254 205 211);}	
+.border-rose-300{border-color: rgb(253 164 175);}	
+.border-rose-400{border-color: rgb(251 113 133);}	
+.border-rose-500{border-color: rgb(244 63 94);}	
+.border-rose-600{border-color: rgb(225 29 72);}	
+.border-rose-700{border-color: rgb(190 18 60);}	
+.border-rose-800{border-color: rgb(159 18 57);}	
+.border-rose-900{border-color: rgb(136 19 55);}	
+.border-rose-950{border-color: rgb(76 5 25);}	
+
+.border-x-inherit{
+  border-left-color: inherit;
+  border-right-color: inherit;
+}	
+
+.border-x-current{
+  border-left-color: currentColor;
+  border-right-color: currentColor;
+}
+
+.border-x-transparent{
+  border-left-color: transparent;
+  border-right-color: transparent;
+}
+  
+  
+.border-x-black{
+  border-left-color: rgb(0 0 0);
+  border-right-color: rgb(0 0 0);
+}	
+
+.border-x-slate-100{border-left-color: rgb(241 245 249);
+  border-right-color: rgb(241 245 249);}	
+
+.border-x-slate-200{border-left-color: rgb(226 232 240);
+  border-right-color: rgb(226 232 240);}	
+
+.border-x-slate-300{border-left-color: rgb(203 213 225);
+  border-right-color: rgb(203 213 225);}	
+
+.border-x-slate-400{border-left-color: rgb(148 163 184);
+  border-right-color: rgb(148 163 184);}	
+
+.border-x-slate-500{border-left-color: rgb(100 116 139);
+  border-right-color: rgb(100 116 139);}	
+
+.border-x-slate-600{border-left-color: rgb(71 85 105);
+  border-right-color: rgb(71 85 105);}	
+
+.border-x-slate-700{border-left-color: rgb(51 65 85);
+  border-right-color: rgb(51 65 85);}	
+
+.border-x-slate-800{border-left-color: rgb(30 41 59);
+  border-right-color: rgb(30 41 59);}	
+
+.border-x-slate-900{border-left-color: rgb(15 23 42);
+  border-right-color: rgb(15 23 42);}	
+
+.border-x-slate-950{border-left-color: rgb(2 6 23);
+  border-right-color: rgb(2 6 23);}	
+
+.border-x-gray-100{border-left-color: rgb(243 244 246);
+  border-right-color: rgb(243 244 246);}	
+
+.border-x-gray-200{border-left-color: rgb(229 231 235);
+  border-right-color: rgb(229 231 235);}	
+
+.border-x-gray-300{border-left-color: rgb(209 213 219);
+  border-right-color: rgb(209 213 219);}	
+
+.border-x-gray-400{border-left-color: rgb(156 163 175);
+  border-right-color: rgb(156 163 175);}	
+
+.border-x-gray-500{border-left-color: rgb(107 114 128);
+  border-right-color: rgb(107 114 128);}	
+
+.border-x-gray-600{border-left-color: rgb(75 85 99);
+  border-right-color: rgb(75 85 99);}	
+
+.border-x-gray-700{border-left-color: rgb(55 65 81);
+  border-right-color: rgb(55 65 81);}	
+
+.border-x-gray-800{border-left-color: rgb(31 41 55);
+  border-right-color: rgb(31 41 55);}	
+
+.border-x-gray-900{border-left-color: rgb(17 24 39);
+  border-right-color: rgb(17 24 39);}	
+
+.border-x-gray-950{border-left-color: rgb(3 7 18);
+  border-right-color: rgb(3 7 18);}	
+
+
+.border-x-zinc-100{border-left-color: rgb(244 244 245);
+  border-right-color: rgb(244 244 245);}	
+
+.border-x-zinc-200{border-left-color: rgb(228 228 231);
+  border-right-color: rgb(228 228 231);}	
+
+.border-x-zinc-300{border-left-color: rgb(212 212 216);
+  border-right-color: rgb(212 212 216);}	
+
+.border-x-zinc-400{border-left-color: rgb(161 161 170);
+  border-right-color: rgb(161 161 170);}	
+
+.border-x-zinc-500{border-left-color: rgb(113 113 122);
+  border-right-color: rgb(113 113 122);}	
+
+.border-x-zinc-600{border-left-color: rgb(82 82 91);
+  border-right-color: rgb(82 82 91);}	
+
+.border-x-zinc-700{border-left-color: rgb(63 63 70);
+  border-right-color: rgb(63 63 70);}	
+
+.border-x-zinc-800{border-left-color: rgb(39 39 42);
+  border-right-color: rgb(39 39 42);}	
+
+.border-x-zinc-900{border-left-color: rgb(24 24 27);
+  border-right-color: rgb(24 24 27);}	
+
+.border-x-zinc-950{border-left-color: rgb(9 9 11);
+  border-right-color: rgb(9 9 11);}	
+
+.border-x-neutral-100{border-left-color: rgb(245 245 245);
+  border-right-color: rgb(245 245 245);}	
+
+.border-x-neutral-200{border-left-color: rgb(229 229 229);
+  border-right-color: rgb(229 229 229);}	
+
+.border-x-neutral-300{border-left-color: rgb(212 212 212);
+  border-right-color: rgb(212 212 212);}	
+
+.border-x-neutral-400{border-left-color: rgb(163 163 163);
+  border-right-color: rgb(163 163 163);}	
+
+.border-x-neutral-500{border-left-color: rgb(115 115 115);
+  border-right-color: rgb(115 115 115);}	
+
+.border-x-neutral-600{border-left-color: rgb(82 82 82);
+  border-right-color: rgb(82 82 82);}	
+
+.border-x-neutral-700{border-left-color: rgb(64 64 64);
+  border-right-color: rgb(64 64 64);}	
+
+.border-x-neutral-800{border-left-color: rgb(38 38 38);
+  border-right-color: rgb(38 38 38);}	
+
+.border-x-neutral-900{border-left-color: rgb(23 23 23);
+  border-right-color: rgb(23 23 23);}	
+
+.border-x-neutral-950{border-left-color: rgb(10 10 10);
+  border-right-color: rgb(10 10 10);}	
+
+
+.border-x-stone-100{border-left-color: rgb(245 245 244);
+  border-right-color: rgb(245 245 244);}	
+
+.border-x-stone-200{border-left-color: rgb(231 229 228);
+  border-right-color: rgb(231 229 228);}	
+
+.border-x-stone-300{border-left-color: rgb(214 211 209);
+  border-right-color: rgb(214 211 209);}	
+
+.border-x-stone-400{border-left-color: rgb(168 162 158);
+  border-right-color: rgb(168 162 158);}	
+
+.border-x-stone-500{border-left-color: rgb(120 113 108);
+  border-right-color: rgb(120 113 108);}	
+
+.border-x-stone-600{border-left-color: rgb(87 83 78);
+  border-right-color: rgb(87 83 78);}	
+
+.border-x-stone-700{border-left-color: rgb(68 64 60);
+  border-right-color: rgb(68 64 60);}	
+
+.border-x-stone-800{border-left-color: rgb(41 37 36);
+  border-right-color: rgb(41 37 36);}	
+
+.border-x-stone-900{border-left-color: rgb(28 25 23);
+  border-right-color: rgb(28 25 23);}	
+
+.border-x-stone-950{border-left-color: rgb(12 10 9);
+  border-right-color: rgb(12 10 9);}	
+
+.border-x-red-100{border-left-color: rgb(254 226 226);
+  border-right-color: rgb(254 226 226);}	
+
+.border-x-red-200{border-left-color: rgb(254 202 202);
+  border-right-color: rgb(254 202 202);}	
+
+.border-x-red-300{border-left-color: rgb(252 165 165);
+  border-right-color: rgb(252 165 165);}	
+
+.border-x-red-400{border-left-color: rgb(248 113 113);
+  border-right-color: rgb(248 113 113);}	
+
+.border-x-red-500{border-left-color: rgb(239 68 68);
+border-right-color: rgb(239 68 68);}	
+
+.border-x-red-600{border-left-color: rgb(220 38 38);
+border-right-color: rgb(220 38 38);}	
+
+.border-x-red-700{border-left-color: rgb(185 28 28);
+border-right-color: rgb(185 28 28);}	
+
+.border-x-red-800{border-left-color: rgb(153 27 27);
+border-right-color: rgb(153 27 27);}	
+
+.border-x-red-900{border-left-color: rgb(127 29 29);
+border-right-color: rgb(127 29 29);}	
+
+.border-x-red-950{border-left-color: rgb(69 10 10);
+border-right-color: rgb(69 10 10);}	
+
+.border-x-orange-100{border-left-color: rgb(255 237 213);
+border-right-color: rgb(255 237 213);}	
+
+.border-x-orange-200{border-left-color: rgb(254 215 170);
+border-right-color: rgb(254 215 170);}	
+
+.border-x-orange-300{border-left-color: rgb(253 186 116);
+border-right-color: rgb(253 186 116);}	
+
+.border-x-orange-400{border-left-color: rgb(251 146 60);
+border-right-color: rgb(251 146 60);}	
+
+.border-x-orange-500{border-left-color: rgb(249 115 22);
+border-right-color: rgb(249 115 22);}	
+
+.border-x-orange-600{border-left-color: rgb(234 88 12);
+border-right-color: rgb(234 88 12);}	
+
+.border-x-orange-700{border-left-color: rgb(194 65 12);
+border-right-color: rgb(194 65 12);}	
+
+.border-x-orange-800{border-left-color: rgb(154 52 18);
+border-right-color: rgb(154 52 18);}	
+
+.border-x-orange-900{border-left-color: rgb(124 45 18);
+border-right-color: rgb(124 45 18);}	
+
+.border-x-orange-950{border-left-color: rgb(67 20 7);
+border-right-color: rgb(67 20 7);}	
+
+.border-x-amber-100{border-left-color: rgb(254 243 199);
+border-right-color: rgb(254 243 199);}	
+
+.border-x-amber-200{border-left-color: rgb(253 230 138);
+border-right-color: rgb(253 230 138);}	
+
+.border-x-amber-300{border-left-color: rgb(252 211 77);
+border-right-color: rgb(252 211 77);}	
+
+.border-x-amber-400{border-left-color: rgb(251 191 36);
+border-right-color: rgb(251 191 36);}	
+
+.border-x-amber-500{border-left-color: rgb(245 158 11);
+border-right-color: rgb(245 158 11);}	
+
+.border-x-amber-600{border-left-color: rgb(217 119 6);
+border-right-color: rgb(217 119 6);}	
+
+.border-x-amber-700{border-left-color: rgb(180 83 9);
+border-right-color: rgb(180 83 9);}	
+
+.border-x-amber-800{border-left-color: rgb(146 64 14);
+border-right-color: rgb(146 64 14);}	
+
+.border-x-amber-900{border-left-color: rgb(120 53 15);
+border-right-color: rgb(120 53 15);}	
+
+.border-x-amber-950{border-left-color: rgb(69 26 3);
+border-right-color: rgb(69 26 3);}	
+
+.border-x-yellow-100{border-left-color: rgb(254 249 195);
+border-right-color: rgb(254 249 195);}	
+
+.border-x-yellow-200{border-left-color: rgb(254 240 138);
+border-right-color: rgb(254 240 138);}	
+
+.border-x-yellow-300{border-left-color: rgb(253 224 71);
+border-right-color: rgb(253 224 71);}	
+
+.border-x-yellow-400{border-left-color: rgb(250 204 21);
+border-right-color: rgb(250 204 21);}	
+
+.border-x-yellow-500{border-left-color: rgb(234 179 8);
+border-right-color: rgb(234 179 8);}	
+
+.border-x-yellow-600{border-left-color: rgb(202 138 4);
+border-right-color: rgb(202 138 4);}	
+
+.border-x-yellow-700{border-left-color: rgb(161 98 7);
+border-right-color: rgb(161 98 7);}	
+
+.border-x-yellow-800{border-left-color: rgb(133 77 14);
+border-right-color: rgb(133 77 14);}	
+
+.border-x-yellow-900{border-left-color: rgb(113 63 18);
+border-right-color: rgb(113 63 18);}	
+
+.border-x-yellow-950{border-left-color: rgb(66 32 6);
+border-right-color: rgb(66 32 6);}	
+
+.border-x-lime-100{border-left-color: rgb(236 252 203);
+border-right-color: rgb(236 252 203);}	
+
+.border-x-lime-200{border-left-color: rgb(217 249 157);
+border-right-color: rgb(217 249 157);}	
+
+.border-x-lime-300{border-left-color: rgb(190 242 100);
+border-right-color: rgb(190 242 100);}	
+
+.border-x-lime-400{border-left-color: rgb(163 230 53);
+border-right-color: rgb(163 230 53);}	
+
+.border-x-lime-500{border-left-color: rgb(132 204 22);
+border-right-color: rgb(132 204 22);}	
+
+.border-x-lime-600{border-left-color: rgb(101 163 13);
+border-right-color: rgb(101 163 13);}	
+
+.border-x-lime-700{border-left-color: rgb(77 124 15);
+border-right-color: rgb(77 124 15);}	
+
+.border-x-lime-800{border-left-color: rgb(63 98 18);
+border-right-color: rgb(63 98 18);}	
+
+.border-x-lime-900{border-left-color: rgb(54 83 20);
+border-right-color: rgb(54 83 20);}	
+
+.border-x-lime-950{border-left-color: rgb(26 46 5);
+border-right-color: rgb(26 46 5);}	
+
+.border-x-green-100{border-left-color: rgb(220 252 231);
+border-right-color: rgb(220 252 231);}	
+
+.border-x-green-200{border-left-color: rgb(187 247 208);
+border-right-color: rgb(187 247 208);}	
+
+.border-x-green-300{border-left-color: rgb(134 239 172);
+border-right-color: rgb(134 239 172);}	
+
+.border-x-green-400{border-left-color: rgb(74 222 128);
+border-right-color: rgb(74 222 128);}	
+
+.border-x-green-500{border-left-color: rgb(34 197 94);
+border-right-color: rgb(34 197 94);}	
+
+.border-x-green-600{border-left-color: rgb(22 163 74);
+border-right-color: rgb(22 163 74);}	
+
+.border-x-green-700{border-left-color: rgb(21 128 61);
+border-right-color: rgb(21 128 61);}	
+
+.border-x-green-800{border-left-color: rgb(22 101 52);
+border-right-color: rgb(22 101 52);}	
+
+.border-x-green-900{border-left-color: rgb(20 83 45);
+border-right-color: rgb(20 83 45);}	
+
+.border-x-green-950{border-left-color: rgb(5 46 22);
+border-right-color: rgb(5 46 22);}	
+
+.border-x-emerald-100{border-left-color: rgb(209 250 229);
+border-right-color: rgb(209 250 229);}	
+
+.border-x-emerald-200{border-left-color: rgb(167 243 208);
+border-right-color: rgb(167 243 208);}	
+
+.border-x-emerald-300{border-left-color: rgb(110 231 183);
+border-right-color: rgb(110 231 183);}	
+
+.border-x-emerald-400{border-left-color: rgb(52 211 153);
+border-right-color: rgb(52 211 153);}	
+
+.border-x-emerald-500{border-left-color: rgb(16 185 129);
+border-right-color: rgb(16 185 129);}	
+
+.border-x-emerald-600{border-left-color: rgb(5 150 105);
+border-right-color: rgb(5 150 105);}	
+
+.border-x-emerald-700{border-left-color: rgb(4 120 87);
+border-right-color: rgb(4 120 87);}	
+
+.border-x-emerald-800{border-left-color: rgb(6 95 70);
+border-right-color: rgb(6 95 70);}	
+
+.border-x-emerald-900{border-left-color: rgb(6 78 59);
+border-right-color: rgb(6 78 59);}	
+
+.border-x-emerald-950{border-left-color: rgb(2 44 34);
+border-right-color: rgb(2 44 34);}	
+
+.border-x-teal-100{border-left-color: rgb(204 251 241);
+border-right-color: rgb(204 251 241);}	
+
+.border-x-teal-200{border-left-color: rgb(153 246 228);
+border-right-color: rgb(153 246 228);}	
+
+.border-x-teal-300{border-left-color: rgb(94 234 212);
+border-right-color: rgb(94 234 212);}	
+
+.border-x-teal-400{border-left-color: rgb(45 212 191);
+border-right-color: rgb(45 212 191);}	
+
+.border-x-teal-500{border-left-color: rgb(20 184 166);
+border-right-color: rgb(20 184 166);}	
+
+.border-x-teal-600{border-left-color: rgb(13 148 136);
+border-right-color: rgb(13 148 136);}	
+
+.border-x-teal-700{border-left-color: rgb(15 118 110);
+border-right-color: rgb(15 118 110);}	
+
+.border-x-teal-800{border-left-color: rgb(17 94 89);
+border-right-color: rgb(17 94 89);}	
+
+.border-x-teal-900{border-left-color: rgb(19 78 74);
+border-right-color: rgb(19 78 74);}	
+
+.border-x-teal-950{border-left-color: rgb(4 47 46);
+border-right-color: rgb(4 47 46);}	
+
+.border-x-cyan-100{border-left-color: rgb(207 250 254);
+border-right-color: rgb(207 250 254);}	
+
+.border-x-cyan-200{border-left-color: rgb(165 243 252);
+border-right-color: rgb(165 243 252);}	
+
+.border-x-cyan-300{border-left-color: rgb(103 232 249);
+border-right-color: rgb(103 232 249);}	
+
+.border-x-cyan-400{border-left-color: rgb(34 211 238);
+border-right-color: rgb(34 211 238);}	
+
+.border-x-cyan-500{border-left-color: rgb(6 182 212);
+border-right-color: rgb(6 182 212);}	
+
+.border-x-cyan-600{border-left-color: rgb(8 145 178);
+border-right-color: rgb(8 145 178);}	
+
+.border-x-cyan-700{border-left-color: rgb(14 116 144);
+border-right-color: rgb(14 116 144);}	
+
+.border-x-cyan-800{border-left-color: rgb(21 94 117);
+border-right-color: rgb(21 94 117);}	
+
+.border-x-cyan-900{border-left-color: rgb(22 78 99);
+border-right-color: rgb(22 78 99);}	
+
+.border-x-cyan-950{border-left-color: rgb(8 51 68);
+border-right-color: rgb(8 51 68);}	
+
+.border-x-sky-100{border-left-color: rgb(224 242 254);
+border-right-color: rgb(224 242 254);}	
+
+.border-x-sky-200{border-left-color: rgb(186 230 253);
+border-right-color: rgb(186 230 253);}	
+
+.border-x-sky-300{border-left-color: rgb(125 211 252);
+border-right-color: rgb(125 211 252);}	
+
+.border-x-sky-400{border-left-color: rgb(56 189 248);
+border-right-color: rgb(56 189 248);}	
+
+.border-x-sky-500{border-left-color: rgb(14 165 233);
+border-right-color: rgb(14 165 233);}	
+
+.border-x-sky-600{border-left-color: rgb(2 132 199);
+border-right-color: rgb(2 132 199);}	
+
+.border-x-sky-700{border-left-color: rgb(3 105 161);
+border-right-color: rgb(3 105 161);}	
+
+.border-x-sky-800{border-left-color: rgb(7 89 133);
+border-right-color: rgb(7 89 133);}	
+
+.border-x-sky-900{border-left-color: rgb(12 74 110);
+border-right-color: rgb(12 74 110);}	
+
+.border-x-sky-950{border-left-color: rgb(8 47 73);
+border-right-color: rgb(8 47 73);}	
+
+.border-x-blue-100{border-left-color: rgb(219 234 254);
+border-right-color: rgb(219 234 254);}	
+
+.border-x-blue-200{border-left-color: rgb(191 219 254);
+border-right-color: rgb(191 219 254);}	
+
+.border-x-blue-300{border-left-color: rgb(147 197 253);
+border-right-color: rgb(147 197 253);}	
+
+.border-x-blue-400{border-left-color: rgb(96 165 250);
+border-right-color: rgb(96 165 250);}	
+
+.border-x-blue-500{border-left-color: rgb(59 130 246);
+border-right-color: rgb(59 130 246);}	
+
+.border-x-blue-600{border-left-color: rgb(37 99 235);
+border-right-color: rgb(37 99 235);}	
+
+.border-x-blue-700{border-left-color: rgb(29 78 216);
+border-right-color: rgb(29 78 216);}	
+
+.border-x-blue-800{border-left-color: rgb(30 64 175);
+border-right-color: rgb(30 64 175);}	
+
+.border-x-blue-900{border-left-color: rgb(30 58 138);
+border-right-color: rgb(30 58 138);}	
+
+.border-x-blue-950{border-left-color: rgb(23 37 84);
+border-right-color: rgb(23 37 84);}	
+
+.border-x-indigo-100{border-left-color: rgb(224 231 255);
+border-right-color: rgb(224 231 255);}	
+
+.border-x-indigo-200{border-left-color: rgb(199 210 254);
+border-right-color: rgb(199 210 254);}	
+
+.border-x-indigo-300{border-left-color: rgb(165 180 252);
+border-right-color: rgb(165 180 252);}	
+
+.border-x-indigo-400{border-left-color: rgb(129 140 248);
+border-right-color: rgb(129 140 248);}	
+
+.border-x-indigo-500{border-left-color: rgb(99 102 241);
+border-right-color: rgb(99 102 241);}	
+
+.border-x-indigo-600{border-left-color: rgb(79 70 229);
+border-right-color: rgb(79 70 229);}	
+
+.border-x-indigo-700{border-left-color: rgb(67 56 202);
+border-right-color: rgb(67 56 202);}	
+
+.border-x-indigo-800{border-left-color: rgb(55 48 163);
+border-right-color: rgb(55 48 163);}	
+
+.border-x-indigo-900{border-left-color: rgb(49 46 129);
+border-right-color: rgb(49 46 129);}	
+
+.border-x-indigo-950{border-left-color: rgb(30 27 75);
+border-right-color: rgb(30 27 75);}	
+
+.border-x-violet-50{border-left-color: rgb(245 243 255);
+border-right-color: rgb(245 243 255);}	
+
+.border-x-violet-100{border-left-color: rgb(237 233 254);
+border-right-color: rgb(237 233 254);}	
+
+.border-x-violet-200{border-left-color: rgb(221 214 254);
+border-right-color: rgb(221 214 254);}	
+
+.border-x-violet-300{border-left-color: rgb(196 181 253);
+border-right-color: rgb(196 181 253);}	
+
+.border-x-violet-400{border-left-color: rgb(167 139 250);
+border-right-color: rgb(167 139 250);}	
+
+.border-x-violet-500{border-left-color: rgb(139 92 246);
+border-right-color: rgb(139 92 246);}	
+
+.border-x-violet-600{border-left-color: rgb(124 58 237);
+border-right-color: rgb(124 58 237);}	
+
+.border-x-violet-700{border-left-color: rgb(109 40 217);
+border-right-color: rgb(109 40 217);}	
+
+.border-x-violet-800{border-left-color: rgb(91 33 182);
+border-right-color: rgb(91 33 182);}	
+
+.border-x-violet-900{border-left-color: rgb(76 29 149);
+border-right-color: rgb(76 29 149);}	
+
+.border-x-violet-950{border-left-color: rgb(46 16 101);
+border-right-color: rgb(46 16 101);}	
+
+.border-x-purple-50{border-left-color: rgb(250 245 255);
+border-right-color: rgb(250 245 255);}	
+
+.border-x-purple-100{border-left-color: rgb(243 232 255);
+border-right-color: rgb(243 232 255);}	
+
+.border-x-purple-200{border-left-color: rgb(233 213 255);
+border-right-color: rgb(233 213 255);}	
+
+.border-x-purple-300{border-left-color: rgb(216 180 254);
+border-right-color: rgb(216 180 254);}	
+
+.border-x-purple-400{border-left-color: rgb(192 132 252);
+border-right-color: rgb(192 132 252);}	
+
+.border-x-purple-500{border-left-color: rgb(168 85 247);
+border-right-color: rgb(168 85 247);}	
+
+.border-x-purple-600{border-left-color: rgb(147 51 234);
+border-right-color: rgb(147 51 234);}	
+
+.border-x-purple-700{border-left-color: rgb(126 34 206);
+border-right-color: rgb(126 34 206);}	
+
+.border-x-purple-800{border-left-color: rgb(107 33 168);
+border-right-color: rgb(107 33 168);}	
+
+.border-x-purple-900{border-left-color: rgb(88 28 135);
+border-right-color: rgb(88 28 135);}	
+
+.border-x-purple-950{border-left-color: rgb(59 7 100);
+border-right-color: rgb(59 7 100);}	
+
+.border-x-fuchsia-50{border-left-color: rgb(253 244 255);
+border-right-color: rgb(253 244 255);}	
+
+.border-x-fuchsia-100{border-left-color: rgb(250 232 255);
+border-right-color: rgb(250 232 255);}	
+
+.border-x-fuchsia-200{border-left-color: rgb(245 208 254);
+border-right-color: rgb(245 208 254);}	
+
+.border-x-fuchsia-300{border-left-color: rgb(240 171 252);
+border-right-color: rgb(240 171 252);}	
+
+.border-x-fuchsia-400{border-left-color: rgb(232 121 249);
+border-right-color: rgb(232 121 249);}	
+
+.border-x-fuchsia-500{border-left-color: rgb(217 70 239);
+border-right-color: rgb(217 70 239);}	
+
+.border-x-fuchsia-600{border-left-color: rgb(192 38 211);
+border-right-color: rgb(192 38 211);}	
+
+.border-x-fuchsia-700{border-left-color: rgb(162 28 175);
+border-right-color: rgb(162 28 175);}	
+
+.border-x-fuchsia-800{border-left-color: rgb(134 25 143);
+border-right-color: rgb(134 25 143);}	
+
+.border-x-fuchsia-900{border-left-color: rgb(112 26 117);
+border-right-color: rgb(112 26 117);}	
+
+.border-x-fuchsia-950{border-left-color: rgb(74 4 78);
+border-right-color: rgb(74 4 78);}	
+
+.border-x-pink-50{border-left-color: rgb(253 242 248);
+border-right-color: rgb(253 242 248);}	
+
+.border-x-pink-100{border-left-color: rgb(252 231 243);
+border-right-color: rgb(252 231 243);}	
+
+.border-x-pink-200{border-left-color: rgb(251 207 232);
+border-right-color: rgb(251 207 232);}	
+
+.border-x-pink-300{border-left-color: rgb(249 168 212);
+border-right-color: rgb(249 168 212);}	
+
+.border-x-pink-400{border-left-color: rgb(244 114 182);
+border-right-color: rgb(244 114 182);}	
+
+.border-x-pink-500{border-left-color: rgb(236 72 153);
+border-right-color: rgb(236 72 153);}	
+
+.border-x-pink-600{border-left-color: rgb(219 39 119);
+border-right-color: rgb(219 39 119);}	
+
+.border-x-pink-700{border-left-color: rgb(190 24 93);
+border-right-color: rgb(190 24 93);}	
+
+.border-x-pink-800{border-left-color: rgb(157 23 77);
+border-right-color: rgb(157 23 77);}	
+
+.border-x-pink-900{border-left-color: rgb(131 24 67);
+border-right-color: rgb(131 24 67);}	
+
+.border-x-pink-950{border-left-color: rgb(80 7 36);
+border-right-color: rgb(80 7 36);}	
+
+.border-x-rose-50{border-left-color: rgb(255 241 242);
+border-right-color: rgb(255 241 242);}	
+
+.border-x-rose-100{border-left-color: rgb(255 228 230);
+border-right-color: rgb(255 228 230);}	
+
+.border-x-rose-200{border-left-color: rgb(254 205 211);
+border-right-color: rgb(254 205 211);}	
+
+.border-x-rose-300{border-left-color: rgb(253 164 175);
+border-right-color: rgb(253 164 175);}	
+
+.border-x-rose-400{border-left-color: rgb(251 113 133);
+border-right-color: rgb(251 113 133);}	
+
+.border-x-rose-500{border-left-color: rgb(244 63 94);
+border-right-color: rgb(244 63 94);}	
+
+.border-x-rose-600{border-left-color: rgb(225 29 72);
+border-right-color: rgb(225 29 72);}	
+
+.border-x-rose-700{border-left-color: rgb(190 18 60);
+border-right-color: rgb(190 18 60);}	
+
+.border-x-rose-800{border-left-color: rgb(159 18 57);
+border-right-color: rgb(159 18 57);}	
+
+.border-x-rose-900{border-left-color: rgb(136 19 55);
+border-right-color: rgb(136 19 55);}	
+
+.border-x-rose-950{border-left-color: rgb(76 5 25);
+border-right-color: rgb(76 5 25);}	
+
+.border-y-inherit{border-top-color: inherit;
+border-bottom-color: inherit;}	
+
+.border-y-current{border-top-color: currentColor;
+border-bottom-color: currentColor;}	
+
+.border-y-transparent{border-top-color: transparent;
+border-bottom-color: transparent;}	
+
+.border-y-black{border-top-color: rgb(0 0 0);
+border-bottom-color: rgb(0 0 0);}	
+
+.border-y-white{border-top-color: rgb(255 255 255);
+border-bottom-color: rgb(255 255 255);}	
+
+.border-y-slate-50{border-top-color: rgb(248 250 252);
+border-bottom-color: rgb(248 250 252);}	
+
+.border-y-slate-100{border-top-color: rgb(241 245 249);
+border-bottom-color: rgb(241 245 249);}	
+
+.border-y-slate-200{border-top-color: rgb(226 232 240);
+border-bottom-color: rgb(226 232 240);}	
+
+.border-y-slate-300{border-top-color: rgb(203 213 225);
+border-bottom-color: rgb(203 213 225);}	
+
+.border-y-slate-400{border-top-color: rgb(148 163 184);
+border-bottom-color: rgb(148 163 184);}	
+
+.border-y-slate-500{border-top-color: rgb(100 116 139);
+border-bottom-color: rgb(100 116 139);}	
+
+.border-y-slate-600{border-top-color: rgb(71 85 105);
+border-bottom-color: rgb(71 85 105);}	
+
+.border-y-slate-700{border-top-color: rgb(51 65 85);
+border-bottom-color: rgb(51 65 85);}	
+
+.border-y-slate-800{border-top-color: rgb(30 41 59);
+border-bottom-color: rgb(30 41 59);}	
+
+.border-y-slate-900{border-top-color: rgb(15 23 42);
+border-bottom-color: rgb(15 23 42);}	
+
+.border-y-slate-950{border-top-color: rgb(2 6 23);
+border-bottom-color: rgb(2 6 23);}	
+
+.border-y-gray-50{border-top-color: rgb(249 250 251);
+border-bottom-color: rgb(249 250 251);}	
+
+.border-y-gray-100{border-top-color: rgb(243 244 246);
+border-bottom-color: rgb(243 244 246);}	
+
+.border-y-gray-200{border-top-color: rgb(229 231 235);
+border-bottom-color: rgb(229 231 235);}	
+
+.border-y-gray-300{border-top-color: rgb(209 213 219);
+border-bottom-color: rgb(209 213 219);}	
+
+.border-y-gray-400{border-top-color: rgb(156 163 175);
+border-bottom-color: rgb(156 163 175);}	
+
+.border-y-gray-500{border-top-color: rgb(107 114 128);
+border-bottom-color: rgb(107 114 128);}	
+
+.border-y-gray-600{border-top-color: rgb(75 85 99);
+border-bottom-color: rgb(75 85 99);}	
+
+.border-y-gray-700{border-top-color: rgb(55 65 81);
+border-bottom-color: rgb(55 65 81);}	
+
+.border-y-gray-800{border-top-color: rgb(31 41 55);
+border-bottom-color: rgb(31 41 55);}	
+
+.border-y-gray-900{border-top-color: rgb(17 24 39);
+border-bottom-color: rgb(17 24 39);}	
+
+.border-y-gray-950{border-top-color: rgb(3 7 18);
+border-bottom-color: rgb(3 7 18);}	
+
+.border-y-zinc-50{border-top-color: rgb(250 250 250);
+border-bottom-color: rgb(250 250 250);}	
+
+.border-y-zinc-100{border-top-color: rgb(244 244 245);
+border-bottom-color: rgb(244 244 245);}	
+
+.border-y-zinc-200{border-top-color: rgb(228 228 231);
+border-bottom-color: rgb(228 228 231);}	
+
+.border-y-zinc-300{border-top-color: rgb(212 212 216);
+border-bottom-color: rgb(212 212 216);}	
+
+.border-y-zinc-400{border-top-color: rgb(161 161 170);
+border-bottom-color: rgb(161 161 170);}	
+
+.border-y-zinc-500{border-top-color: rgb(113 113 122);
+border-bottom-color: rgb(113 113 122);}	
+
+.border-y-zinc-600{border-top-color: rgb(82 82 91);
+border-bottom-color: rgb(82 82 91);}	
+
+.border-y-zinc-700{border-top-color: rgb(63 63 70);
+border-bottom-color: rgb(63 63 70);}	
+
+.border-y-zinc-800{border-top-color: rgb(39 39 42);
+border-bottom-color: rgb(39 39 42);}	
+
+.border-y-zinc-900{border-top-color: rgb(24 24 27);
+border-bottom-color: rgb(24 24 27);}	
+
+.border-y-zinc-950{border-top-color: rgb(9 9 11);
+border-bottom-color: rgb(9 9 11);}	
+
+.border-y-neutral-50{border-top-color: rgb(250 250 250);
+border-bottom-color: rgb(250 250 250);}	
+
+.border-y-neutral-100{border-top-color: rgb(245 245 245);
+border-bottom-color: rgb(245 245 245);}	
+
+.border-y-neutral-200{border-top-color: rgb(229 229 229);
+border-bottom-color: rgb(229 229 229);}	
+
+.border-y-neutral-300{border-top-color: rgb(212 212 212);
+border-bottom-color: rgb(212 212 212);}	
+
+.border-y-neutral-400{border-top-color: rgb(163 163 163);
+border-bottom-color: rgb(163 163 163);}	
+
+.border-y-neutral-500{border-top-color: rgb(115 115 115);
+border-bottom-color: rgb(115 115 115);}	
+
+.border-y-neutral-600{border-top-color: rgb(82 82 82);
+border-bottom-color: rgb(82 82 82);}	
+
+.border-y-neutral-700{border-top-color: rgb(64 64 64);
+border-bottom-color: rgb(64 64 64);}	
+
+.border-y-neutral-800{border-top-color: rgb(38 38 38);
+border-bottom-color: rgb(38 38 38);}	
+
+.border-y-neutral-900{border-top-color: rgb(23 23 23);
+border-bottom-color: rgb(23 23 23);}	
+
+.border-y-neutral-950{border-top-color: rgb(10 10 10);
+border-bottom-color: rgb(10 10 10);}	
+
+.border-y-stone-50{border-top-color: rgb(250 250 249);
+border-bottom-color: rgb(250 250 249);}	
+
+.border-y-stone-100{border-top-color: rgb(245 245 244);
+border-bottom-color: rgb(245 245 244);}	
+
+.border-y-stone-200{border-top-color: rgb(231 229 228);
+border-bottom-color: rgb(231 229 228);}	
+
+.border-y-stone-300{border-top-color: rgb(214 211 209);
+border-bottom-color: rgb(214 211 209);}	
+
+.border-y-stone-400{border-top-color: rgb(168 162 158);
+border-bottom-color: rgb(168 162 158);}	
+
+.border-y-stone-500{border-top-color: rgb(120 113 108);
+border-bottom-color: rgb(120 113 108);}	
+
+.border-y-stone-600{border-top-color: rgb(87 83 78);
+border-bottom-color: rgb(87 83 78);}	
+
+.border-y-stone-700{border-top-color: rgb(68 64 60);
+border-bottom-color: rgb(68 64 60);}	
+
+.border-y-stone-800{border-top-color: rgb(41 37 36);
+border-bottom-color: rgb(41 37 36);}	
+
+.border-y-stone-900{border-top-color: rgb(28 25 23);
+border-bottom-color: rgb(28 25 23);}	
+
+.border-y-stone-950{border-top-color: rgb(12 10 9);
+border-bottom-color: rgb(12 10 9);}	
+
+.border-y-red-50{border-top-color: rgb(254 242 242);
+border-bottom-color: rgb(254 242 242);}	
+
+.border-y-red-100{border-top-color: rgb(254 226 226);
+border-bottom-color: rgb(254 226 226);}	
+
+.border-y-red-200{border-top-color: rgb(254 202 202);
+border-bottom-color: rgb(254 202 202);}	
+
+.border-y-red-300{border-top-color: rgb(252 165 165);
+border-bottom-color: rgb(252 165 165);}	
+
+.border-y-red-400{border-top-color: rgb(248 113 113);
+border-bottom-color: rgb(248 113 113);}	
+
+.border-y-red-500{border-top-color: rgb(239 68 68);
+border-bottom-color: rgb(239 68 68);}	
+
+.border-y-red-600{border-top-color: rgb(220 38 38);
+border-bottom-color: rgb(220 38 38);}	
+
+.border-y-red-700{border-top-color: rgb(185 28 28);
+border-bottom-color: rgb(185 28 28);}	
+
+.border-y-red-800{border-top-color: rgb(153 27 27);
+border-bottom-color: rgb(153 27 27);}	
+
+.border-y-red-900{border-top-color: rgb(127 29 29);
+border-bottom-color: rgb(127 29 29);}	
+
+.border-y-red-950{border-top-color: rgb(69 10 10);
+border-bottom-color: rgb(69 10 10);}	
+
+.border-y-orange-50{border-top-color: rgb(255 247 237);
+border-bottom-color: rgb(255 247 237);}	
+
+.border-y-orange-100{border-top-color: rgb(255 237 213);
+border-bottom-color: rgb(255 237 213);}	
+
+.border-y-orange-200{border-top-color: rgb(254 215 170);
+border-bottom-color: rgb(254 215 170);}	
+
+.border-y-orange-300{border-top-color: rgb(253 186 116);
+border-bottom-color: rgb(253 186 116);}	
+
+.border-y-orange-400{border-top-color: rgb(251 146 60);
+border-bottom-color: rgb(251 146 60);}	
+
+.border-y-orange-500{border-top-color: rgb(249 115 22);
+border-bottom-color: rgb(249 115 22);}	
+
+.border-y-orange-600{border-top-color: rgb(234 88 12);
+border-bottom-color: rgb(234 88 12);}	
+
+.border-y-orange-700{border-top-color: rgb(194 65 12);
+border-bottom-color: rgb(194 65 12);}	
+
+.border-y-orange-800{border-top-color: rgb(154 52 18);
+border-bottom-color: rgb(154 52 18);}	
+
+.border-y-orange-900{border-top-color: rgb(124 45 18);
+border-bottom-color: rgb(124 45 18);}	
+
+.border-y-orange-950{border-top-color: rgb(67 20 7);
+border-bottom-color: rgb(67 20 7);}	
+
+.border-y-amber-50{border-top-color: rgb(255 251 235);
+border-bottom-color: rgb(255 251 235);}	
+
+.border-y-amber-100{border-top-color: rgb(254 243 199);
+border-bottom-color: rgb(254 243 199);}	
+
+.border-y-amber-200{border-top-color: rgb(253 230 138);
+border-bottom-color: rgb(253 230 138);}	
+
+.border-y-amber-300{border-top-color: rgb(252 211 77);
+border-bottom-color: rgb(252 211 77);}	
+
+.border-y-amber-400{border-top-color: rgb(251 191 36);
+border-bottom-color: rgb(251 191 36);}	
+
+.border-y-amber-500{border-top-color: rgb(245 158 11);
+border-bottom-color: rgb(245 158 11);}	
+
+.border-y-amber-600{border-top-color: rgb(217 119 6);
+border-bottom-color: rgb(217 119 6);}	
+
+.border-y-amber-700{border-top-color: rgb(180 83 9);
+border-bottom-color: rgb(180 83 9);}	
+
+.border-y-amber-800{border-top-color: rgb(146 64 14);
+border-bottom-color: rgb(146 64 14);}	
+
+.border-y-amber-900{border-top-color: rgb(120 53 15);
+border-bottom-color: rgb(120 53 15);}	
+
+.border-y-amber-950{border-top-color: rgb(69 26 3);
+border-bottom-color: rgb(69 26 3);}	
+
+.border-y-yellow-50{border-top-color: rgb(254 252 232);
+border-bottom-color: rgb(254 252 232);}	
+
+.border-y-yellow-100{border-top-color: rgb(254 249 195);
+  border-bottom-color: rgb(254 249 195);}	
+
+.border-y-yellow-200{border-top-color: rgb(254 240 138);
+  border-bottom-color: rgb(254 240 138);}	
+
+.border-y-yellow-300{border-top-color: rgb(253 224 71);
+  border-bottom-color: rgb(253 224 71);}	
+
+.border-y-yellow-400{border-top-color: rgb(250 204 21);
+  border-bottom-color: rgb(250 204 21);}	
+
+.border-y-yellow-500{border-top-color: rgb(234 179 8);
+  border-bottom-color: rgb(234 179 8);}	
+
+.border-y-yellow-600{border-top-color: rgb(202 138 4);
+  border-bottom-color: rgb(202 138 4);}	
+
+.border-y-yellow-700{border-top-color: rgb(161 98 7);
+  border-bottom-color: rgb(161 98 7);}	
+
+.border-y-yellow-800{border-top-color: rgb(133 77 14);
+  border-bottom-color: rgb(133 77 14);}	
+
+.border-y-yellow-900{border-top-color: rgb(113 63 18);
+  border-bottom-color: rgb(113 63 18);}	
+
+.border-y-yellow-950{border-top-color: rgb(66 32 6);
+  border-bottom-color: rgb(66 32 6);}	
+
+.border-y-lime-50{border-top-color: rgb(247 254 231);
+  border-bottom-color: rgb(247 254 231);}	
+
+.border-y-lime-100{border-top-color: rgb(236 252 203);
+  border-bottom-color: rgb(236 252 203);}	
+
+.border-y-lime-200{border-top-color: rgb(217 249 157);
+  border-bottom-color: rgb(217 249 157);}	
+
+.border-y-lime-300{border-top-color: rgb(190 242 100);
+  border-bottom-color: rgb(190 242 100);}	
+
+.border-y-lime-400{border-top-color: rgb(163 230 53);
+  border-bottom-color: rgb(163 230 53);}	
+
+.border-y-lime-500{border-top-color: rgb(132 204 22);
+  border-bottom-color: rgb(132 204 22);}	
+
+.border-y-lime-600{border-top-color: rgb(101 163 13);
+  border-bottom-color: rgb(101 163 13);}	
+
+.border-y-lime-700{border-top-color: rgb(77 124 15);
+  border-bottom-color: rgb(77 124 15);}	
+
+.border-y-lime-800{border-top-color: rgb(63 98 18);
+  border-bottom-color: rgb(63 98 18);}	
+
+.border-y-lime-900{border-top-color: rgb(54 83 20);
+  border-bottom-color: rgb(54 83 20);}	
+
+.border-y-lime-950{border-top-color: rgb(26 46 5);
+  border-bottom-color: rgb(26 46 5);}	
+
+.border-y-green-50{border-top-color: rgb(240 253 244);
+  border-bottom-color: rgb(240 253 244);}	
+
+.border-y-green-100{border-top-color: rgb(220 252 231);
+  border-bottom-color: rgb(220 252 231);}	
+
+.border-y-green-200{border-top-color: rgb(187 247 208);
+  border-bottom-color: rgb(187 247 208);}	
+
+.border-y-green-300{border-top-color: rgb(134 239 172);
+  border-bottom-color: rgb(134 239 172);}	
+
+.border-y-green-400{border-top-color: rgb(74 222 128);
+  border-bottom-color: rgb(74 222 128);}	
+
+.border-y-green-500{border-top-color: rgb(34 197 94);
+  border-bottom-color: rgb(34 197 94);}	
+
+.border-y-green-600{border-top-color: rgb(22 163 74);
+  border-bottom-color: rgb(22 163 74);}	
+
+.border-y-green-700{border-top-color: rgb(21 128 61);
+  border-bottom-color: rgb(21 128 61);}	
+
+.border-y-green-800{border-top-color: rgb(22 101 52);
+  border-bottom-color: rgb(22 101 52);}	
+
+.border-y-green-900{border-top-color: rgb(20 83 45);
+  border-bottom-color: rgb(20 83 45);}	
+
+.border-y-green-950{border-top-color: rgb(5 46 22);
+  border-bottom-color: rgb(5 46 22);}	
+
+.border-y-emerald-50{border-top-color: rgb(236 253 245);
+  border-bottom-color: rgb(236 253 245);}	
+
+.border-y-emerald-100{border-top-color: rgb(209 250 229);
+  border-bottom-color: rgb(209 250 229);}	
+
+.border-y-emerald-200{border-top-color: rgb(167 243 208);
+  border-bottom-color: rgb(167 243 208);}	
+
+.border-y-emerald-300{border-top-color: rgb(110 231 183);
+  border-bottom-color: rgb(110 231 183);}	
+
+.border-y-emerald-400{border-top-color: rgb(52 211 153);
+  border-bottom-color: rgb(52 211 153);}	
+
+.border-y-emerald-500{border-top-color: rgb(16 185 129);
+  border-bottom-color: rgb(16 185 129);}	
+
+.border-y-emerald-600{border-top-color: rgb(5 150 105);
+  border-bottom-color: rgb(5 150 105);}	
+
+.border-y-emerald-700{border-top-color: rgb(4 120 87);
+  border-bottom-color: rgb(4 120 87);}	
+
+.border-y-emerald-800{border-top-color: rgb(6 95 70);
+  border-bottom-color: rgb(6 95 70);}	
+
+.border-y-emerald-900{border-top-color: rgb(6 78 59);
+  border-bottom-color: rgb(6 78 59);}	
+
+.border-y-emerald-950{border-top-color: rgb(2 44 34);
+  border-bottom-color: rgb(2 44 34);}	
+
+.border-y-teal-50{border-top-color: rgb(240 253 250);
+  border-bottom-color: rgb(240 253 250);}	
+
+.border-y-teal-100{border-top-color: rgb(204 251 241);
+  border-bottom-color: rgb(204 251 241);}	
+
+.border-y-teal-200{border-top-color: rgb(153 246 228);
+  border-bottom-color: rgb(153 246 228);}	
+
+.border-y-teal-300{border-top-color: rgb(94 234 212);
+  border-bottom-color: rgb(94 234 212);}	
+
+.border-y-teal-400{border-top-color: rgb(45 212 191);
+  border-bottom-color: rgb(45 212 191);}	
+
+.border-y-teal-500{border-top-color: rgb(20 184 166);
+  border-bottom-color: rgb(20 184 166);}	
+
+.border-y-teal-600{border-top-color: rgb(13 148 136);
+  border-bottom-color: rgb(13 148 136);}	
+
+.border-y-teal-700{border-top-color: rgb(15 118 110);
+  border-bottom-color: rgb(15 118 110);}	
+
+.border-y-teal-800{border-top-color: rgb(17 94 89);
+  border-bottom-color: rgb(17 94 89);}	
+
+.border-y-teal-900{border-top-color: rgb(19 78 74);
+  border-bottom-color: rgb(19 78 74);}	
+
+.border-y-teal-950{border-top-color: rgb(4 47 46);
+  border-bottom-color: rgb(4 47 46);}	
+
+.border-y-cyan-50{border-top-color: rgb(236 254 255);
+  border-bottom-color: rgb(236 254 255);}	
+
+.border-y-cyan-100{border-top-color: rgb(207 250 254);
+  border-bottom-color: rgb(207 250 254);}	
+
+.border-y-cyan-200{border-top-color: rgb(165 243 252);
+  border-bottom-color: rgb(165 243 252);}	
+
+.border-y-cyan-300{border-top-color: rgb(103 232 249);
+  border-bottom-color: rgb(103 232 249);}	
+
+.border-y-cyan-400{border-top-color: rgb(34 211 238);
+  border-bottom-color: rgb(34 211 238);}	
+
+.border-y-cyan-500{border-top-color: rgb(6 182 212);
+  border-bottom-color: rgb(6 182 212);}	
+
+.border-y-cyan-600{border-top-color: rgb(8 145 178);
+  border-bottom-color: rgb(8 145 178);}	
+
+.border-y-cyan-700{border-top-color: rgb(14 116 144);
+  border-bottom-color: rgb(14 116 144);}	
+
+.border-y-cyan-800{border-top-color: rgb(21 94 117);
+  border-bottom-color: rgb(21 94 117);}	
+
+.border-y-cyan-900{border-top-color: rgb(22 78 99);
+  border-bottom-color: rgb(22 78 99);}	
+
+.border-y-cyan-950{border-top-color: rgb(8 51 68);
+  border-bottom-color: rgb(8 51 68);}	
+
+.border-y-sky-50{border-top-color: rgb(240 249 255);
+  border-bottom-color: rgb(240 249 255);}	
+
+.border-y-sky-100{border-top-color: rgb(224 242 254);
+  border-bottom-color: rgb(224 242 254);}	
+
+.border-y-sky-200{border-top-color: rgb(186 230 253);
+  border-bottom-color: rgb(186 230 253);}	
+
+.border-y-sky-300{border-top-color: rgb(125 211 252);
+  border-bottom-color: rgb(125 211 252);}	
+
+.border-y-sky-400{border-top-color: rgb(56 189 248);
+  border-bottom-color: rgb(56 189 248);}	
+
+.border-y-sky-500{border-top-color: rgb(14 165 233);
+  border-bottom-color: rgb(14 165 233);}	
+
+.border-y-sky-600{border-top-color: rgb(2 132 199);
+  border-bottom-color: rgb(2 132 199);}	
+
+.border-y-sky-700{border-top-color: rgb(3 105 161);
+  border-bottom-color: rgb(3 105 161);}	
+
+.border-y-sky-800{border-top-color: rgb(7 89 133);
+  border-bottom-color: rgb(7 89 133);}	
+
+.border-y-sky-900{border-top-color: rgb(12 74 110);
+  border-bottom-color: rgb(12 74 110);}	
+
+.border-y-sky-950{border-top-color: rgb(8 47 73);
+  border-bottom-color: rgb(8 47 73);}	
+
+.border-y-blue-50{border-top-color: rgb(239 246 255);
+  border-bottom-color: rgb(239 246 255);}	
+
+.border-y-blue-100{border-top-color: rgb(219 234 254);
+  border-bottom-color: rgb(219 234 254);}	
+
+.border-y-blue-200{border-top-color: rgb(191 219 254);
+  border-bottom-color: rgb(191 219 254);}	
+
+.border-y-blue-300{border-top-color: rgb(147 197 253);
+  border-bottom-color: rgb(147 197 253);}	
+
+.border-y-blue-400{border-top-color: rgb(96 165 250);
+  border-bottom-color: rgb(96 165 250);}	
+
+.border-y-blue-500{border-top-color: rgb(59 130 246);
+  border-bottom-color: rgb(59 130 246);}	
+
+.border-y-blue-600{border-top-color: rgb(37 99 235);
+  border-bottom-color: rgb(37 99 235);}	
+
+.border-y-blue-700{border-top-color: rgb(29 78 216);
+  border-bottom-color: rgb(29 78 216);}	
+
+.border-y-blue-800{border-top-color: rgb(30 64 175);
+  border-bottom-color: rgb(30 64 175);}	
+
+.border-y-blue-900{border-top-color: rgb(30 58 138);
+  border-bottom-color: rgb(30 58 138);}	
+
+.border-y-blue-950{border-top-color: rgb(23 37 84);
+  border-bottom-color: rgb(23 37 84);}	
+
+.border-y-indigo-50{border-top-color: rgb(238 242 255);
+  border-bottom-color: rgb(238 242 255);}	
+
+.border-y-indigo-100{border-top-color: rgb(224 231 255);
+  border-bottom-color: rgb(224 231 255);}	
+
+.border-y-indigo-200{border-top-color: rgb(199 210 254);
+  border-bottom-color: rgb(199 210 254);}	
+
+.border-y-indigo-300{border-top-color: rgb(165 180 252);
+  border-bottom-color: rgb(165 180 252);}	
+
+.border-y-indigo-400{border-top-color: rgb(129 140 248);
+  border-bottom-color: rgb(129 140 248);}	
+
+.border-y-indigo-500{border-top-color: rgb(99 102 241);
+  border-bottom-color: rgb(99 102 241);}	
+
+.border-y-indigo-600{border-top-color: rgb(79 70 229);
+  border-bottom-color: rgb(79 70 229);}	
+
+.border-y-indigo-700{border-top-color: rgb(67 56 202);
+  border-bottom-color: rgb(67 56 202);}	
+
+.border-y-indigo-800{border-top-color: rgb(55 48 163);
+  border-bottom-color: rgb(55 48 163);}	
+
+.border-y-indigo-900{border-top-color: rgb(49 46 129);
+  border-bottom-color: rgb(49 46 129);}	
+
+.border-y-indigo-950{border-top-color: rgb(30 27 75);
+  border-bottom-color: rgb(30 27 75);}	
+
+.border-y-violet-50{border-top-color: rgb(245 243 255);
+  border-bottom-color: rgb(245 243 255);}	
+
+.border-y-violet-100{border-top-color: rgb(237 233 254);
+  border-bottom-color: rgb(237 233 254);}	
+
+.border-y-violet-200{border-top-color: rgb(221 214 254);
+  border-bottom-color: rgb(221 214 254);}	
+
+.border-y-violet-300{border-top-color: rgb(196 181 253);
+  border-bottom-color: rgb(196 181 253);}	
+
+.border-y-violet-400{border-top-color: rgb(167 139 250);
+  border-bottom-color: rgb(167 139 250);}	
+
+.border-y-violet-500{border-top-color: rgb(139 92 246);
+  border-bottom-color: rgb(139 92 246);}	
+
+.border-y-violet-600{border-top-color: rgb(124 58 237);
+  border-bottom-color: rgb(124 58 237);}	
+
+.border-y-violet-700{border-top-color: rgb(109 40 217);
+  border-bottom-color: rgb(109 40 217);}	
+
+.border-y-violet-800{border-top-color: rgb(91 33 182);
+  border-bottom-color: rgb(91 33 182);}	
+
+.border-y-violet-900{border-top-color: rgb(76 29 149);
+  border-bottom-color: rgb(76 29 149);}	
+
+.border-y-violet-950{border-top-color: rgb(46 16 101);
+  border-bottom-color: rgb(46 16 101);}	
+
+.border-y-purple-50{border-top-color: rgb(250 245 255);
+  border-bottom-color: rgb(250 245 255);}	
+
+.border-y-purple-100{border-top-color: rgb(243 232 255);
+  border-bottom-color: rgb(243 232 255);}	
+
+.border-y-purple-200{border-top-color: rgb(233 213 255);
+  border-bottom-color: rgb(233 213 255);}	
+
+.border-y-purple-300{border-top-color: rgb(216 180 254);
+  border-bottom-color: rgb(216 180 254);}	
+
+.border-y-purple-400{border-top-color: rgb(192 132 252);
+  border-bottom-color: rgb(192 132 252);}	
+
+.border-y-purple-500{border-top-color: rgb(168 85 247);
+  border-bottom-color: rgb(168 85 247);}	
+
+.border-y-purple-600{border-top-color: rgb(147 51 234);
+  border-bottom-color: rgb(147 51 234);}	
+
+.border-y-purple-700{border-top-color: rgb(126 34 206);
+border-bottom-color: rgb(126 34 206);}	
+
+.border-y-purple-800{border-top-color: rgb(107 33 168);
+border-bottom-color: rgb(107 33 168);}	
+
+.border-y-purple-900{border-top-color: rgb(88 28 135);
+border-bottom-color: rgb(88 28 135);}	
+
+.border-y-purple-950{border-top-color: rgb(59 7 100);
+border-bottom-color: rgb(59 7 100);}	
+
+.border-y-fuchsia-50{border-top-color: rgb(253 244 255);
+border-bottom-color: rgb(253 244 255);}	
+
+.border-y-fuchsia-100{border-top-color: rgb(250 232 255);
+border-bottom-color: rgb(250 232 255);}	
+
+.border-y-fuchsia-200{border-top-color: rgb(245 208 254);
+border-bottom-color: rgb(245 208 254);}	
+
+.border-y-fuchsia-300{border-top-color: rgb(240 171 252);
+border-bottom-color: rgb(240 171 252);}	
+
+.border-y-fuchsia-400{border-top-color: rgb(232 121 249);
+border-bottom-color: rgb(232 121 249);}	
+
+.border-y-fuchsia-500{border-top-color: rgb(217 70 239);
+border-bottom-color: rgb(217 70 239);}	
+
+.border-y-fuchsia-600{border-top-color: rgb(192 38 211);
+border-bottom-color: rgb(192 38 211);}	
+
+.border-y-fuchsia-700{border-top-color: rgb(162 28 175);
+border-bottom-color: rgb(162 28 175);}	
+
+.border-y-fuchsia-800{border-top-color: rgb(134 25 143);
+border-bottom-color: rgb(134 25 143);}
+
+.border-y-fuchsia-900{border-top-color: rgb(112 26 117);
+border-bottom-color: rgb(112 26 117);}	
+
+.border-y-fuchsia-950{border-top-color: rgb(74 4 78);
+border-bottom-color: rgb(74 4 78);}	
+
+.border-y-pink-50{border-top-color: rgb(253 242 248);
+border-bottom-color: rgb(253 242 248);}	
+
+.border-y-pink-100{border-top-color: rgb(252 231 243);
+border-bottom-color: rgb(252 231 243);}	
+
+.border-y-pink-200{border-top-color: rgb(251 207 232);
+border-bottom-color: rgb(251 207 232);}	
+
+.border-y-pink-300{border-top-color: rgb(249 168 212);
+border-bottom-color: rgb(249 168 212);}	
+
+.border-y-pink-400{border-top-color: rgb(244 114 182);
+border-bottom-color: rgb(244 114 182);}	
+
+.border-y-pink-500{border-top-color: rgb(236 72 153);
+border-bottom-color: rgb(236 72 153);}	
+
+.border-y-pink-600{border-top-color: rgb(219 39 119);
+border-bottom-color: rgb(219 39 119);}	
+
+.border-y-pink-700{border-top-color: rgb(190 24 93);
+border-bottom-color: rgb(190 24 93);}	
+
+.border-y-pink-800{border-top-color: rgb(157 23 77);
+border-bottom-color: rgb(157 23 77);}	
+
+.border-y-pink-900{border-top-color: rgb(131 24 67);
+border-bottom-color: rgb(131 24 67);}	
+
+.border-y-pink-950{border-top-color: rgb(80 7 36);
+border-bottom-color: rgb(80 7 36);}	
+
+.border-y-rose-50{border-top-color: rgb(255 241 242);
+border-bottom-color: rgb(255 241 242);}	
+
+.border-y-rose-100{border-top-color: rgb(255 228 230);
+border-bottom-color: rgb(255 228 230);}	
+
+.border-y-rose-200{border-top-color: rgb(254 205 211);
+border-bottom-color: rgb(254 205 211);}	
+
+.border-y-rose-300{border-top-color: rgb(253 164 175);
+border-bottom-color: rgb(253 164 175);}	
+
+.border-y-rose-400{border-top-color: rgb(251 113 133);
+border-bottom-color: rgb(251 113 133);}	
+
+.border-y-rose-500{border-top-color: rgb(244 63 94);
+border-bottom-color: rgb(244 63 94);}	
+
+.border-y-rose-600{border-top-color: rgb(225 29 72);
+border-bottom-color: rgb(225 29 72);}	
+
+.border-y-rose-700{border-top-color: rgb(190 18 60);
+border-bottom-color: rgb(190 18 60);}	
+
+.border-y-rose-800{border-top-color: rgb(159 18 57);
+border-bottom-color: rgb(159 18 57);}	
+
+.border-y-rose-900{border-top-color: rgb(136 19 55);
+border-bottom-color: rgb(136 19 55);}	
+
+.border-y-rose-950{border-top-color: rgb(76 5 25);
+border-bottom-color: rgb(76 5 25);}	
+
+.border-x-violet-50{border-left-color: rgb(245 243 255);
+border-right-color: rgb(245 243 255);}	
+
+.border-x-violet-100{border-left-color: rgb(237 233 254);
+border-right-color: rgb(237 233 254);}	
+
+.border-x-violet-200{border-left-color: rgb(221 214 254);
+border-right-color: rgb(221 214 254);}	
+
+.border-x-violet-300{border-left-color: rgb(196 181 253);
+border-right-color: rgb(196 181 253);}	
+
+.border-x-violet-400{border-left-color: rgb(167 139 250);
+border-right-color: rgb(167 139 250);}	
+
+.border-x-violet-500{border-left-color: rgb(139 92 246);
+border-right-color: rgb(139 92 246);}	
+
+.border-x-violet-600{border-left-color: rgb(124 58 237);
+border-right-color: rgb(124 58 237);}	
+
+.border-x-violet-700{border-left-color: rgb(109 40 217);
+border-right-color: rgb(109 40 217);}	
+
+.border-x-violet-800{border-left-color: rgb(91 33 182);
+border-right-color: rgb(91 33 182);}	
+
+.border-x-violet-900{border-left-color: rgb(76 29 149);
+border-right-color: rgb(76 29 149);}	
+
+.border-x-violet-950{border-left-color: rgb(46 16 101);
+border-right-color: rgb(46 16 101);}	
+
+.border-x-purple-50{border-left-color: rgb(250 245 255);
+border-right-color: rgb(250 245 255);}	
+
+.border-x-purple-100{border-left-color: rgb(243 232 255);
+border-right-color: rgb(243 232 255);}	
+
+.border-x-purple-200{border-left-color: rgb(233 213 255);
+  border-right-color: rgb(233 213 255);}	
+
+.border-x-purple-300{border-left-color: rgb(216 180 254);
+  border-right-color: rgb(216 180 254);}	
+
+.border-x-purple-400{border-left-color: rgb(192 132 252);
+  border-right-color: rgb(192 132 252);}	
+
+.border-x-purple-500{border-left-color: rgb(168 85 247);
+  border-right-color: rgb(168 85 247);}	
+
+.border-x-purple-600{border-left-color: rgb(147 51 234);
+  border-right-color: rgb(147 51 234);}	
+
+.border-x-purple-700{border-left-color: rgb(126 34 206);
+  border-right-color: rgb(126 34 206);}	
+
+.border-x-purple-800{border-left-color: rgb(107 33 168);
+  border-right-color: rgb(107 33 168);}	
+
+.border-x-purple-900{border-left-color: rgb(88 28 135);
+  border-right-color: rgb(88 28 135);}	
+
+.border-x-purple-950{border-left-color: rgb(59 7 100);
+  border-right-color: rgb(59 7 100);}	
+
+.border-x-fuchsia-50{border-left-color: rgb(253 244 255);
+  border-right-color: rgb(253 244 255);}	
+
+.border-x-fuchsia-100{border-left-color: rgb(250 232 255);
+  border-right-color: rgb(250 232 255);}	
+
+.border-x-fuchsia-200{border-left-color: rgb(245 208 254);
+  border-right-color: rgb(245 208 254);}	
+
+.border-x-fuchsia-300{border-left-color: rgb(240 171 252);
+  border-right-color: rgb(240 171 252);}	
+
+.border-x-fuchsia-400{border-left-color: rgb(232 121 249);
+  border-right-color: rgb(232 121 249);}	
+
+.border-x-fuchsia-500{border-left-color: rgb(217 70 239);
+  border-right-color: rgb(217 70 239);}	
+
+.border-x-fuchsia-600{border-left-color: rgb(192 38 211);
+  border-right-color: rgb(192 38 211);}	
+
+.border-x-fuchsia-700{border-left-color: rgb(162 28 175);
+  border-right-color: rgb(162 28 175);}	
+
+.border-x-fuchsia-800{border-left-color: rgb(134 25 143);
+  border-right-color: rgb(134 25 143);}	
+
+.border-x-fuchsia-900{border-left-color: rgb(112 26 117);
+  border-right-color: rgb(112 26 117);}	
+
+.border-x-fuchsia-950{border-left-color: rgb(74 4 78);
+  border-right-color: rgb(74 4 78);}	
+
+.border-x-pink-50{border-left-color: rgb(253 242 248);
+  border-right-color: rgb(253 242 248);}	
+
+.border-x-pink-100{border-left-color: rgb(252 231 243);
+  border-right-color: rgb(252 231 243);}	
+
+.border-x-pink-200{border-left-color: rgb(251 207 232);
+  border-right-color: rgb(251 207 232);}	
+
+.border-x-pink-300{border-left-color: rgb(249 168 212);
+  border-right-color: rgb(249 168 212);}	
+
+.border-x-pink-400{border-left-color: rgb(244 114 182);
+  border-right-color: rgb(244 114 182);}	
+
+.border-x-pink-500{border-left-color: rgb(236 72 153);
+  border-right-color: rgb(236 72 153);}	
+
+.border-x-pink-600{border-left-color: rgb(219 39 119);
+  border-right-color: rgb(219 39 119);}	
+
+.border-x-pink-700{border-left-color: rgb(190 24 93);
+  border-right-color: rgb(190 24 93);}	
+
+.border-x-pink-800{border-left-color: rgb(157 23 77);
+  border-right-color: rgb(157 23 77);}	
+
+.border-x-pink-900{border-left-color: rgb(131 24 67);
+  border-right-color: rgb(131 24 67);}	
+
+.border-x-pink-950{border-left-color: rgb(80 7 36);
+  border-right-color: rgb(80 7 36);}	
+
+.border-x-rose-50{border-left-color: rgb(255 241 242);
+  border-right-color: rgb(255 241 242);}	
+
+.border-x-rose-100{border-left-color: rgb(255 228 230);
+  border-right-color: rgb(255 228 230);}	
+
+.border-x-rose-200{border-left-color: rgb(254 205 211);
+  border-right-color: rgb(254 205 211);}	
+
+.border-x-rose-300{border-left-color: rgb(253 164 175);
+  border-right-color: rgb(253 164 175);}	
+
+.border-x-rose-400{border-left-color: rgb(251 113 133);
+  border-right-color: rgb(251 113 133);}	
+
+.border-x-rose-500{border-left-color: rgb(244 63 94);
+  border-right-color: rgb(244 63 94);}	
+
+.border-x-rose-600{border-left-color: rgb(225 29 72);
+  border-right-color: rgb(225 29 72);}	
+
+.border-x-rose-700{border-left-color: rgb(190 18 60);
+  border-right-color: rgb(190 18 60);}	
+
+.border-x-rose-800{border-left-color: rgb(159 18 57);
+  border-right-color: rgb(159 18 57);}	
+
+.border-x-rose-900{border-left-color: rgb(136 19 55);
+  border-right-color: rgb(136 19 55);}	
+
+.border-x-rose-950{border-left-color: rgb(76 5 25);
+  border-right-color: rgb(76 5 25);}	
+
+.border-y-inherit{border-top-color: inherit;
+  border-bottom-color: inherit;}	
+
+.border-y-current{border-top-color: currentColor;
+  border-bottom-color: currentColor;}	
+
+.border-y-transparent{border-top-color: transparent;
+  border-bottom-color: transparent;}	
+
+.border-y-black{border-top-color: rgb(0 0 0);
+  border-bottom-color: rgb(0 0 0);}	
+
+.border-y-white{border-top-color: rgb(255 255 255);
+  border-bottom-color: rgb(255 255 255);}	
+
+.border-y-slate-50{border-top-color: rgb(248 250 252);
+  border-bottom-color: rgb(248 250 252);}	
+
+.border-y-slate-100{border-top-color: rgb(241 245 249);
+  border-bottom-color: rgb(241 245 249);}	
+
+.border-y-slate-200{border-top-color: rgb(226 232 240);
+  border-bottom-color: rgb(226 232 240);}	
+
+.border-y-slate-300{border-top-color: rgb(203 213 225);
+  border-bottom-color: rgb(203 213 225);}	
+
+.border-y-slate-400{border-top-color: rgb(148 163 184);
+  border-bottom-color: rgb(148 163 184);}	
+
+.border-y-slate-500{border-top-color: rgb(100 116 139);
+  border-bottom-color: rgb(100 116 139);}	
+
+.border-y-slate-600{border-top-color: rgb(71 85 105);
+  border-bottom-color: rgb(71 85 105);}	
+
+.border-y-slate-700{border-top-color: rgb(51 65 85);
+  border-bottom-color: rgb(51 65 85);}	
+
+.border-y-slate-800{border-top-color: rgb(30 41 59);
+  border-bottom-color: rgb(30 41 59);}	
+
+.border-y-slate-900{border-top-color: rgb(15 23 42);
+  border-bottom-color: rgb(15 23 42);}	
+
+.border-y-slate-950{border-top-color: rgb(2 6 23);
+  border-bottom-color: rgb(2 6 23);}	
+
+.border-y-gray-50{border-top-color: rgb(249 250 251);
+  border-bottom-color: rgb(249 250 251);}	
+
+.border-y-gray-100{border-top-color: rgb(243 244 246);
+  border-bottom-color: rgb(243 244 246);}	
+
+.border-y-gray-200{border-top-color: rgb(229 231 235);
+  border-bottom-color: rgb(229 231 235);}	
+
+.border-y-gray-300{border-top-color: rgb(209 213 219);
+  border-bottom-color: rgb(209 213 219);}	
+
+.border-y-gray-400{border-top-color: rgb(156 163 175);
+  border-bottom-color: rgb(156 163 175);}	
+
+.border-y-gray-500{border-top-color: rgb(107 114 128);
+  border-bottom-color: rgb(107 114 128);}	
+
+.border-y-gray-600{border-top-color: rgb(75 85 99);
+  border-bottom-color: rgb(75 85 99);}	
+
+.border-y-gray-700{border-top-color: rgb(55 65 81);
+  border-bottom-color: rgb(55 65 81);}	
+
+.border-y-gray-800{border-top-color: rgb(31 41 55);
+  border-bottom-color: rgb(31 41 55);}	
+
+.border-y-gray-900{border-top-color: rgb(17 24 39);
+  border-bottom-color: rgb(17 24 39);}	
+
+.border-y-gray-950{border-top-color: rgb(3 7 18);
+  border-bottom-color: rgb(3 7 18);}	
+
+.border-y-zinc-50{border-top-color: rgb(250 250 250);
+  border-bottom-color: rgb(250 250 250);}	
+
+.border-y-zinc-100{border-top-color: rgb(244 244 245);
+  border-bottom-color: rgb(244 244 245);}	
+
+.border-y-zinc-200{border-top-color: rgb(228 228 231);
+  border-bottom-color: rgb(228 228 231);}	
+
+.border-y-zinc-300{border-top-color: rgb(212 212 216);
+  border-bottom-color: rgb(212 212 216);}	
+
+.border-y-zinc-400{border-top-color: rgb(161 161 170);
+  border-bottom-color: rgb(161 161 170);}	
+
+.border-y-zinc-500{border-top-color: rgb(113 113 122);
+  border-bottom-color: rgb(113 113 122);}	
+
+.border-y-zinc-600{border-top-color: rgb(82 82 91);
+  border-bottom-color: rgb(82 82 91);}	
+
+.border-y-zinc-700{border-top-color: rgb(63 63 70);
+  border-bottom-color: rgb(63 63 70);}	
+
+.border-y-zinc-800{border-top-color: rgb(39 39 42);
+  border-bottom-color: rgb(39 39 42);}	
+
+.border-y-zinc-900{border-top-color: rgb(24 24 27);
+  border-bottom-color: rgb(24 24 27);}	
+
+.border-y-zinc-950{border-top-color: rgb(9 9 11);
+  border-bottom-color: rgb(9 9 11);}	
+
+.border-y-neutral-50{border-top-color: rgb(250 250 250);
+  border-bottom-color: rgb(250 250 250);}	
+
+.border-y-neutral-100{border-top-color: rgb(245 245 245);
+  border-bottom-color: rgb(245 245 245);}	
+
+.border-y-neutral-200{border-top-color: rgb(229 229 229);
+  border-bottom-color: rgb(229 229 229);}	
+
+.border-y-neutral-300{border-top-color: rgb(212 212 212);
+  border-bottom-color: rgb(212 212 212);}	
+
+.border-y-neutral-400{border-top-color: rgb(163 163 163);
+border-bottom-color: rgb(163 163 163);}	
+
+.border-y-neutral-500{border-top-color: rgb(115 115 115);
+  border-bottom-color: rgb(115 115 115);}	
+
+.border-y-neutral-600{border-top-color: rgb(82 82 82);
+  border-bottom-color: rgb(82 82 82);}	
+
+.border-y-neutral-700{border-top-color: rgb(64 64 64);
+  border-bottom-color: rgb(64 64 64);}	
+
+.border-y-neutral-800{border-top-color: rgb(38 38 38);
+  border-bottom-color: rgb(38 38 38);}	
+
+.border-y-neutral-900{border-top-color: rgb(23 23 23);
+  border-bottom-color: rgb(23 23 23);}	
+
+.border-y-neutral-950{border-top-color: rgb(10 10 10);
+  border-bottom-color: rgb(10 10 10);}	
+
+.border-y-stone-50{border-top-color: rgb(250 250 249);
+  border-bottom-color: rgb(250 250 249);}	
+
+.border-y-stone-100{border-top-color: rgb(245 245 244);
+  border-bottom-color: rgb(245 245 244);}	
+
+.border-y-stone-200{border-top-color: rgb(231 229 228);
+  border-bottom-color: rgb(231 229 228);}	
+
+.border-y-stone-300{border-top-color: rgb(214 211 209);
+  border-bottom-color: rgb(214 211 209);}	
+
+.border-y-stone-400{border-top-color: rgb(168 162 158);
+  border-bottom-color: rgb(168 162 158);}	
+
+.border-y-stone-500{border-top-color: rgb(120 113 108);
+  border-bottom-color: rgb(120 113 108);}	
+
+.border-y-stone-600{border-top-color: rgb(87 83 78);
+  border-bottom-color: rgb(87 83 78);}	
+
+.border-y-stone-700{border-top-color: rgb(68 64 60);
+  border-bottom-color: rgb(68 64 60);}	
+
+.border-y-stone-800{border-top-color: rgb(41 37 36);
+  border-bottom-color: rgb(41 37 36);}	
+
+.border-y-stone-900{border-top-color: rgb(28 25 23);
+  border-bottom-color: rgb(28 25 23);}	
+
+.border-y-stone-950{border-top-color: rgb(12 10 9);
+  border-bottom-color: rgb(12 10 9);}	
+
+.border-y-red-50{border-top-color: rgb(254 242 242);
+  border-bottom-color: rgb(254 242 242);}	
+
+.border-y-red-100{border-top-color: rgb(254 226 226);
+  border-bottom-color: rgb(254 226 226);}	
+
+.border-y-red-200{border-top-color: rgb(254 202 202);
+  border-bottom-color: rgb(254 202 202);}	
+
+.border-y-red-300{border-top-color: rgb(252 165 165);
+border-bottom-color: rgb(252 165 165);}	
+
+.border-y-red-400{border-top-color: rgb(248 113 113);
+border-bottom-color: rgb(248 113 113);}	
+
+.border-y-red-500{border-top-color: rgb(239 68 68);
+border-bottom-color: rgb(239 68 68);}	
+
+.border-y-red-600{border-top-color: rgb(220 38 38);
+border-bottom-color: rgb(220 38 38);}	
+
+.border-y-red-700{border-top-color: rgb(185 28 28);
+border-bottom-color: rgb(185 28 28);}	
+
+.border-y-red-800{border-top-color: rgb(153 27 27);
+border-bottom-color: rgb(153 27 27);}	
+
+.border-y-red-900{border-top-color: rgb(127 29 29);
+border-bottom-color: rgb(127 29 29);}	
+
+.border-y-red-950{border-top-color: rgb(69 10 10);
+border-bottom-color: rgb(69 10 10);}	
+
+.border-y-orange-50{border-top-color: rgb(255 247 237);
+border-bottom-color: rgb(255 247 237);}	
+
+.border-y-orange-100{border-top-color: rgb(255 237 213);
+border-bottom-color: rgb(255 237 213);}	
+
+.border-y-orange-200{border-top-color: rgb(254 215 170);
+border-bottom-color: rgb(254 215 170);}	
+
+.border-y-orange-300{border-top-color: rgb(253 186 116);
+border-bottom-color: rgb(253 186 116);}	
+
+.border-y-orange-400{border-top-color: rgb(251 146 60);
+border-bottom-color: rgb(251 146 60);}	
+
+.border-y-orange-500{border-top-color: rgb(249 115 22);
+border-bottom-color: rgb(249 115 22);}	
+
+.border-y-orange-600{border-top-color: rgb(234 88 12);
+border-bottom-color: rgb(234 88 12);}	
+
+.border-y-orange-700{border-top-color: rgb(194 65 12);
+border-bottom-color: rgb(194 65 12);}	
+
+.border-y-orange-800{border-top-color: rgb(154 52 18);
+border-bottom-color: rgb(154 52 18);}	
+
+.border-y-orange-900{border-top-color: rgb(124 45 18);
+border-bottom-color: rgb(124 45 18);}	
+
+.border-y-orange-950{border-top-color: rgb(67 20 7);
+border-bottom-color: rgb(67 20 7);}	
+
+.border-y-amber-50{border-top-color: rgb(255 251 235);
+border-bottom-color: rgb(255 251 235);}	
+
+.border-y-amber-100{border-top-color: rgb(254 243 199);
+border-bottom-color: rgb(254 243 199);}	
+
+.border-y-amber-200{border-top-color: rgb(253 230 138);
+border-bottom-color: rgb(253 230 138);}	
+
+.border-y-amber-300{border-top-color: rgb(252 211 77);
+border-bottom-color: rgb(252 211 77);}	
+
+.border-y-amber-400{border-top-color: rgb(251 191 36);
+border-bottom-color: rgb(251 191 36);}	
+
+.border-y-amber-500{border-top-color: rgb(245 158 11);
+border-bottom-color: rgb(245 158 11);}	
+
+.border-y-amber-600{border-top-color: rgb(217 119 6);
+border-bottom-color: rgb(217 119 6);}	
+
+.border-y-amber-700{border-top-color: rgb(180 83 9);
+border-bottom-color: rgb(180 83 9);}	
+
+.border-y-amber-800{border-top-color: rgb(146 64 14);
+border-bottom-color: rgb(146 64 14);}	
+
+.border-y-amber-900{border-top-color: rgb(120 53 15);
+border-bottom-color: rgb(120 53 15);}	
+
+.border-y-amber-950{border-top-color: rgb(69 26 3);
+border-bottom-color: rgb(69 26 3);}	
+
+.border-y-yellow-50{border-top-color: rgb(254 252 232);
+border-bottom-color: rgb(254 252 232);}	
+
+.border-y-yellow-100{border-top-color: rgb(254 249 195);
+border-bottom-color: rgb(254 249 195);}	
+
+.border-y-yellow-200{border-top-color: rgb(254 240 138);
+border-bottom-color: rgb(254 240 138);}	
+
+.border-y-yellow-300{border-top-color: rgb(253 224 71);
+border-bottom-color: rgb(253 224 71);}	
+
+.border-y-yellow-400{border-top-color: rgb(250 204 21);
+border-bottom-color: rgb(250 204 21);}	
+
+.border-y-yellow-500{border-top-color: rgb(234 179 8);
+border-bottom-color: rgb(234 179 8);}	
+
+.border-y-yellow-600{border-top-color: rgb(202 138 4);
+border-bottom-color: rgb(202 138 4);}	
+
+.border-y-yellow-700{border-top-color: rgb(161 98 7);
+border-bottom-color: rgb(161 98 7);}	
+
+.border-y-yellow-800{border-top-color: rgb(133 77 14);
+border-bottom-color: rgb(133 77 14);}	
+
+.border-y-yellow-900{border-top-color: rgb(113 63 18);
+border-bottom-color: rgb(113 63 18);}	
+
+.border-y-yellow-950{border-top-color: rgb(66 32 6);
+border-bottom-color: rgb(66 32 6);}	
+
+.border-y-lime-50{border-top-color: rgb(247 254 231);
+border-bottom-color: rgb(247 254 231);}	
+
+.border-y-lime-100{border-top-color: rgb(236 252 203);
+border-bottom-color: rgb(236 252 203);}	
+
+.border-y-lime-200{border-top-color: rgb(217 249 157);
+border-bottom-color: rgb(217 249 157);}	
+
+.border-y-lime-300{border-top-color: rgb(190 242 100);
+border-bottom-color: rgb(190 242 100);}	
+
+.border-y-lime-400{border-top-color: rgb(163 230 53);
+border-bottom-color: rgb(163 230 53);}	
+
+.border-y-lime-500{border-top-color: rgb(132 204 22);
+border-bottom-color: rgb(132 204 22);}	
+
+.border-y-lime-600{border-top-color: rgb(101 163 13);
+border-bottom-color: rgb(101 163 13);}	
+
+.border-y-lime-700{border-top-color: rgb(77 124 15);
+border-bottom-color: rgb(77 124 15);}	
+
+.border-y-lime-800{border-top-color: rgb(63 98 18);
+border-bottom-color: rgb(63 98 18);}	
+
+.border-y-lime-900{border-top-color: rgb(54 83 20);
+border-bottom-color: rgb(54 83 20);}	
+
+.border-y-lime-950{border-top-color: rgb(26 46 5);
+border-bottom-color: rgb(26 46 5);}	
+
+.border-y-green-50{border-top-color: rgb(240 253 244);
+border-bottom-color: rgb(240 253 244);}	
+
+.border-y-green-100{border-top-color: rgb(220 252 231);
+border-bottom-color: rgb(220 252 231);}	
+
+.border-y-green-200{border-top-color: rgb(187 247 208);
+border-bottom-color: rgb(187 247 208);}	
+
+.border-y-green-300{border-top-color: rgb(134 239 172);
+border-bottom-color: rgb(134 239 172);}	
+
+.border-y-green-400{border-top-color: rgb(74 222 128);
+border-bottom-color: rgb(74 222 128);}	
+
+.border-y-green-500{border-top-color: rgb(34 197 94);
+border-bottom-color: rgb(34 197 94);}	
+
+.border-y-green-600{border-top-color: rgb(22 163 74);
+border-bottom-color: rgb(22 163 74);}	
+
+.border-y-green-700{border-top-color: rgb(21 128 61);
+border-bottom-color: rgb(21 128 61);}	
+
+.border-y-green-800{border-top-color: rgb(22 101 52);
+border-bottom-color: rgb(22 101 52);}	
+
+.border-y-green-900{border-top-color: rgb(20 83 45);
+border-bottom-color: rgb(20 83 45);}	
+
+.border-y-green-950{border-top-color: rgb(5 46 22);
+border-bottom-color: rgb(5 46 22);}	
+
+.border-y-emerald-50{border-top-color: rgb(236 253 245);
+border-bottom-color: rgb(236 253 245);}	
+
+.border-y-emerald-100{border-top-color: rgb(209 250 229);
+border-bottom-color: rgb(209 250 229);}	
+
+.border-y-emerald-200{border-top-color: rgb(167 243 208);
+border-bottom-color: rgb(167 243 208);}	
+
+.border-y-emerald-300{border-top-color: rgb(110 231 183);
+border-bottom-color: rgb(110 231 183);}	
+
+.border-y-emerald-400{border-top-color: rgb(52 211 153);
+border-bottom-color: rgb(52 211 153);}	
+
+.border-y-emerald-500{border-top-color: rgb(16 185 129);
+border-bottom-color: rgb(16 185 129);}	
+
+.border-y-emerald-600{border-top-color: rgb(5 150 105);
+border-bottom-color: rgb(5 150 105);}	
+
+.border-y-emerald-700{border-top-color: rgb(4 120 87);
+border-bottom-color: rgb(4 120 87);}	
+
+.border-y-emerald-800{border-top-color: rgb(6 95 70);
+border-bottom-color: rgb(6 95 70);}	
+
+.border-y-emerald-900{border-top-color: rgb(6 78 59);
+border-bottom-color: rgb(6 78 59);}	
+
+.border-y-emerald-950{border-top-color: rgb(2 44 34);
+border-bottom-color: rgb(2 44 34);}	
+
+.border-y-teal-50{border-top-color: rgb(240 253 250);
+border-bottom-color: rgb(240 253 250);}	
+
+.border-y-teal-100{border-top-color: rgb(204 251 241);
+border-bottom-color: rgb(204 251 241);}	
+
+.border-y-teal-200{border-top-color: rgb(153 246 228);
+border-bottom-color: rgb(153 246 228);}	
+
+.border-y-teal-300{border-top-color: rgb(94 234 212);
+border-bottom-color: rgb(94 234 212);}	
+
+.border-y-teal-400{border-top-color: rgb(45 212 191);
+border-bottom-color: rgb(45 212 191);}	
+
+.border-y-teal-500{border-top-color: rgb(20 184 166);
+border-bottom-color: rgb(20 184 166);}	
+
+.border-y-teal-600{border-top-color: rgb(13 148 136);
+border-bottom-color: rgb(13 148 136);}	
+
+.border-y-teal-700{border-top-color: rgb(15 118 110);
+border-bottom-color: rgb(15 118 110);}	
+
+.border-y-teal-800{border-top-color: rgb(17 94 89);
+border-bottom-color: rgb(17 94 89);}	
+
+.border-y-teal-900{border-top-color: rgb(19 78 74);
+border-bottom-color: rgb(19 78 74);}	
+
+.border-y-teal-950{border-top-color: rgb(4 47 46);
+border-bottom-color: rgb(4 47 46);}	
+
+.border-y-cyan-50{border-top-color: rgb(236 254 255);
+border-bottom-color: rgb(236 254 255);}	
+
+.border-y-cyan-100{border-top-color: rgb(207 250 254);
+border-bottom-color: rgb(207 250 254);}	
+
+.border-y-cyan-200{border-top-color: rgb(165 243 252);
+border-bottom-color: rgb(165 243 252);}	
+
+.border-y-cyan-300{border-top-color: rgb(103 232 249);
+border-bottom-color: rgb(103 232 249);}	
+
+.border-y-cyan-400{border-top-color: rgb(34 211 238);
+border-bottom-color: rgb(34 211 238);}	
+
+.border-y-cyan-500{border-top-color: rgb(6 182 212);
+border-bottom-color: rgb(6 182 212);}	
+
+.border-y-cyan-600{border-top-color: rgb(8 145 178);
+border-bottom-color: rgb(8 145 178);}	
+
+.border-y-cyan-700{border-top-color: rgb(14 116 144);
+border-bottom-color: rgb(14 116 144);}	
+
+.border-y-cyan-800{border-top-color: rgb(21 94 117);
+border-bottom-color: rgb(21 94 117);}	
+
+.border-y-cyan-900{border-top-color: rgb(22 78 99);
+border-bottom-color: rgb(22 78 99);}	
+
+.border-y-cyan-950{border-top-color: rgb(8 51 68);
+border-bottom-color: rgb(8 51 68);}	
+
+.border-y-sky-50{border-top-color: rgb(240 249 255);
+border-bottom-color: rgb(240 249 255);}	
+
+.border-y-sky-100{border-top-color: rgb(224 242 254);
+border-bottom-color: rgb(224 242 254);}	
+
+.border-y-sky-200{border-top-color: rgb(186 230 253);
+border-bottom-color: rgb(186 230 253);}	
+
+.border-y-sky-300{border-top-color: rgb(125 211 252);
+border-bottom-color: rgb(125 211 252);}	
+
+.border-y-sky-400{border-top-color: rgb(56 189 248);
+border-bottom-color: rgb(56 189 248);}	
+
+.border-y-sky-500{border-top-color: rgb(14 165 233);
+border-bottom-color: rgb(14 165 233);}	
+
+.border-y-sky-600{border-top-color: rgb(2 132 199);
+border-bottom-color: rgb(2 132 199);}	
+
+.border-y-sky-700{border-top-color: rgb(3 105 161);
+border-bottom-color: rgb(3 105 161);}	
+
+.border-y-sky-800{border-top-color: rgb(7 89 133);
+border-bottom-color: rgb(7 89 133);}	
+
+.border-y-sky-900{border-top-color: rgb(12 74 110);
+border-bottom-color: rgb(12 74 110);}	
+
+.border-y-sky-950{border-top-color: rgb(8 47 73);
+border-bottom-color: rgb(8 47 73);}	
+
+.border-y-blue-50{border-top-color: rgb(239 246 255);
+border-bottom-color: rgb(239 246 255);}	
+
+.border-y-blue-100{border-top-color: rgb(219 234 254);
+border-bottom-color: rgb(219 234 254);}	
+
+.border-y-blue-200{border-top-color: rgb(191 219 254);
+border-bottom-color: rgb(191 219 254);}	
+
+.border-y-blue-300{border-top-color: rgb(147 197 253);
+border-bottom-color: rgb(147 197 253);}	
+
+.border-y-blue-400{border-top-color: rgb(96 165 250);
+border-bottom-color: rgb(96 165 250);}	
+
+.border-y-blue-500{border-top-color: rgb(59 130 246);
+border-bottom-color: rgb(59 130 246);}	
+
+.border-y-blue-600{border-top-color: rgb(37 99 235);
+border-bottom-color: rgb(37 99 235);}	
+
+.border-y-blue-700{border-top-color: rgb(29 78 216);
+border-bottom-color: rgb(29 78 216);}	
+
+.border-y-blue-800{border-top-color: rgb(30 64 175);
+border-bottom-color: rgb(30 64 175);}	
+
+.border-y-blue-900{border-top-color: rgb(30 58 138);
+border-bottom-color: rgb(30 58 138);}	
+
+.border-y-blue-950{border-top-color: rgb(23 37 84);
+border-bottom-color: rgb(23 37 84);}	
+
+.border-y-indigo-50{border-top-color: rgb(238 242 255);
+border-bottom-color: rgb(238 242 255);}	
+
+.border-y-indigo-100{border-top-color: rgb(224 231 255);
+border-bottom-color: rgb(224 231 255);}	
+
+.border-y-indigo-200{border-top-color: rgb(199 210 254);
+border-bottom-color: rgb(199 210 254);}	
+
+.border-y-indigo-300{border-top-color: rgb(165 180 252);
+border-bottom-color: rgb(165 180 252);}	
+
+.border-y-indigo-400{border-top-color: rgb(129 140 248);
+border-bottom-color: rgb(129 140 248);}	
+
+.border-y-indigo-500{border-top-color: rgb(99 102 241);
+border-bottom-color: rgb(99 102 241);}	
+
+.border-y-indigo-600{border-top-color: rgb(79 70 229);
+border-bottom-color: rgb(79 70 229);}	
+
+.border-y-indigo-700{border-top-color: rgb(67 56 202);
+border-bottom-color: rgb(67 56 202);}	
+
+.border-y-indigo-800{border-top-color: rgb(55 48 163);
+border-bottom-color: rgb(55 48 163);}	
+
+.border-y-indigo-900{border-top-color: rgb(49 46 129);
+border-bottom-color: rgb(49 46 129);}	
+
+.border-y-indigo-950{border-top-color: rgb(30 27 75);
+border-bottom-color: rgb(30 27 75);}	
+
+.border-y-violet-50{border-top-color: rgb(245 243 255);
+border-bottom-color: rgb(245 243 255);}	
+
+.border-y-violet-100{border-top-color: rgb(237 233 254);
+border-bottom-color: rgb(237 233 254);}	
+
+.border-y-violet-200{border-top-color: rgb(221 214 254);
+border-bottom-color: rgb(221 214 254);}	
+
+.border-y-violet-300{border-top-color: rgb(196 181 253);
+border-bottom-color: rgb(196 181 253);}	
+
+.border-y-violet-400{border-top-color: rgb(167 139 250);
+border-bottom-color: rgb(167 139 250);}	
+
+.border-y-violet-500{border-top-color: rgb(139 92 246);
+border-bottom-color: rgb(139 92 246);}	
+
+.border-y-violet-600{border-top-color: rgb(124 58 237);
+border-bottom-color: rgb(124 58 237);}	
+
+.border-y-violet-700{border-top-color: rgb(109 40 217);
+border-bottom-color: rgb(109 40 217);}	
+
+.border-y-violet-800{border-top-color: rgb(91 33 182);
+border-bottom-color: rgb(91 33 182);}	
+
+.border-y-violet-900{border-top-color: rgb(76 29 149);
+border-bottom-color: rgb(76 29 149);}	
+
+.border-y-violet-950{border-top-color: rgb(46 16 101);
+border-bottom-color: rgb(46 16 101);}	
+
+.border-y-purple-50{border-top-color: rgb(250 245 255);
+border-bottom-color: rgb(250 245 255);}	
+
+.border-y-purple-100{border-top-color: rgb(243 232 255);
+border-bottom-color: rgb(243 232 255);}	
+
+.border-y-purple-200{border-top-color: rgb(233 213 255);
+border-bottom-color: rgb(233 213 255);}	
+
+.border-y-purple-300{border-top-color: rgb(216 180 254);
+border-bottom-color: rgb(216 180 254);}	
+
+.border-y-purple-400{border-top-color: rgb(192 132 252);
+border-bottom-color: rgb(192 132 252);}	
+
+.border-y-purple-500{border-top-color: rgb(168 85 247);
+border-bottom-color: rgb(168 85 247);}	
+
+.border-y-purple-600{border-top-color: rgb(147 51 234);
+border-bottom-color: rgb(147 51 234);}	
+
+.border-y-purple-700{border-top-color: rgb(126 34 206);
+border-bottom-color: rgb(126 34 206);}	
+
+.border-y-purple-800{border-top-color: rgb(107 33 168);
+border-bottom-color: rgb(107 33 168);}	
+
+.border-y-purple-900{border-top-color: rgb(88 28 135);
+border-bottom-color: rgb(88 28 135);}	
+
+.border-y-purple-950{border-top-color: rgb(59 7 100);
+border-bottom-color: rgb(59 7 100);}	
+
+.border-y-fuchsia-50{border-top-color: rgb(253 244 255);
+border-bottom-color: rgb(253 244 255);}	
+
+.border-y-fuchsia-100{border-top-color: rgb(250 232 255);
+border-bottom-color: rgb(250 232 255);}	
+
+.border-y-fuchsia-200{border-top-color: rgb(245 208 254);
+border-bottom-color: rgb(245 208 254);}	
+
+.border-y-fuchsia-300{border-top-color: rgb(240 171 252);
+border-bottom-color: rgb(240 171 252);}	
+
+.border-y-fuchsia-400{border-top-color: rgb(232 121 249);
+border-bottom-color: rgb(232 121 249);}	
+
+.border-y-fuchsia-500{border-top-color: rgb(217 70 239);
+border-bottom-color: rgb(217 70 239);}	
+
+.border-y-fuchsia-600{border-top-color: rgb(192 38 211);
+border-bottom-color: rgb(192 38 211);}	
+
+.border-y-fuchsia-700{border-top-color: rgb(162 28 175);
+border-bottom-color: rgb(162 28 175);}	
+
+.border-y-fuchsia-800{border-top-color: rgb(134 25 143);
+border-bottom-color: rgb(134 25 143);}	
+
+.border-y-fuchsia-900{border-top-color: rgb(112 26 117);
+border-bottom-color: rgb(112 26 117);}	
+
+.border-y-fuchsia-950{border-top-color: rgb(74 4 78);
+border-bottom-color: rgb(74 4 78);}	
+
+.border-y-pink-50{border-top-color: rgb(253 242 248);
+border-bottom-color: rgb(253 242 248);}	
+
+.border-y-pink-100{border-top-color: rgb(252 231 243);
+border-bottom-color: rgb(252 231 243);}	
+
+.border-y-pink-200{border-top-color: rgb(251 207 232);
+border-bottom-color: rgb(251 207 232);}	
+
+.border-y-pink-300{border-top-color: rgb(249 168 212);
+border-bottom-color: rgb(249 168 212);}	
+
+.border-y-pink-400{border-top-color: rgb(244 114 182);
+border-bottom-color: rgb(244 114 182);}	
+
+.border-y-pink-500{border-top-color: rgb(236 72 153);
+border-bottom-color: rgb(236 72 153);}	
+
+.border-y-pink-600{border-top-color: rgb(219 39 119);
+border-bottom-color: rgb(219 39 119);}	
+
+.border-y-pink-700{border-top-color: rgb(190 24 93);
+border-bottom-color: rgb(190 24 93);}	
+
+.border-y-pink-800{border-top-color: rgb(157 23 77);
+border-bottom-color: rgb(157 23 77);}	
+
+.border-y-pink-900{border-top-color: rgb(131 24 67);
+  border-bottom-color: rgb(131 24 67);}	
+
+.border-y-pink-950{border-top-color: rgb(80 7 36);
+  border-bottom-color: rgb(80 7 36);}	
+
+.border-y-rose-50{border-top-color: rgb(255 241 242);
+  border-bottom-color: rgb(255 241 242);}	
+
+.border-y-rose-100{border-top-color: rgb(255 228 230);
+  border-bottom-color: rgb(255 228 230);}	
+
+.border-y-rose-200{border-top-color: rgb(254 205 211);
+  border-bottom-color: rgb(254 205 211);}	
+
+.border-y-rose-300{border-top-color: rgb(253 164 175);
+  border-bottom-color: rgb(253 164 175);}	
+
+.border-y-rose-400{border-top-color: rgb(251 113 133);
+  border-bottom-color: rgb(251 113 133);}	
+
+.border-y-rose-500{border-top-color: rgb(244 63 94);
+  border-bottom-color: rgb(244 63 94);}	
+
+.border-y-rose-600{border-top-color: rgb(225 29 72);
+  border-bottom-color: rgb(225 29 72);}	
+
+.border-y-rose-700{border-top-color: rgb(190 18 60);
+  border-bottom-color: rgb(190 18 60);}	
+
+.border-y-rose-800{border-top-color: rgb(159 18 57);
+  border-bottom-color: rgb(159 18 57);}	
+
+.border-y-rose-900{border-top-color: rgb(136 19 55);
+  border-bottom-color: rgb(136 19 55);}	
+
+.border-y-rose-950{border-top-color: rgb(76 5 25);
+  border-bottom-color: rgb(76 5 25);}	
+
+
+
+.border-s-inherit{border-inline-start-color: inherit;}	
+.border-s-current{border-inline-start-color: currentColor;}	
+.border-s-transparent{border-inline-start-color: transparent;}	
+.border-s-black{border-inline-start-color: rgb(0 0 0);}	
+.border-s-white{border-inline-start-color: rgb(255 255 255);}	
+.border-s-slate-50{border-inline-start-color: rgb(248 250 252);}	
+.border-s-slate-100{border-inline-start-color: rgb(241 245 249);}	
+.border-s-slate-200{border-inline-start-color: rgb(226 232 240);}	
+.border-s-slate-300{border-inline-start-color: rgb(203 213 225);}	
+.border-s-slate-400{border-inline-start-color: rgb(148 163 184);}	
+.border-s-slate-500{border-inline-start-color: rgb(100 116 139);}	
+.border-s-slate-600{border-inline-start-color: rgb(71 85 105);}	
+.border-s-slate-700{border-inline-start-color: rgb(51 65 85);}	
+.border-s-slate-800{border-inline-start-color: rgb(30 41 59);}	
+.border-s-slate-900{border-inline-start-color: rgb(15 23 42);}	
+.border-s-slate-950{border-inline-start-color: rgb(2 6 23);}	
+.border-s-gray-50{border-inline-start-color: rgb(249 250 251);}	
+.border-s-gray-100{border-inline-start-color: rgb(243 244 246);}	
+.border-s-gray-200{border-inline-start-color: rgb(229 231 235);}	
+.border-s-gray-300{border-inline-start-color: rgb(209 213 219);}	
+.border-s-gray-400{border-inline-start-color: rgb(156 163 175);}	
+.border-s-gray-500{border-inline-start-color: rgb(107 114 128);}	
+.border-s-gray-600{border-inline-start-color: rgb(75 85 99);}	
+.border-s-gray-700{border-inline-start-color: rgb(55 65 81);}	
+.border-s-gray-800{border-inline-start-color: rgb(31 41 55);}	
+.border-s-gray-900{border-inline-start-color: rgb(17 24 39);}	
+.border-s-gray-950{border-inline-start-color: rgb(3 7 18);}	
+.border-s-zinc-50{border-inline-start-color: rgb(250 250 250);}	
+.border-s-zinc-100{border-inline-start-color: rgb(244 244 245);}	
+.border-s-zinc-200{border-inline-start-color: rgb(228 228 231);}	
+.border-s-zinc-300{border-inline-start-color: rgb(212 212 216);}	
+.border-s-zinc-400{border-inline-start-color: rgb(161 161 170);}	
+.border-s-zinc-500{border-inline-start-color: rgb(113 113 122);}	
+.border-s-zinc-600{border-inline-start-color: rgb(82 82 91);}	
+.border-s-zinc-700{border-inline-start-color: rgb(63 63 70);}	
+.border-s-zinc-800{border-inline-start-color: rgb(39 39 42);}	
+.border-s-zinc-900{border-inline-start-color: rgb(24 24 27);}	
+.border-s-zinc-950{border-inline-start-color: rgb(9 9 11);}	
+.border-s-neutral-50{border-inline-start-color: rgb(250 250 250);}	
+.border-s-neutral-100{border-inline-start-color: rgb(245 245 245);}	
+.border-s-neutral-200{border-inline-start-color: rgb(229 229 229);}	
+.border-s-neutral-300{border-inline-start-color: rgb(212 212 212);}	
+.border-s-neutral-400{border-inline-start-color: rgb(163 163 163);}	
+.border-s-neutral-500{border-inline-start-color: rgb(115 115 115);}	
+.border-s-neutral-600{border-inline-start-color: rgb(82 82 82);}	
+.border-s-neutral-700{border-inline-start-color: rgb(64 64 64);}	
+.border-s-neutral-800{border-inline-start-color: rgb(38 38 38);}	
+.border-s-neutral-900{border-inline-start-color: rgb(23 23 23);}	
+.border-s-neutral-950{border-inline-start-color: rgb(10 10 10);}	
+.border-s-stone-50{border-inline-start-color: rgb(250 250 249);}	
+.border-s-stone-100{border-inline-start-color: rgb(245 245 244);}	
+.border-s-stone-200{border-inline-start-color: rgb(231 229 228);}	
+.border-s-stone-300{border-inline-start-color: rgb(214 211 209);}	
+.border-s-stone-400{border-inline-start-color: rgb(168 162 158);}	
+.border-s-stone-500{border-inline-start-color: rgb(120 113 108);}	
+.border-s-stone-600{border-inline-start-color: rgb(87 83 78);}	
+.border-s-stone-700{border-inline-start-color: rgb(68 64 60);}	
+.border-s-stone-800{border-inline-start-color: rgb(41 37 36);}	
+.border-s-stone-900{border-inline-start-color: rgb(28 25 23);}	
+.border-s-stone-950{border-inline-start-color: rgb(12 10 9);}	
+.border-s-red-50{border-inline-start-color: rgb(254 242 242);}	
+.border-s-red-100{border-inline-start-color: rgb(254 226 226);}	
+.border-s-red-200{border-inline-start-color: rgb(254 202 202);}	
+.border-s-red-300{border-inline-start-color: rgb(252 165 165);}	
+.border-s-red-400{border-inline-start-color: rgb(248 113 113);}	
+.border-s-red-500{border-inline-start-color: rgb(239 68 68);}	
+.border-s-red-600{border-inline-start-color: rgb(220 38 38);}	
+.border-s-red-700{border-inline-start-color: rgb(185 28 28);}	
+.border-s-red-800{border-inline-start-color: rgb(153 27 27);}	
+.border-s-red-900{border-inline-start-color: rgb(127 29 29);}	
+.border-s-red-950{border-inline-start-color: rgb(69 10 10);}	
+.border-s-orange-50{border-inline-start-color: rgb(255 247 237);}	
+.border-s-orange-100{border-inline-start-color: rgb(255 237 213);}	
+.border-s-orange-200{border-inline-start-color: rgb(254 215 170);}	
+.border-s-orange-300{border-inline-start-color: rgb(253 186 116);}	
+.border-s-orange-400{border-inline-start-color: rgb(251 146 60);}	
+.border-s-orange-500{border-inline-start-color: rgb(249 115 22);}	
+.border-s-orange-600{border-inline-start-color: rgb(234 88 12);}	
+.border-s-orange-700{border-inline-start-color: rgb(194 65 12);}	
+.border-s-orange-800{border-inline-start-color: rgb(154 52 18);}	
+.border-s-orange-900{border-inline-start-color: rgb(124 45 18);}	
+.border-s-orange-950{border-inline-start-color: rgb(67 20 7);}	
+.border-s-amber-50{border-inline-start-color: rgb(255 251 235);}	
+.border-s-amber-100{border-inline-start-color: rgb(254 243 199);}	
+.border-s-amber-200{border-inline-start-color: rgb(253 230 138);}	
+.border-s-amber-300{border-inline-start-color: rgb(252 211 77);}	
+.border-s-amber-400{border-inline-start-color: rgb(251 191 36);}	
+.border-s-amber-500{border-inline-start-color: rgb(245 158 11);}	
+.border-s-amber-600{border-inline-start-color: rgb(217 119 6);}	
+.border-s-amber-700{border-inline-start-color: rgb(180 83 9);}	
+.border-s-amber-800{border-inline-start-color: rgb(146 64 14);}	
+.border-s-amber-900{border-inline-start-color: rgb(120 53 15);}	
+.border-s-amber-950{border-inline-start-color: rgb(69 26 3);}	
+.border-s-yellow-50{border-inline-start-color: rgb(254 252 232);}	
+.border-s-yellow-100{border-inline-start-color: rgb(254 249 195);}	
+.border-s-yellow-200{border-inline-start-color: rgb(254 240 138);}	
+.border-s-yellow-300{border-inline-start-color: rgb(253 224 71);}	
+.border-s-yellow-400{border-inline-start-color: rgb(250 204 21);}	
+.border-s-yellow-500{border-inline-start-color: rgb(234 179 8);}	
+.border-s-yellow-600{border-inline-start-color: rgb(202 138 4);}	
+.border-s-yellow-700{border-inline-start-color: rgb(161 98 7);}	
+.border-s-yellow-800{border-inline-start-color: rgb(133 77 14);}	
+.border-s-yellow-900{border-inline-start-color: rgb(113 63 18);}	
+.border-s-yellow-950{border-inline-start-color: rgb(66 32 6);}	
+.border-s-lime-50{border-inline-start-color: rgb(247 254 231);}	
+.border-s-lime-100{border-inline-start-color: rgb(236 252 203);}	
+.border-s-lime-200{border-inline-start-color: rgb(217 249 157);}	
+.border-s-lime-300{border-inline-start-color: rgb(190 242 100);}	
+.border-s-lime-400{border-inline-start-color: rgb(163 230 53);}	
+.border-s-lime-500{border-inline-start-color: rgb(132 204 22);}	
+.border-s-lime-600{border-inline-start-color: rgb(101 163 13);}	
+.border-s-lime-700{border-inline-start-color: rgb(77 124 15);}	
+.border-s-lime-800{border-inline-start-color: rgb(63 98 18);}	
+.border-s-lime-900{border-inline-start-color: rgb(54 83 20);}	
+.border-s-lime-950{border-inline-start-color: rgb(26 46 5);}	
+.border-s-green-50{border-inline-start-color: rgb(240 253 244);}	
+.border-s-green-100{border-inline-start-color: rgb(220 252 231);}	
+.border-s-green-200{border-inline-start-color: rgb(187 247 208);}	
+.border-s-green-300{border-inline-start-color: rgb(134 239 172);}	
+.border-s-green-400{border-inline-start-color: rgb(74 222 128);}	
+.border-s-green-500{border-inline-start-color: rgb(34 197 94);}	
+.border-s-green-600{border-inline-start-color: rgb(22 163 74);}	
+.border-s-green-700{border-inline-start-color: rgb(21 128 61);}	
+.border-s-green-800{border-inline-start-color: rgb(22 101 52);}	
+.border-s-green-900{border-inline-start-color: rgb(20 83 45);}	
+.border-s-green-950{border-inline-start-color: rgb(5 46 22);}	
+.border-s-emerald-50{border-inline-start-color: rgb(236 253 245);}	
+.border-s-emerald-100{border-inline-start-color: rgb(209 250 229);}	
+.border-s-emerald-200{border-inline-start-color: rgb(167 243 208);}	
+.border-s-emerald-300{border-inline-start-color: rgb(110 231 183);}	
+.border-s-emerald-400{border-inline-start-color: rgb(52 211 153);}	
+.border-s-emerald-500{border-inline-start-color: rgb(16 185 129);}	
+.border-s-emerald-600{border-inline-start-color: rgb(5 150 105);}	
+.border-s-emerald-700{border-inline-start-color: rgb(4 120 87);}	
+.border-s-emerald-800{border-inline-start-color: rgb(6 95 70);}	
+.border-s-emerald-900{border-inline-start-color: rgb(6 78 59);}	
+.border-s-emerald-950{border-inline-start-color: rgb(2 44 34);}	
+.border-s-teal-50{border-inline-start-color: rgb(240 253 250);}	
+.border-s-teal-100{border-inline-start-color: rgb(204 251 241);}	
+.border-s-teal-200{border-inline-start-color: rgb(153 246 228);}	
+.border-s-teal-300{border-inline-start-color: rgb(94 234 212);}	
+.border-s-teal-400{border-inline-start-color: rgb(45 212 191);}	
+.border-s-teal-500{border-inline-start-color: rgb(20 184 166);}	
+.border-s-teal-600{border-inline-start-color: rgb(13 148 136);}	
+.border-s-teal-700{border-inline-start-color: rgb(15 118 110);}	
+.border-s-teal-800{border-inline-start-color: rgb(17 94 89);}	
+.border-s-teal-900{border-inline-start-color: rgb(19 78 74);}	
+.border-s-teal-950{border-inline-start-color: rgb(4 47 46);}	
+.border-s-cyan-50{border-inline-start-color: rgb(236 254 255);}	
+.border-s-cyan-100{border-inline-start-color: rgb(207 250 254);}	
+.border-s-cyan-200{border-inline-start-color: rgb(165 243 252);}	
+.border-s-cyan-300{border-inline-start-color: rgb(103 232 249);}	
+.border-s-cyan-400{border-inline-start-color: rgb(34 211 238);}	
+.border-s-cyan-500{border-inline-start-color: rgb(6 182 212);}	
+.border-s-cyan-600{border-inline-start-color: rgb(8 145 178);}	
+.border-s-cyan-700{border-inline-start-color: rgb(14 116 144);}	
+.border-s-cyan-800{border-inline-start-color: rgb(21 94 117);}	
+.border-s-cyan-900{border-inline-start-color: rgb(22 78 99);}	
+.border-s-cyan-950{border-inline-start-color: rgb(8 51 68);}	
+.border-s-sky-50{border-inline-start-color: rgb(240 249 255);}	
+.border-s-sky-100{border-inline-start-color: rgb(224 242 254);}	
+.border-s-sky-200{border-inline-start-color: rgb(186 230 253);}	
+.border-s-sky-300{border-inline-start-color: rgb(125 211 252);}	
+.border-s-sky-400{border-inline-start-color: rgb(56 189 248);}	
+.border-s-sky-500{border-inline-start-color: rgb(14 165 233);}	
+.border-s-sky-600{border-inline-start-color: rgb(2 132 199);}	
+.border-s-sky-700{border-inline-start-color: rgb(3 105 161);}	
+.border-s-sky-800{border-inline-start-color: rgb(7 89 133);}	
+.border-s-sky-900{border-inline-start-color: rgb(12 74 110);}	
+.border-s-sky-950{border-inline-start-color: rgb(8 47 73);}	
+.border-s-blue-50{border-inline-start-color: rgb(239 246 255);}	
+.border-s-blue-100{border-inline-start-color: rgb(219 234 254);}	
+.border-s-blue-200{border-inline-start-color: rgb(191 219 254);}	
+.border-s-blue-300{border-inline-start-color: rgb(147 197 253);}	
+.border-s-blue-400{border-inline-start-color: rgb(96 165 250);}	
+.border-s-blue-500{border-inline-start-color: rgb(59 130 246);}	
+.border-s-blue-600{border-inline-start-color: rgb(37 99 235);}	
+.border-s-blue-700{border-inline-start-color: rgb(29 78 216);}	
+.border-s-blue-800{border-inline-start-color: rgb(30 64 175);}	
+.border-s-blue-900{border-inline-start-color: rgb(30 58 138);}	
+.border-s-blue-950{border-inline-start-color: rgb(23 37 84);}	
+.border-s-indigo-50{border-inline-start-color: rgb(238 242 255);}	
+.border-s-indigo-100{border-inline-start-color: rgb(224 231 255);}	
+.border-s-indigo-200{border-inline-start-color: rgb(199 210 254);}	
+.border-s-indigo-300{border-inline-start-color: rgb(165 180 252);}	
+.border-s-indigo-400{border-inline-start-color: rgb(129 140 248);}	
+.border-s-indigo-500{border-inline-start-color: rgb(99 102 241);}	
+.border-s-indigo-600{border-inline-start-color: rgb(79 70 229);}	
+.border-s-indigo-700{border-inline-start-color: rgb(67 56 202);}	
+.border-s-indigo-800{border-inline-start-color: rgb(55 48 163);}	
+.border-s-indigo-900{border-inline-start-color: rgb(49 46 129);}	
+.border-s-indigo-950{border-inline-start-color: rgb(30 27 75);}	
+.border-s-violet-50{border-inline-start-color: rgb(245 243 255);}	
+.border-s-violet-100{border-inline-start-color: rgb(237 233 254);}	
+.border-s-violet-200{border-inline-start-color: rgb(221 214 254);}	
+.border-s-violet-300{border-inline-start-color: rgb(196 181 253);}	
+.border-s-violet-400{border-inline-start-color: rgb(167 139 250);}	
+.border-s-violet-500{border-inline-start-color: rgb(139 92 246);}	
+.border-s-violet-600{border-inline-start-color: rgb(124 58 237);}	
+.border-s-violet-700{border-inline-start-color: rgb(109 40 217);}	
+.border-s-violet-800{border-inline-start-color: rgb(91 33 182);}	
+.border-s-violet-900{border-inline-start-color: rgb(76 29 149);}	
+.border-s-violet-950{border-inline-start-color: rgb(46 16 101);}	
+.border-s-purple-50{border-inline-start-color: rgb(250 245 255);}	
+.border-s-purple-100{border-inline-start-color: rgb(243 232 255);}	
+.border-s-purple-200{border-inline-start-color: rgb(233 213 255);}	
+.border-s-purple-300{border-inline-start-color: rgb(216 180 254);}	
+.border-s-purple-400{border-inline-start-color: rgb(192 132 252);}	
+.border-s-purple-500{border-inline-start-color: rgb(168 85 247);}	
+.border-s-purple-600{border-inline-start-color: rgb(147 51 234);}	
+.border-s-purple-700{border-inline-start-color: rgb(126 34 206);}	
+.border-s-purple-800{border-inline-start-color: rgb(107 33 168);}	
+.border-s-purple-900{border-inline-start-color: rgb(88 28 135);}	
+.border-s-purple-950{border-inline-start-color: rgb(59 7 100);}	
+.border-s-fuchsia-50{border-inline-start-color: rgb(253 244 255);}	
+.border-s-fuchsia-100{border-inline-start-color: rgb(250 232 255);}	
+.border-s-fuchsia-200{border-inline-start-color: rgb(245 208 254);}	
+.border-s-fuchsia-300{border-inline-start-color: rgb(240 171 252);}	
+.border-s-fuchsia-400{border-inline-start-color: rgb(232 121 249);}	
+.border-s-fuchsia-500{border-inline-start-color: rgb(217 70 239);}	
+.border-s-fuchsia-600{border-inline-start-color: rgb(192 38 211);}	
+.border-s-fuchsia-700{border-inline-start-color: rgb(162 28 175);}	
+.border-s-fuchsia-800{border-inline-start-color: rgb(134 25 143);}	
+.border-s-fuchsia-900{border-inline-start-color: rgb(112 26 117);}	
+.border-s-fuchsia-950{border-inline-start-color: rgb(74 4 78);}	
+.border-s-pink-50{border-inline-start-color: rgb(253 242 248);}	
+.border-s-pink-100{border-inline-start-color: rgb(252 231 243);}	
+.border-s-pink-200{border-inline-start-color: rgb(251 207 232);}	
+.border-s-pink-300{border-inline-start-color: rgb(249 168 212);}	
+.border-s-pink-400{border-inline-start-color: rgb(244 114 182);}	
+.border-s-pink-500{border-inline-start-color: rgb(236 72 153);}	
+.border-s-pink-600{border-inline-start-color: rgb(219 39 119);}	
+.border-s-pink-700{border-inline-start-color: rgb(190 24 93);}	
+.border-s-pink-800{border-inline-start-color: rgb(157 23 77);}	
+.border-s-pink-900{border-inline-start-color: rgb(131 24 67);}	
+.border-s-pink-950{border-inline-start-color: rgb(80 7 36);}	
+.border-s-rose-50{border-inline-start-color: rgb(255 241 242);}	
+.border-s-rose-100{border-inline-start-color: rgb(255 228 230);}	
+.border-s-rose-200{border-inline-start-color: rgb(254 205 211);}	
+.border-s-rose-300{border-inline-start-color: rgb(253 164 175);}	
+.border-s-rose-400{border-inline-start-color: rgb(251 113 133);}	
+.border-s-rose-500{border-inline-start-color: rgb(244 63 94);}	
+.border-s-rose-600{border-inline-start-color: rgb(225 29 72);}	
+.border-s-rose-700{border-inline-start-color: rgb(190 18 60);}	
+.border-s-rose-800{border-inline-start-color: rgb(159 18 57);}	
+.border-s-rose-900{border-inline-start-color: rgb(136 19 55);}	
+.border-s-rose-950{border-inline-start-color: rgb(76 5 25);}	
+.border-e-inherit{border-inline-end-color: inherit;}	
+.border-e-current{border-inline-end-color: currentColor;}	
+.border-e-transparent{border-inline-end-color: transparent;}	
+.border-e-black{border-inline-end-color: rgb(0 0 0);}	
+.border-e-white{border-inline-end-color: rgb(255 255 255);}	
+.border-e-slate-50{border-inline-end-color: rgb(248 250 252);}	
+.border-e-slate-100{border-inline-end-color: rgb(241 245 249);}	
+.border-e-slate-200{border-inline-end-color: rgb(226 232 240);}	
+.border-e-slate-300{border-inline-end-color: rgb(203 213 225);}	
+.border-e-slate-400{border-inline-end-color: rgb(148 163 184);}	
+.border-e-slate-500{border-inline-end-color: rgb(100 116 139);}	
+.border-e-slate-600{border-inline-end-color: rgb(71 85 105);}	
+.border-e-slate-700{border-inline-end-color: rgb(51 65 85);}	
+.border-e-slate-800{border-inline-end-color: rgb(30 41 59);}	
+.border-e-slate-900{border-inline-end-color: rgb(15 23 42);}	
+.border-e-slate-950{border-inline-end-color: rgb(2 6 23);}	
+.border-e-gray-50{border-inline-end-color: rgb(249 250 251);}	
+.border-e-gray-100{border-inline-end-color: rgb(243 244 246);}	
+.border-e-gray-200{border-inline-end-color: rgb(229 231 235);}	
+.border-e-gray-300{border-inline-end-color: rgb(209 213 219);}	
+.border-e-gray-400{border-inline-end-color: rgb(156 163 175);}	
+.border-e-gray-500{border-inline-end-color: rgb(107 114 128);}	
+.border-e-gray-600{border-inline-end-color: rgb(75 85 99);}	
+.border-e-gray-700{border-inline-end-color: rgb(55 65 81);}	
+.border-e-gray-800{border-inline-end-color: rgb(31 41 55);}	
+.border-e-gray-900{border-inline-end-color: rgb(17 24 39);}	
+.border-e-gray-950{border-inline-end-color: rgb(3 7 18);}	
+.border-e-zinc-50{border-inline-end-color: rgb(250 250 250);}	
+.border-e-zinc-100{border-inline-end-color: rgb(244 244 245);}	
+.border-e-zinc-200{border-inline-end-color: rgb(228 228 231);}	
+.border-e-zinc-300{border-inline-end-color: rgb(212 212 216);}	
+.border-e-zinc-400{border-inline-end-color: rgb(161 161 170);}	
+.border-e-zinc-500{border-inline-end-color: rgb(113 113 122);}	
+.border-e-zinc-600{border-inline-end-color: rgb(82 82 91);}	
+.border-e-zinc-700{border-inline-end-color: rgb(63 63 70);}	
+.border-e-zinc-800{border-inline-end-color: rgb(39 39 42);}	
+.border-e-zinc-900{border-inline-end-color: rgb(24 24 27);}	
+.border-e-zinc-950{border-inline-end-color: rgb(9 9 11);}	
+.border-e-neutral-50{border-inline-end-color: rgb(250 250 250);}	
+.border-e-neutral-100{border-inline-end-color: rgb(245 245 245);}	
+.border-e-neutral-200{border-inline-end-color: rgb(229 229 229);}	
+.border-e-neutral-300{border-inline-end-color: rgb(212 212 212);}	
+.border-e-neutral-400{border-inline-end-color: rgb(163 163 163);}	
+.border-e-neutral-500{border-inline-end-color: rgb(115 115 115);}	
+.border-e-neutral-600{border-inline-end-color: rgb(82 82 82);}	
+.border-e-neutral-700{border-inline-end-color: rgb(64 64 64);}	
+.border-e-neutral-800{border-inline-end-color: rgb(38 38 38);}	
+.border-e-neutral-900{border-inline-end-color: rgb(23 23 23);}	
+.border-e-neutral-950{border-inline-end-color: rgb(10 10 10);}	
+.border-e-stone-50{border-inline-end-color: rgb(250 250 249);}	
+.border-e-stone-100{border-inline-end-color: rgb(245 245 244);}	
+.border-e-stone-200{border-inline-end-color: rgb(231 229 228);}	
+.border-e-stone-300{border-inline-end-color: rgb(214 211 209);}	
+.border-e-stone-400{border-inline-end-color: rgb(168 162 158);}	
+.border-e-stone-500{border-inline-end-color: rgb(120 113 108);}	
+.border-e-stone-600{border-inline-end-color: rgb(87 83 78);}	
+.border-e-stone-700{border-inline-end-color: rgb(68 64 60);}	
+.border-e-stone-800{border-inline-end-color: rgb(41 37 36);}	
+.border-e-stone-900{border-inline-end-color: rgb(28 25 23);}	
+.border-e-stone-950{border-inline-end-color: rgb(12 10 9);}	
+.border-e-red-50{border-inline-end-color: rgb(254 242 242);}	
+.border-e-red-100{border-inline-end-color: rgb(254 226 226);}	
+.border-e-red-200{border-inline-end-color: rgb(254 202 202);}	
+.border-e-red-300{border-inline-end-color: rgb(252 165 165);}	
+.border-e-red-400{border-inline-end-color: rgb(248 113 113);}	
+.border-e-red-500{border-inline-end-color: rgb(239 68 68);}	
+.border-e-red-600{border-inline-end-color: rgb(220 38 38);}	
+.border-e-red-700{border-inline-end-color: rgb(185 28 28);}	
+.border-e-red-800{border-inline-end-color: rgb(153 27 27);}	
+.border-e-red-900{border-inline-end-color: rgb(127 29 29);}	
+.border-e-red-950{border-inline-end-color: rgb(69 10 10);}	
+.border-e-orange-50{border-inline-end-color: rgb(255 247 237);}	
+.border-e-orange-100{border-inline-end-color: rgb(255 237 213);}	
+.border-e-orange-200{border-inline-end-color: rgb(254 215 170);}	
+.border-e-orange-300{border-inline-end-color: rgb(253 186 116);}	
+.border-e-orange-400{border-inline-end-color: rgb(251 146 60);}	
+.border-e-orange-500{border-inline-end-color: rgb(249 115 22);}	
+.border-e-orange-600{border-inline-end-color: rgb(234 88 12);}	
+.border-e-orange-700{border-inline-end-color: rgb(194 65 12);}	
+.border-e-orange-800{border-inline-end-color: rgb(154 52 18);}	
+.border-e-orange-900{border-inline-end-color: rgb(124 45 18);}	
+.border-e-orange-950{border-inline-end-color: rgb(67 20 7);}	
+.border-e-amber-50{border-inline-end-color: rgb(255 251 235);}	
+.border-e-amber-100{border-inline-end-color: rgb(254 243 199);}	
+.border-e-amber-200{border-inline-end-color: rgb(253 230 138);}	
+.border-e-amber-300{border-inline-end-color: rgb(252 211 77);}	
+.border-e-amber-400{border-inline-end-color: rgb(251 191 36);}	
+.border-e-amber-500{border-inline-end-color: rgb(245 158 11);}	
+.border-e-amber-600{border-inline-end-color: rgb(217 119 6);}	
+.border-e-amber-700{border-inline-end-color: rgb(180 83 9);}	
+.border-e-amber-800{border-inline-end-color: rgb(146 64 14);}	
+.border-e-amber-900{border-inline-end-color: rgb(120 53 15);}	
+.border-e-amber-950{border-inline-end-color: rgb(69 26 3);}	
+.border-e-yellow-50{border-inline-end-color: rgb(254 252 232);}	
+.border-e-yellow-100{border-inline-end-color: rgb(254 249 195);}	
+.border-e-yellow-200{border-inline-end-color: rgb(254 240 138);}	
+.border-e-yellow-300{border-inline-end-color: rgb(253 224 71);}	
+.border-e-yellow-400{border-inline-end-color: rgb(250 204 21);}	
+.border-e-yellow-500{border-inline-end-color: rgb(234 179 8);}	
+.border-e-yellow-600{border-inline-end-color: rgb(202 138 4);}	
+.border-e-yellow-700{border-inline-end-color: rgb(161 98 7);}	
+.border-e-yellow-800{border-inline-end-color: rgb(133 77 14);}	
+.border-e-yellow-900{border-inline-end-color: rgb(113 63 18);}	
+.border-e-yellow-950{border-inline-end-color: rgb(66 32 6);}	
+.border-e-lime-50{border-inline-end-color: rgb(247 254 231);}	
+.border-e-lime-100{border-inline-end-color: rgb(236 252 203);}	
+.border-e-lime-200{border-inline-end-color: rgb(217 249 157);}	
+.border-e-lime-300{border-inline-end-color: rgb(190 242 100);}	
+.border-e-lime-400{border-inline-end-color: rgb(163 230 53);}	
+.border-e-lime-500{border-inline-end-color: rgb(132 204 22);}	
+.border-e-lime-600{border-inline-end-color: rgb(101 163 13);}	
+.border-e-lime-700{border-inline-end-color: rgb(77 124 15);}	
+.border-e-lime-800{border-inline-end-color: rgb(63 98 18);}	
+.border-e-lime-900{border-inline-end-color: rgb(54 83 20);}	
+.border-e-lime-950{border-inline-end-color: rgb(26 46 5);}	
+.border-e-green-50{border-inline-end-color: rgb(240 253 244);}	
+.border-e-green-100{border-inline-end-color: rgb(220 252 231);}	
+.border-e-green-200{border-inline-end-color: rgb(187 247 208);}	
+.border-e-green-300{border-inline-end-color: rgb(134 239 172);}	
+.border-e-green-400{border-inline-end-color: rgb(74 222 128);}	
+.border-e-green-500{border-inline-end-color: rgb(34 197 94);}	
+.border-e-green-600{border-inline-end-color: rgb(22 163 74);}	
+.border-e-green-700{border-inline-end-color: rgb(21 128 61);}	
+.border-e-green-800{border-inline-end-color: rgb(22 101 52);}	
+.border-e-green-900{border-inline-end-color: rgb(20 83 45);}	
+.border-e-green-950{border-inline-end-color: rgb(5 46 22);}	
+.border-e-emerald-50{border-inline-end-color: rgb(236 253 245);}	
+.border-e-emerald-100{border-inline-end-color: rgb(209 250 229);}	
+.border-e-emerald-200{border-inline-end-color: rgb(167 243 208);}	
+.border-e-emerald-300{border-inline-end-color: rgb(110 231 183);}	
+.border-e-emerald-400{border-inline-end-color: rgb(52 211 153);}	
+.border-e-emerald-500{border-inline-end-color: rgb(16 185 129);}	
+.border-e-emerald-600{border-inline-end-color: rgb(5 150 105);}	
+.border-e-emerald-700{border-inline-end-color: rgb(4 120 87);}	
+.border-e-emerald-800{border-inline-end-color: rgb(6 95 70);}	
+.border-e-emerald-900{border-inline-end-color: rgb(6 78 59);}	
+.border-e-emerald-950{border-inline-end-color: rgb(2 44 34);}	
+.border-e-teal-50{border-inline-end-color: rgb(240 253 250);}	
+.border-e-teal-100{border-inline-end-color: rgb(204 251 241);}	
+.border-e-teal-200{border-inline-end-color: rgb(153 246 228);}	
+.border-e-teal-300{border-inline-end-color: rgb(94 234 212);}	
+.border-e-teal-400{border-inline-end-color: rgb(45 212 191);}	
+.border-e-teal-500{border-inline-end-color: rgb(20 184 166);}	
+.border-e-teal-600{border-inline-end-color: rgb(13 148 136);}	
+.border-e-teal-700{border-inline-end-color: rgb(15 118 110);}	
+.border-e-teal-800{border-inline-end-color: rgb(17 94 89);}	
+.border-e-teal-900{border-inline-end-color: rgb(19 78 74);}	
+.border-e-teal-950{border-inline-end-color: rgb(4 47 46);}	
+.border-e-cyan-50{border-inline-end-color: rgb(236 254 255);}	
+.border-e-cyan-100{border-inline-end-color: rgb(207 250 254);}	
+.border-e-cyan-200{border-inline-end-color: rgb(165 243 252);}	
+.border-e-cyan-300{border-inline-end-color: rgb(103 232 249);}	
+.border-e-cyan-400{border-inline-end-color: rgb(34 211 238);}	
+.border-e-cyan-500{border-inline-end-color: rgb(6 182 212);}	
+.border-e-cyan-600{border-inline-end-color: rgb(8 145 178);}	
+.border-e-cyan-700{border-inline-end-color: rgb(14 116 144);}	
+.border-e-cyan-800{border-inline-end-color: rgb(21 94 117);}	
+.border-e-cyan-900{border-inline-end-color: rgb(22 78 99);}	
+.border-e-cyan-950{border-inline-end-color: rgb(8 51 68);}	
+.border-e-sky-50{border-inline-end-color: rgb(240 249 255);}	
+.border-e-sky-100{border-inline-end-color: rgb(224 242 254);}	
+.border-e-sky-200{border-inline-end-color: rgb(186 230 253);}	
+.border-e-sky-300{border-inline-end-color: rgb(125 211 252);}	
+.border-e-sky-400{border-inline-end-color: rgb(56 189 248);}	
+.border-e-sky-500{border-inline-end-color: rgb(14 165 233);}	
+.border-e-sky-600{border-inline-end-color: rgb(2 132 199);}	
+.border-e-sky-700{border-inline-end-color: rgb(3 105 161);}	
+.border-e-sky-800{border-inline-end-color: rgb(7 89 133);}	
+.border-e-sky-900{border-inline-end-color: rgb(12 74 110);}	
+.border-e-sky-950{border-inline-end-color: rgb(8 47 73);}	
+.border-e-blue-50{border-inline-end-color: rgb(239 246 255);}	
+.border-e-blue-100{border-inline-end-color: rgb(219 234 254);}	
+.border-e-blue-200{border-inline-end-color: rgb(191 219 254);}	
+.border-e-blue-300{border-inline-end-color: rgb(147 197 253);}	
+.border-e-blue-400{border-inline-end-color: rgb(96 165 250);}	
+.border-e-blue-500{border-inline-end-color: rgb(59 130 246);}	
+.border-e-blue-600{border-inline-end-color: rgb(37 99 235);}	
+.border-e-blue-700{border-inline-end-color: rgb(29 78 216);}	
+.border-e-blue-800{border-inline-end-color: rgb(30 64 175);}	
+.border-e-blue-900{border-inline-end-color: rgb(30 58 138);}	
+.border-e-blue-950{border-inline-end-color: rgb(23 37 84);}	
+.border-e-indigo-50{border-inline-end-color: rgb(238 242 255);}	
+.border-e-indigo-100{border-inline-end-color: rgb(224 231 255);}	
+.border-e-indigo-200{border-inline-end-color: rgb(199 210 254);}	
+.border-e-indigo-300{border-inline-end-color: rgb(165 180 252);}	
+.border-e-indigo-400{border-inline-end-color: rgb(129 140 248);}	
+.border-e-indigo-500{border-inline-end-color: rgb(99 102 241);}	
+.border-e-indigo-600{border-inline-end-color: rgb(79 70 229);}	
+.border-e-indigo-700{border-inline-end-color: rgb(67 56 202);}	
+.border-e-indigo-800{border-inline-end-color: rgb(55 48 163);}	
+.border-e-indigo-900{border-inline-end-color: rgb(49 46 129);}	
+.border-e-indigo-950{border-inline-end-color: rgb(30 27 75);}	
+.border-e-violet-50{border-inline-end-color: rgb(245 243 255);}	
+.border-e-violet-100{border-inline-end-color: rgb(237 233 254);}	
+.border-e-violet-200{border-inline-end-color: rgb(221 214 254);}	
+.border-e-violet-300{border-inline-end-color: rgb(196 181 253);}	
+.border-e-violet-400{border-inline-end-color: rgb(167 139 250);}	
+.border-e-violet-500{border-inline-end-color: rgb(139 92 246);}	
+.border-e-violet-600{border-inline-end-color: rgb(124 58 237);}	
+.border-e-violet-700{border-inline-end-color: rgb(109 40 217);}	
+.border-e-violet-800{border-inline-end-color: rgb(91 33 182);}	
+.border-e-violet-900{border-inline-end-color: rgb(76 29 149);}	
+.border-e-violet-950{border-inline-end-color: rgb(46 16 101);}	
+.border-e-purple-50{border-inline-end-color: rgb(250 245 255);}	
+.border-e-purple-100{border-inline-end-color: rgb(243 232 255);}	
+.border-e-purple-200{border-inline-end-color: rgb(233 213 255);}	
+.border-e-purple-300{border-inline-end-color: rgb(216 180 254);}	
+.border-e-purple-400{border-inline-end-color: rgb(192 132 252);}	
+.border-e-purple-500{border-inline-end-color: rgb(168 85 247);}	
+.border-e-purple-600{border-inline-end-color: rgb(147 51 234);}	
+.border-e-purple-700{border-inline-end-color: rgb(126 34 206);}	
+.border-e-purple-800{border-inline-end-color: rgb(107 33 168);}	
+.border-e-purple-900{border-inline-end-color: rgb(88 28 135);}	
+.border-e-purple-950{border-inline-end-color: rgb(59 7 100);}	
+.border-e-fuchsia-50{border-inline-end-color: rgb(253 244 255);}	
+.border-e-fuchsia-100{border-inline-end-color: rgb(250 232 255);}	
+.border-e-fuchsia-200{border-inline-end-color: rgb(245 208 254);}	
+.border-e-fuchsia-300{border-inline-end-color: rgb(240 171 252);}	
+.border-e-fuchsia-400{border-inline-end-color: rgb(232 121 249);}	
+.border-e-fuchsia-500{border-inline-end-color: rgb(217 70 239);}	
+.border-e-fuchsia-600{border-inline-end-color: rgb(192 38 211);}	
+.border-e-fuchsia-700{border-inline-end-color: rgb(162 28 175);}	
+.border-e-fuchsia-800{border-inline-end-color: rgb(134 25 143);}	
+.border-e-fuchsia-900{border-inline-end-color: rgb(112 26 117);}	
+.border-e-fuchsia-950{border-inline-end-color: rgb(74 4 78);}	
+.border-e-pink-50{border-inline-end-color: rgb(253 242 248);}	
+.border-e-pink-100{border-inline-end-color: rgb(252 231 243);}	
+.border-e-pink-200{border-inline-end-color: rgb(251 207 232);}	
+.border-e-pink-300{border-inline-end-color: rgb(249 168 212);}	
+.border-e-pink-400{border-inline-end-color: rgb(244 114 182);}	
+.border-e-pink-500{border-inline-end-color: rgb(236 72 153);}	
+.border-e-pink-600{border-inline-end-color: rgb(219 39 119);}	
+.border-e-pink-700{border-inline-end-color: rgb(190 24 93);}	
+.border-e-pink-800{border-inline-end-color: rgb(157 23 77);}	
+.border-e-pink-900{border-inline-end-color: rgb(131 24 67);}	
+.border-e-pink-950{border-inline-end-color: rgb(80 7 36);}	
+.border-e-rose-50{border-inline-end-color: rgb(255 241 242);}	
+.border-e-rose-100{border-inline-end-color: rgb(255 228 230);}	
+.border-e-rose-200{border-inline-end-color: rgb(254 205 211);}	
+.border-e-rose-300{border-inline-end-color: rgb(253 164 175);}	
+.border-e-rose-400{border-inline-end-color: rgb(251 113 133);}	
+.border-e-rose-500{border-inline-end-color: rgb(244 63 94);}	
+.border-e-rose-600{border-inline-end-color: rgb(225 29 72);}	
+.border-e-rose-700{border-inline-end-color: rgb(190 18 60);}	
+.border-e-rose-800{border-inline-end-color: rgb(159 18 57);}	
+.border-e-rose-900{border-inline-end-color: rgb(136 19 55);}	
+.border-e-rose-950{border-inline-end-color: rgb(76 5 25);}	
+.border-t-inherit{border-top-color: inherit;}	
+.border-t-current{border-top-color: currentColor;}	
+.border-t-transparent{border-top-color: transparent;}	
+.border-t-black{border-top-color: rgb(0 0 0);}	
+.border-t-white{border-top-color: rgb(255 255 255);}	
+.border-t-slate-50{border-top-color: rgb(248 250 252);}	
+.border-t-slate-100{border-top-color: rgb(241 245 249);}	
+.border-t-slate-200{border-top-color: rgb(226 232 240);}	
+.border-t-slate-300{border-top-color: rgb(203 213 225);}	
+.border-t-slate-400{border-top-color: rgb(148 163 184);}	
+.border-t-slate-500{border-top-color: rgb(100 116 139);}	
+.border-t-slate-600{border-top-color: rgb(71 85 105);}	
+.border-t-slate-700{border-top-color: rgb(51 65 85);}	
+.border-t-slate-800{border-top-color: rgb(30 41 59);}	
+.border-t-slate-900{border-top-color: rgb(15 23 42);}	
+.border-t-slate-950{border-top-color: rgb(2 6 23);}	
+.border-t-gray-50{border-top-color: rgb(249 250 251);}	
+.border-t-gray-100{border-top-color: rgb(243 244 246);}	
+.border-t-gray-200{border-top-color: rgb(229 231 235);}	
+.border-t-gray-300{border-top-color: rgb(209 213 219);}	
+.border-t-gray-400{border-top-color: rgb(156 163 175);}	
+.border-t-gray-500{border-top-color: rgb(107 114 128);}	
+.border-t-gray-600{border-top-color: rgb(75 85 99);}	
+.border-t-gray-700{border-top-color: rgb(55 65 81);}	
+.border-t-gray-800{border-top-color: rgb(31 41 55);}	
+.border-t-gray-900{border-top-color: rgb(17 24 39);}	
+.border-t-gray-950{border-top-color: rgb(3 7 18);}	
+.border-t-zinc-50{border-top-color: rgb(250 250 250);}	
+.border-t-zinc-100{border-top-color: rgb(244 244 245);}	
+.border-t-zinc-200{border-top-color: rgb(228 228 231);}	
+.border-t-zinc-300{border-top-color: rgb(212 212 216);}	
+.border-t-zinc-400{border-top-color: rgb(161 161 170);}	
+.border-t-zinc-500{border-top-color: rgb(113 113 122);}	
+.border-t-zinc-600{border-top-color: rgb(82 82 91);}	
+.border-t-zinc-700{border-top-color: rgb(63 63 70);}	
+.border-t-zinc-800{border-top-color: rgb(39 39 42);}	
+.border-t-zinc-900{border-top-color: rgb(24 24 27);}	
+.border-t-zinc-950{border-top-color: rgb(9 9 11);}	
+.border-t-neutral-50{border-top-color: rgb(250 250 250);}	
+.border-t-neutral-100{border-top-color: rgb(245 245 245);}	
+.border-t-neutral-200{border-top-color: rgb(229 229 229);}	
+.border-t-neutral-300{border-top-color: rgb(212 212 212);}	
+.border-t-neutral-400{border-top-color: rgb(163 163 163);}	
+.border-t-neutral-500{border-top-color: rgb(115 115 115);}	
+.border-t-neutral-600{border-top-color: rgb(82 82 82);}	
+.border-t-neutral-700{border-top-color: rgb(64 64 64);}	
+.border-t-neutral-800{border-top-color: rgb(38 38 38);}	
+.border-t-neutral-900{border-top-color: rgb(23 23 23);}	
+.border-t-neutral-950{border-top-color: rgb(10 10 10);}	
+.border-t-stone-50{border-top-color: rgb(250 250 249);}	
+.border-t-stone-100{border-top-color: rgb(245 245 244);}	
+.border-t-stone-200{border-top-color: rgb(231 229 228);}	
+.border-t-stone-300{border-top-color: rgb(214 211 209);}	
+.border-t-stone-400{border-top-color: rgb(168 162 158);}	
+.border-t-stone-500{border-top-color: rgb(120 113 108);}	
+.border-t-stone-600{border-top-color: rgb(87 83 78);}	
+.border-t-stone-700{border-top-color: rgb(68 64 60);}	
+.border-t-stone-800{border-top-color: rgb(41 37 36);}	
+.border-t-stone-900{border-top-color: rgb(28 25 23);}	
+.border-t-stone-950{border-top-color: rgb(12 10 9);}	
+.border-t-red-50{border-top-color: rgb(254 242 242);}	
+.border-t-red-100{border-top-color: rgb(254 226 226);}	
+.border-t-red-200{border-top-color: rgb(254 202 202);}	
+.border-t-red-300{border-top-color: rgb(252 165 165);}	
+.border-t-red-400{border-top-color: rgb(248 113 113);}	
+.border-t-red-500{border-top-color: rgb(239 68 68);}	
+.border-t-red-600{border-top-color: rgb(220 38 38);}	
+.border-t-red-700{border-top-color: rgb(185 28 28);}	
+.border-t-red-800{border-top-color: rgb(153 27 27);}	
+.border-t-red-900{border-top-color: rgb(127 29 29);}	
+.border-t-red-950{border-top-color: rgb(69 10 10);}	
+.border-t-orange-50{border-top-color: rgb(255 247 237);}	
+.border-t-orange-100{border-top-color: rgb(255 237 213);}	
+.border-t-orange-200{border-top-color: rgb(254 215 170);}	
+.border-t-orange-300{border-top-color: rgb(253 186 116);}	
+.border-t-orange-400{border-top-color: rgb(251 146 60);}	
+.border-t-orange-500{border-top-color: rgb(249 115 22);}	
+.border-t-orange-600{border-top-color: rgb(234 88 12);}	
+.border-t-orange-700{border-top-color: rgb(194 65 12);}	
+.border-t-orange-800{border-top-color: rgb(154 52 18);}	
+.border-t-orange-900{border-top-color: rgb(124 45 18);}	
+.border-t-orange-950{border-top-color: rgb(67 20 7);}	
+.border-t-amber-50{border-top-color: rgb(255 251 235);}	
+.border-t-amber-100{border-top-color: rgb(254 243 199);}	
+.border-t-amber-200{border-top-color: rgb(253 230 138);}	
+.border-t-amber-300{border-top-color: rgb(252 211 77);}	
+.border-t-amber-400{border-top-color: rgb(251 191 36);}	
+.border-t-amber-500{border-top-color: rgb(245 158 11);}	
+.border-t-amber-600{border-top-color: rgb(217 119 6);}	
+.border-t-amber-700{border-top-color: rgb(180 83 9);}	
+.border-t-amber-800{border-top-color: rgb(146 64 14);}	
+.border-t-amber-900{border-top-color: rgb(120 53 15);}	
+.border-t-amber-950{border-top-color: rgb(69 26 3);}	
+.border-t-yellow-50{border-top-color: rgb(254 252 232);}	 
+.border-t-yellow-100{border-top-color: rgb(254 249 195);}	 
+.border-t-yellow-200{border-top-color: rgb(254 240 138);}	 
+.border-t-yellow-300{border-top-color: rgb(253 224 71);}	 
+.border-t-yellow-400{border-top-color: rgb(250 204 21);}	 
+.border-t-yellow-500{border-top-color: rgb(234 179 8);}	 
+.border-t-yellow-600{border-top-color: rgb(202 138 4);}	 
+.border-t-yellow-700{border-top-color: rgb(161 98 7);}	 
+.border-t-yellow-800{border-top-color: rgb(133 77 14);}	 
+.border-t-yellow-900{border-top-color: rgb(113 63 18);}	 
+.border-t-yellow-950{border-top-color: rgb(66 32 6);}	 
+.border-t-lime-50{border-top-color: rgb(247 254 231);}	 
+.border-t-lime-100{border-top-color: rgb(236 252 203);}	 
+.border-t-lime-200{border-top-color: rgb(217 249 157);}	 
+.border-t-lime-300{border-top-color: rgb(190 242 100);}	 
+.border-t-lime-400{border-top-color: rgb(163 230 53);}	 
+.border-t-lime-500{border-top-color: rgb(132 204 22);}	 
+.border-t-lime-600{border-top-color: rgb(101 163 13);}	 
+.border-t-lime-700{border-top-color: rgb(77 124 15);}	 
+.border-t-lime-800{border-top-color: rgb(63 98 18);}	 
+.border-t-lime-900{border-top-color: rgb(54 83 20);}	 
+.border-t-lime-950{border-top-color: rgb(26 46 5);}	 
+.border-t-green-50{border-top-color: rgb(240 253 244);}	 
+.border-t-green-100{border-top-color: rgb(220 252 231);}	
+.border-t-green-200{border-top-color: rgb(187 247 208);}	
+.border-t-green-300{border-top-color: rgb(134 239 172);}	
+.border-t-green-400{border-top-color: rgb(74 222 128);}	
+.border-t-green-500{border-top-color: rgb(34 197 94);}	
+.border-t-green-600{border-top-color: rgb(22 163 74);}	
+.border-t-green-700{border-top-color: rgb(21 128 61);}	
+.border-t-green-800{border-top-color: rgb(22 101 52);}	
+.border-t-green-900{border-top-color: rgb(20 83 45);}	
+.border-t-green-950{border-top-color: rgb(5 46 22);}	
+.border-t-emerald-50{border-top-color: rgb(236 253 245);}	
+.border-t-emerald-100{border-top-color: rgb(209 250 229);}	
+.border-t-emerald-200{border-top-color: rgb(167 243 208);}	
+.border-t-emerald-300{border-top-color: rgb(110 231 183);}	
+.border-t-emerald-400{border-top-color: rgb(52 211 153);}	
+.border-t-emerald-500{border-top-color: rgb(16 185 129);}	
+.border-t-emerald-600{border-top-color: rgb(5 150 105);}	
+.border-t-emerald-700{border-top-color: rgb(4 120 87);}	
+.border-t-emerald-800{border-top-color: rgb(6 95 70);}	
+.border-t-emerald-900{border-top-color: rgb(6 78 59);}	
+.border-t-emerald-950{border-top-color: rgb(2 44 34);}	
+.border-t-teal-50{border-top-color: rgb(240 253 250);}	
+.border-t-teal-100{border-top-color: rgb(204 251 241);}	
+.border-t-teal-200{border-top-color: rgb(153 246 228);}	
+.border-t-teal-300{border-top-color: rgb(94 234 212);}	
+.border-t-teal-400{border-top-color: rgb(45 212 191);}	
+.border-t-teal-500{border-top-color: rgb(20 184 166);}	
+.border-t-teal-600{border-top-color: rgb(13 148 136);}	
+.border-t-teal-700{border-top-color: rgb(15 118 110);}	
+.border-t-teal-800{border-top-color: rgb(17 94 89);}	
+.border-t-teal-900{border-top-color: rgb(19 78 74);}	
+.border-t-teal-950{border-top-color: rgb(4 47 46);}	
+.border-t-cyan-50{border-top-color: rgb(236 254 255);}	
+.border-t-cyan-100{border-top-color: rgb(207 250 254);}	
+.border-t-cyan-200{border-top-color: rgb(165 243 252);}	
+.border-t-cyan-300{border-top-color: rgb(103 232 249);}	
+.border-t-cyan-400{border-top-color: rgb(34 211 238);}	
+.border-t-cyan-500{border-top-color: rgb(6 182 212);}	
+.border-t-cyan-600{border-top-color: rgb(8 145 178);}	
+.border-t-cyan-700{border-top-color: rgb(14 116 144);}	
+.border-t-cyan-800{border-top-color: rgb(21 94 117);}	
+.border-t-cyan-900{border-top-color: rgb(22 78 99);}	
+.border-t-cyan-950{border-top-color: rgb(8 51 68);}	
+.border-t-sky-50{border-top-color: rgb(240 249 255);}	
+.border-t-sky-100{border-top-color: rgb(224 242 254);}	
+.border-t-sky-200{border-top-color: rgb(186 230 253);}	
+.border-t-sky-300{border-top-color: rgb(125 211 252);}	
+.border-t-sky-400{border-top-color: rgb(56 189 248);}	
+.border-t-sky-500{border-top-color: rgb(14 165 233);}	
+.border-t-sky-600{border-top-color: rgb(2 132 199);}	
+.border-t-sky-700{border-top-color: rgb(3 105 161);}	
+.border-t-sky-800{border-top-color: rgb(7 89 133);}	
+.border-t-sky-900{border-top-color: rgb(12 74 110);}	
+.border-t-sky-950{border-top-color: rgb(8 47 73);}	
+.border-t-blue-50{border-top-color: rgb(239 246 255);}	
+.border-t-blue-100{border-top-color: rgb(219 234 254);}	
+.border-t-blue-200{border-top-color: rgb(191 219 254);}	
+.border-t-blue-300{border-top-color: rgb(147 197 253);}	
+.border-t-blue-400{border-top-color: rgb(96 165 250);}	
+.border-t-blue-500{border-top-color: rgb(59 130 246);}	
+.border-t-blue-600{border-top-color: rgb(37 99 235);}	
+.border-t-blue-700{border-top-color: rgb(29 78 216);}	
+.border-t-blue-800{border-top-color: rgb(30 64 175);}	
+.border-t-blue-900{border-top-color: rgb(30 58 138);}	
+.border-t-blue-950{border-top-color: rgb(23 37 84);}	
+.border-t-indigo-50{border-top-color: rgb(238 242 255);}	
+.border-t-indigo-100{border-top-color: rgb(224 231 255);}	
+.border-t-indigo-200{border-top-color: rgb(199 210 254);}	
+.border-t-indigo-300{border-top-color: rgb(165 180 252);}	
+.border-t-indigo-400{border-top-color: rgb(129 140 248);}	
+.border-t-indigo-500{border-top-color: rgb(99 102 241);}	
+.border-t-indigo-600{border-top-color: rgb(79 70 229);}	
+.border-t-indigo-700{border-top-color: rgb(67 56 202);}	
+.border-t-indigo-800{border-top-color: rgb(55 48 163);}	
+.border-t-indigo-900{border-top-color: rgb(49 46 129);}	
+.border-t-indigo-950{border-top-color: rgb(30 27 75);}	
+.border-t-violet-50{border-top-color: rgb(245 243 255);}	
+.border-t-violet-100{border-top-color: rgb(237 233 254);}	
+.border-t-violet-200{border-top-color: rgb(221 214 254);}	
+.border-t-violet-300{border-top-color: rgb(196 181 253);}	
+.border-t-violet-400{border-top-color: rgb(167 139 250);}	
+.border-t-violet-500{border-top-color: rgb(139 92 246);}	
+.border-t-violet-600{border-top-color: rgb(124 58 237);}	
+.border-t-violet-700{border-top-color: rgb(109 40 217);}	
+.border-t-violet-800{border-top-color: rgb(91 33 182);}	
+.border-t-violet-900{border-top-color: rgb(76 29 149);}	
+.border-t-violet-950{border-top-color: rgb(46 16 101);}	
+.border-t-purple-50{border-top-color: rgb(250 245 255);}	
+.border-t-purple-100{border-top-color: rgb(243 232 255);}	
+.border-t-purple-200{border-top-color: rgb(233 213 255);} 
+.border-t-purple-300{border-top-color: rgb(216 180 254);}	
+.border-t-purple-400{border-top-color: rgb(192 132 252);}	
+.border-t-purple-500{border-top-color: rgb(168 85 247);}	
+.border-t-purple-600{border-top-color: rgb(147 51 234);}	
+.border-t-purple-700{border-top-color: rgb(126 34 206);}	
+.border-t-purple-800{border-top-color: rgb(107 33 168);}	
+.border-t-purple-900{border-top-color: rgb(88 28 135);}	
+.border-t-purple-950{border-top-color: rgb(59 7 100);}	
+.border-t-fuchsia-50{border-top-color: rgb(253 244 255);}	
+.border-t-fuchsia-100{border-top-color: rgb(250 232 255);}	
+.border-t-fuchsia-200{border-top-color: rgb(245 208 254);}	
+.border-t-fuchsia-300{border-top-color: rgb(240 171 252);}	
+.border-t-fuchsia-400{border-top-color: rgb(232 121 249);}	
+.border-t-fuchsia-500{border-top-color: rgb(217 70 239);}	
+.border-t-fuchsia-600{border-top-color: rgb(217 70 239);}	
+.border-t-fuchsia-700{border-top-color: rgb(162 28 175);}	
+.border-t-fuchsia-800{border-top-color: rgb(134 25 143);}	
+.border-t-fuchsia-900{border-top-color: rgb(112 26 117);}	
+.border-t-fuchsia-950{border-top-color: rgb(74 4 78);}	
+.border-t-pink-50{border-top-color: rgb(253 242 248);}	
+.border-t-pink-100{border-top-color: rgb(252 231 243);}	
+.border-t-pink-200{border-top-color: rgb(251 207 232);}	
+.border-t-pink-300{border-top-color: rgb(249 168 212);}	
+.border-t-pink-400{border-top-color: rgb(244 114 182);}	
+.border-t-pink-500{border-top-color: rgb(236 72 153);}	
+.border-t-pink-600{border-top-color: rgb(219 39 119);}	
+.border-t-pink-700{border-top-color: rgb(190 24 93);}	
+.border-t-pink-800{border-top-color: rgb(157 23 77);}	
+.border-t-pink-900{border-top-color: rgb(131 24 67);}	
+.border-t-pink-950{border-top-color: rgb(80 7 36);}	
+.border-t-rose-50{border-top-color: rgb(255 241 242);}	
+.border-t-rose-100{border-top-color: rgb(255 228 230);}	
+.border-t-rose-200{border-top-color: rgb(254 205 211);}	
+.border-t-rose-300{border-top-color: rgb(253 164 175);}	
+.border-t-rose-400{border-top-color: rgb(251 113 133);}	
+.border-t-rose-500{border-top-color: rgb(244 63 94);}	
+.border-t-rose-600{border-top-color: rgb(225 29 72);}	
+.border-t-rose-700{border-top-color: rgb(190 18 60);}	
+.border-t-rose-800{border-top-color: rgb(159 18 57);}	
+.border-t-rose-900{border-top-color: rgb(136 19 55);}	
+.border-t-rose-950{border-top-color: rgb(76 5 25);}	
+.border-r-inherit{border-right-color: inherit;}	
+.border-r-current{border-right-color: currentColor;}	
+.border-r-transparent{border-right-color: transparent;}	
+.border-r-black{border-right-color: rgb(0 0 0);}	
+.border-r-white{border-right-color: rgb(255 255 255);}	
+.border-r-slate-50{border-right-color: rgb(248 250 252);}	
+.border-r-slate-100{border-right-color: rgb(241 245 249);}	
+.border-r-slate-200{border-right-color: rgb(226 232 240);}	
+.border-r-slate-300{border-right-color: rgb(203 213 225);}	
+.border-r-slate-400{border-right-color: rgb(148 163 184);}	
+.border-r-slate-500{border-right-color: rgb(100 116 139);}	
+.border-r-slate-600{border-right-color: rgb(71 85 105);}	
+.border-r-slate-700{border-right-color: rgb(51 65 85);}	
+.border-r-slate-800{border-right-color: rgb(30 41 59);}	
+.border-r-slate-900{border-right-color: rgb(15 23 42);}	
+.border-r-slate-950{border-right-color: rgb(2 6 23);}	
+.border-r-gray-50{border-right-color: rgb(249 250 251);}	
+.border-r-gray-100{border-right-color: rgb(243 244 246);}	
+.border-r-gray-200{border-right-color: rgb(229 231 235);}	
+.border-r-gray-300{border-right-color: rgb(209 213 219);}	
+.border-r-gray-400{border-right-color: rgb(156 163 175);}	
+.border-r-gray-500{border-right-color: rgb(107 114 128);}	
+.border-r-gray-600{border-right-color: rgb(75 85 99);}	
+.border-r-gray-700{border-right-color: rgb(55 65 81);}	
+.border-r-gray-800{border-right-color: rgb(31 41 55);}	
+.border-r-gray-900{border-right-color: rgb(17 24 39);}	
+.border-r-gray-950{border-right-color: rgb(3 7 18);}	
+.border-r-zinc-50{border-right-color: rgb(250 250 250);}	
+.border-r-zinc-100{border-right-color: rgb(244 244 245);}	
+.border-r-zinc-200{border-right-color: rgb(228 228 231);}	
+.border-r-zinc-300{border-right-color: rgb(212 212 216);}	
+.border-r-zinc-400{border-right-color: rgb(161 161 170);}	
+.border-r-zinc-500{border-right-color: rgb(113 113 122);}	
+.border-r-zinc-600{border-right-color: rgb(82 82 91);}	
+.border-r-zinc-700{border-right-color: rgb(63 63 70);}	
+.border-r-zinc-800{border-right-color: rgb(39 39 42);}	
+.border-r-zinc-900{border-right-color: rgb(24 24 27);}	
+.border-r-zinc-950{border-right-color: rgb(9 9 11);}	
+.border-r-neutral-50{border-right-color: rgb(250 250 250);}	
+.border-r-neutral-100{border-right-color: rgb(245 245 245);}	
+.border-r-neutral-200{border-right-color: rgb(229 229 229);}	
+.border-r-neutral-300{border-right-color: rgb(212 212 212);}	
+.border-r-neutral-400{border-right-color: rgb(163 163 163);}	
+.border-r-neutral-500{border-right-color: rgb(115 115 115);}	
+.border-r-neutral-600{border-right-color: rgb(82 82 82);}	
+.border-r-neutral-700{border-right-color: rgb(64 64 64);}	
+.border-r-neutral-800{border-right-color: rgb(38 38 38);}	
+.border-r-neutral-900{border-right-color: rgb(23 23 23);}	
+.border-r-neutral-950{border-right-color: rgb(10 10 10);}	
+.border-r-stone-50{border-right-color: rgb(250 250 249);}	
+.border-r-stone-100{border-right-color: rgb(245 245 244);}	
+.border-r-stone-200{border-right-color: rgb(231 229 228);}	
+.border-r-stone-300{border-right-color: rgb(214 211 209);}	
+.border-r-stone-400{border-right-color: rgb(168 162 158);}	
+.border-r-stone-500{border-right-color: rgb(120 113 108);}	
+.border-r-stone-600{border-right-color: rgb(87 83 78);}	
+.border-r-stone-700{border-right-color: rgb(68 64 60);}	
+.border-r-stone-800{border-right-color: rgb(41 37 36);}	
+.border-r-stone-900{border-right-color: rgb(28 25 23);}	
+.border-r-stone-950{border-right-color: rgb(12 10 9);}	
+.border-r-red-50{border-right-color: rgb(254 242 242);}	
+.border-r-red-100{border-right-color: rgb(254 226 226);}	
+.border-r-red-200{border-right-color: rgb(254 202 202);}	
+.border-r-red-300{border-right-color: rgb(252 165 165);}	
+.border-r-red-400{border-right-color: rgb(248 113 113);}	
+.border-r-red-500{border-right-color: rgb(239 68 68);}	
+.border-r-red-600{border-right-color: rgb(220 38 38);}	
+.border-r-red-700{border-right-color: rgb(185 28 28);}	
+.border-r-red-800{border-right-color: rgb(153 27 27);}	
+.border-r-red-900{border-right-color: rgb(127 29 29);}	
+.border-r-red-950{border-right-color: rgb(69 10 10);}	
+.border-r-orange-50{border-right-color: rgb(255 247 237);}	
+.border-r-orange-100{border-right-color: rgb(255 237 213);}	
+.border-r-orange-200{border-right-color: rgb(254 215 170);}	
+.border-r-orange-300{border-right-color: rgb(253 186 116);}	
+.border-r-orange-400{border-right-color: rgb(251 146 60);}	
+.border-r-orange-500{border-right-color: rgb(249 115 22);}	
+.border-r-orange-600{border-right-color: rgb(234 88 12);}	
+.border-r-orange-700{border-right-color: rgb(194 65 12);}	
+.border-r-orange-800{border-right-color: rgb(154 52 18);}	
+.border-r-orange-900{border-right-color: rgb(124 45 18);}	
+.border-r-orange-950{border-right-color: rgb(67 20 7);}	
+.border-r-amber-50{border-right-color: rgb(255 251 235);}	
+.border-r-amber-100{border-right-color: rgb(254 243 199);}	
+.border-r-amber-200{border-right-color: rgb(253 230 138);}	
+.border-r-amber-300{border-right-color: rgb(252 211 77);}	
+.border-r-amber-400{border-right-color: rgb(251 191 36);}	
+.border-r-amber-500{border-right-color: rgb(245 158 11);}	
+.border-r-amber-600{border-right-color: rgb(217 119 6);}	
+.border-r-amber-700{border-right-color: rgb(180 83 9);}	
+.border-r-amber-800{border-right-color: rgb(146 64 14);}	
+.border-r-amber-900{border-right-color: rgb(120 53 15);}	
+.border-r-amber-950{border-right-color: rgb(69 26 3);}	
+.border-r-yellow-50{border-right-color: rgb(254 252 232);}	
+.border-r-yellow-100{border-right-color: rgb(254 249 195);}	
+.border-r-yellow-200{border-right-color: rgb(254 240 138);}	
+.border-r-yellow-300{border-right-color: rgb(253 224 71);}	
+.border-r-yellow-400{border-right-color: rgb(250 204 21);}	
+.border-r-yellow-500{border-right-color: rgb(234 179 8);}	
+.border-r-yellow-600{border-right-color: rgb(202 138 4);}	
+.border-r-yellow-700{border-right-color: rgb(161 98 7);}	
+.border-r-yellow-800{border-right-color: rgb(133 77 14);}	
+.border-r-yellow-900{border-right-color: rgb(113 63 18);}	
+.border-r-yellow-950{border-right-color: rgb(66 32 6);}	
+.border-r-lime-50{border-right-color: rgb(247 254 231);}	
+.border-r-lime-100{border-right-color: rgb(236 252 203);}	
+.border-r-lime-200{border-right-color: rgb(217 249 157);}	
+.border-r-lime-300{border-right-color: rgb(190 242 100);}	
+.border-r-lime-400{border-right-color: rgb(163 230 53);}	
+.border-r-lime-500{border-right-color: rgb(132 204 22);}	
+.border-r-lime-600{border-right-color: rgb(101 163 13);}	
+.border-r-lime-700{border-right-color: rgb(77 124 15);}	
+.border-r-lime-800{border-right-color: rgb(63 98 18);}	
+.border-r-lime-900{border-right-color: rgb(54 83 20);}	
+.border-r-lime-950{border-right-color: rgb(26 46 5);}	
+.border-r-green-50{border-right-color: rgb(240 253 244);}	
+.border-r-green-100{border-right-color: rgb(220 252 231);}	
+.border-r-green-200{border-right-color: rgb(187 247 208);}	
+.border-r-green-300{border-right-color: rgb(134 239 172);}	
+.border-r-green-400{border-right-color: rgb(74 222 128);}	
+.border-r-green-500{border-right-color: rgb(34 197 94);}	
+.border-r-green-600{border-right-color: rgb(22 163 74);}	
+.border-r-green-700{border-right-color: rgb(21 128 61);}	
+.border-r-green-800{border-right-color: rgb(22 101 52);}	
+.border-r-green-900{border-right-color: rgb(20 83 45);}	
+.border-r-green-950{border-right-color: rgb(5 46 22);}	
+.border-r-emerald-50{border-right-color: rgb(236 253 245);}	
+.border-r-emerald-100{border-right-color: rgb(209 250 229);}	
+.border-r-emerald-200{border-right-color: rgb(167 243 208);}	
+.border-r-emerald-300{border-right-color: rgb(110 231 183);}	
+.border-r-emerald-400{border-right-color: rgb(52 211 153);}	
+.border-r-emerald-500{border-right-color: rgb(16 185 129);}	
+.border-r-emerald-600{border-right-color: rgb(5 150 105);}	
+.border-r-emerald-700{border-right-color: rgb(4 120 87);}	
+.border-r-emerald-800{border-right-color: rgb(6 95 70);}	
+.border-r-emerald-900{border-right-color: rgb(6 78 59);}	
+.border-r-emerald-950{border-right-color: rgb(2 44 34);}	
+.border-r-teal-50{border-right-color: rgb(240 253 250);}	
+.border-r-teal-100{border-right-color: rgb(204 251 241);}	
+.border-r-teal-200{border-right-color: rgb(153 246 228);}	
+.border-r-teal-300{border-right-color: rgb(94 234 212);}	
+.border-r-teal-400{border-right-color: rgb(45 212 191);}	
+.border-r-teal-500{border-right-color: rgb(20 184 166);}	
+.border-r-teal-600{border-right-color: rgb(13 148 136);}	
+.border-r-teal-700{border-right-color: rgb(15 118 110);}	
+.border-r-teal-800{border-right-color: rgb(17 94 89);}	
+.border-r-teal-900{border-right-color: rgb(19 78 74);}	
+.border-r-teal-950{border-right-color: rgb(4 47 46);}	
+.border-r-cyan-50{border-right-color: rgb(236 254 255);}	
+.border-r-cyan-100{border-right-color: rgb(207 250 254);}	
+.border-r-cyan-200{border-right-color: rgb(165 243 252);}	
+.border-r-cyan-300{border-right-color: rgb(103 232 249);}	
+.border-r-cyan-400{border-right-color: rgb(34 211 238);}	
+.border-r-cyan-500{border-right-color: rgb(6 182 212);}	
+.border-r-cyan-600{border-right-color: rgb(8 145 178);}	
+.border-r-cyan-700{border-right-color: rgb(14 116 144);}	
+.border-r-cyan-800{border-right-color: rgb(21 94 117);}	
+.border-r-cyan-900{border-right-color: rgb(22 78 99);}	
+.border-r-cyan-950{border-right-color: rgb(8 51 68);}	
+.border-r-sky-50{border-right-color: rgb(240 249 255);}	
+.border-r-sky-100{border-right-color: rgb(224 242 254);}	
+.border-r-sky-200{border-right-color: rgb(186 230 253);}	
+.border-r-sky-300{border-right-color: rgb(125 211 252);}	
+.border-r-sky-400{border-right-color: rgb(56 189 248);}	
+.border-r-sky-500{border-right-color: rgb(14 165 233);}	
+.border-r-sky-600{border-right-color: rgb(2 132 199);}	
+.border-r-sky-700{border-right-color: rgb(3 105 161);}	
+.border-r-sky-800{border-right-color: rgb(7 89 133);}	
+.border-r-sky-900{border-right-color: rgb(12 74 110);}	
+.border-r-sky-950{border-right-color: rgb(8 47 73);}	
+.border-r-blue-50{border-right-color: rgb(239 246 255);}	
+.border-r-blue-100{border-right-color: rgb(219 234 254);}	
+.border-r-blue-200{border-right-color: rgb(191 219 254);}	
+.border-r-blue-300{border-right-color: rgb(147 197 253);}	
+.border-r-blue-400{border-right-color: rgb(96 165 250);}	
+.border-r-blue-500{border-right-color: rgb(59 130 246);}	
+.border-r-blue-600{border-right-color: rgb(37 99 235);}	
+.border-r-blue-700{border-right-color: rgb(29 78 216);}	
+.border-r-blue-800{border-right-color: rgb(30 64 175);}	
+.border-r-blue-900{border-right-color: rgb(30 58 138);}	
+.border-r-blue-950{border-right-color: rgb(23 37 84);}	
+.border-r-indigo-50{border-right-color: rgb(238 242 255);}	
+.border-r-indigo-100{border-right-color: rgb(224 231 255);}	
+.border-r-indigo-200{border-right-color: rgb(199 210 254);}	
+.border-r-indigo-300{border-right-color: rgb(165 180 252);}	
+.border-r-indigo-400{border-right-color: rgb(129 140 248);}	
+.border-r-indigo-500{border-right-color: rgb(99 102 241);}	
+.border-r-indigo-600{border-right-color: rgb(79 70 229);}	
+.border-r-indigo-700{border-right-color: rgb(67 56 202);}	
+.border-r-indigo-800{border-right-color: rgb(55 48 163);}	
+.border-r-indigo-900{border-right-color: rgb(49 46 129);}	
+.border-r-indigo-950{border-right-color: rgb(30 27 75);}	
+.border-r-violet-50{border-right-color: rgb(245 243 255);}	
+.border-r-violet-100{border-right-color: rgb(237 233 254);}	
+.border-r-violet-200{border-right-color: rgb(221 214 254);}	
+.border-r-violet-300{border-right-color: rgb(196 181 253);}	
+.border-r-violet-400{border-right-color: rgb(167 139 250);}	
+.border-r-violet-500{border-right-color: rgb(139 92 246);}	
+.border-r-violet-600{border-right-color: rgb(124 58 237);}	
+.border-r-violet-700{border-right-color: rgb(109 40 217);}	
+.border-r-violet-800{border-right-color: rgb(91 33 182);}	
+.border-r-violet-900{border-right-color: rgb(76 29 149);}	
+.border-r-violet-950{border-right-color: rgb(46 16 101);}	
+.border-r-purple-50{border-right-color: rgb(250 245 255);}	
+.border-r-purple-100{border-right-color: rgb(243 232 255);}	
+.border-r-purple-200{border-right-color: rgb(233 213 255);}	
+.border-r-purple-300{border-right-color: rgb(216 180 254);}	
+.border-r-purple-400{border-right-color: rgb(192 132 252);}	
+.border-r-purple-500{border-right-color: rgb(168 85 247);}	
+.border-r-purple-600{border-right-color: rgb(147 51 234);}	
+.border-r-purple-700{border-right-color: rgb(126 34 206);}	
+.border-r-purple-800{border-right-color: rgb(107 33 168);}	
+.border-r-purple-900{border-right-color: rgb(88 28 135);}	
+.border-r-purple-950{border-right-color: rgb(59 7 100);}	
+.border-r-fuchsia-50{border-right-color: rgb(253 244 255);}	
+.border-r-fuchsia-100{border-right-color: rgb(250 232 255);}	
+.border-r-fuchsia-200{border-right-color: rgb(245 208 254);}	
+.border-r-fuchsia-300{border-right-color: rgb(240 171 252);}	
+.border-r-fuchsia-400{border-right-color: rgb(232 121 249);}	
+.border-r-fuchsia-500{border-right-color: rgb(217 70 239);}	
+.border-r-fuchsia-600{border-right-color: rgb(192 38 211);}	
+.border-r-fuchsia-700{border-right-color: rgb(162 28 175);}	
+.border-r-fuchsia-800{border-right-color: rgb(134 25 143);}	
+.border-r-fuchsia-900{border-right-color: rgb(112 26 117);}	
+.border-r-fuchsia-950{border-right-color: rgb(74 4 78);}	
+.border-r-pink-50{border-right-color: rgb(253 242 248);}	
+.border-r-pink-100{border-right-color: rgb(252 231 243);}	
+.border-r-pink-200{border-right-color: rgb(251 207 232);}	
+.border-r-pink-300{border-right-color: rgb(249 168 212);}	
+.border-r-pink-400{border-right-color: rgb(244 114 182);}	
+.border-r-pink-500{border-right-color: rgb(236 72 153);}	
+.border-r-pink-600{border-right-color: rgb(219 39 119);}	
+.border-r-pink-700{border-right-color: rgb(190 24 93);}	
+.border-r-pink-800{border-right-color: rgb(157 23 77);}	
+.border-r-pink-900{border-right-color: rgb(131 24 67);}	
+.border-r-pink-950{border-right-color: rgb(80 7 36);}	
+.border-r-rose-50{border-right-color: rgb(255 241 242);}	
+.border-r-rose-100{border-right-color: rgb(255 228 230);}	
+.border-r-rose-200{border-right-color: rgb(254 205 211);}	
+.border-r-rose-300{border-right-color: rgb(253 164 175);}	
+.border-r-rose-400{border-right-color: rgb(251 113 133);}	
+.border-r-rose-500{border-right-color: rgb(244 63 94);}	
+.border-r-rose-600{border-right-color: rgb(225 29 72);}	
+.border-r-rose-700{border-right-color: rgb(190 18 60);}	
+.border-r-rose-800{border-right-color: rgb(159 18 57);}	
+.border-r-rose-900{border-right-color: rgb(136 19 55);}	
+.border-r-rose-950{border-right-color: rgb(76 5 25);}	
+
+
 
 
 /**---------------Bordas/Border Style-----------------------**/
@@ -7950,7 +11544,690 @@ video {
   --tw-gradient-to-position: 100%;
 }
 
+/*-------------------Dimensionamento/Sizing------------------------*/
+/*-------------------------Largura/Width-----------------------------------*/
+/*------Utilitários para definir a largura de um elemento.---------*/
+.w-0{
+  width: 0px;
+}
 
+.w-px{
+ width: 1px;
+}
+.w-0\.5{ /* .w-0.5 */
+ width: 0.125rem; /* 2px */
+}
+
+.w-1{
+ width: 0.25rem; /* 4px */
+}
+
+.w-1\.5{ /* .w-1.5*/
+ width: 0.375rem; /* 6px */
+}
+
+.w-2{
+ width: 0.5rem; /* 8px */
+}
+
+.w-2\.5{ /* .w-2.5 */
+ width: 0.625rem; /* 10px */
+}
+
+.w-3{
+  width: 0.75rem; /* 12px */
+}
+
+.w-3\.5{ /* .w-3.5 */
+  width: 0.875rem; /* 14px */
+}
+
+.w-4{
+  width: 1rem; /* 16px */
+}
+
+.w-5{
+  width: 1.25rem; /* 20px */
+}
+
+.w-6{
+  width: 1.5rem; /* 24px */
+}
+
+.w-7{
+  width: 1.75rem; /* 28px */
+}
+
+.w-8{
+  width: 2rem; /* 32px */
+}
+
+.w-9{
+  width: 2.25rem; /* 36px */
+}
+
+.w-10{
+  width: 2.5rem; /* 40px */
+}
+
+.w-11{
+  width: 2.75rem; /* 44px */
+}
+
+.w-12{
+  width: 3rem; /* 48px */
+}
+
+.w-14{
+  width: 3.5rem; /* 56px */
+}
+
+.w-16{
+  width: 4rem; /* 64px */
+}
+
+.w-20{
+  width: 5rem; /* 80px */
+}
+
+.w-24{
+  width: 6rem; /* 96px */
+}
+
+.w-28{
+  width: 7rem; /* 112px */
+}
+
+.w-32{
+  width: 8rem; /* 128px */
+}
+
+.w-36{
+  width: 9rem; /* 144px */
+}
+ 
+.w-40{
+  width: 10rem; /* 160px */
+}
+ 
+.w-44{
+  width: 11rem; /* 176px */
+}
+ 
+.w-48{
+  width: 12rem; /* 192px */
+}
+
+.w-52{
+  width: 13rem; /* 208px */
+}
+
+.w-56{
+  width: 14rem; /* 224px */
+}
+
+.w-60{
+  width: 15rem; /* 240px */
+}
+
+.w-64{
+  width: 16rem; /* 256px */
+}
+
+.w-72{
+  width: 18rem; /* 288px */
+}
+
+.w-80{
+  width: 20rem; /* 320px */
+}
+
+.w-96{
+  width: 24rem; /* 384px */
+}
+
+.w-auto{
+  width: auto;
+}
+
+.w-1\/2{ /* se usar .w-1/2 da erro no css */
+  width: 50%;
+}
+
+.w-1\/3{ /* se usar .w-1/3 da erro no css */
+  width: 33.333333%;
+}
+
+.w-2\/3{ /* se usar .w-2/3 da erro no css */
+  width: 66.666667%;
+}
+
+.w-1\/4{ /* se usar .w-1/4 da erro */
+  width: 25%;
+}
+
+.w-2\/4{ /* .w-2/4 */
+  width: 50%;
+}
+
+.w-3\/4{ /* .w-3/4 */
+  width: 75%;
+}
+
+.w-1\/5{ /* .w-1/5 */
+  width: 20%;
+}
+
+.w-2\/5{ /* .w-2/5 */
+  width: 40%;
+}
+
+.w-3\/5{ /* .w-3/5 */
+  width: 60%;
+}
+
+.w-4\/5{ /* .w-4/5 */
+  width: 80%;
+}
+
+.w-1\/6{ /* .w-1/6 */
+  width: 16.666667%;
+}
+
+.w-2\/6{ /* .w-2/6 */
+  width: 33.333333%;
+}
+
+.w-3\/6{ /* .w-3/6 */
+  width: 50%;
+}
+
+.w-4\/6{ /* .w-4/6 */
+  width: 66.666667%;
+}
+
+.w-5\/6{ /* .w-5/6 */
+  width: 83.333333%;
+}
+
+.w-1\/12{ /* .w-1/12 */
+  width: 8.333333%;
+}
+
+.w-2\/12{ /* .w-2/12 */
+  width: 16.666667%;
+}
+
+.w-3\/12{ /* .w-3/12 */
+  width: 25%;
+}
+
+.w-4\/12{ /* .w-4/12 */
+  width: 33.333333%;
+}
+
+.w-5\/12{ /* .w-5/12 */
+  width: 41.666667%;
+}
+
+.w-6\/12{ /* .w-6/12 */
+  width: 50%;
+}
+
+.w-7\/12{ /* .w-7/12 */
+  width: 58.333333%;
+}
+
+.w-8\/12{ /* .w-8/12 */
+  width: 66.666667%;
+}
+
+.w-9\/12{ /* .w-9/12 */
+  width: 75%;
+}
+
+.w-10\/12{ /* .w-10/12 */
+  width: 83.333333%;
+}
+
+.w-11\/12{ /* .w-11/12 */
+  width: 91.666667%;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.w-screen{
+  width: 100vw;
+}
+
+.w-min{
+  width: min-content;
+}
+
+.w-max{
+  width: max-content;
+}
+
+.w-fit{
+  width: fit-content;
+}
+
+
+/*----------------------Altura/Height----------------------------------*/
+/*---Utilitários para definir a altura de um elemento..-----*/
+.h-0{
+  height: 0px;
+}
+
+.h-px{
+  height: 1px;
+}
+
+.h-0\.5{ /* usar .h-0.5 causa erro no codigo  */
+  height: 0.125rem; /* 2px */
+}
+
+.h-1{
+  height: 0.25rem; /* 4px */
+}
+
+.h-1\.5{ /* usar .h-1.5 causa erro no codigo */
+  height: 0.375rem; /* 6px */
+}
+
+.h-2{
+  height: 0.5rem; /* 8px */
+}
+
+.h-2\.5{ /* usar .h-2.5 causa erro no codigo */
+  height: 0.625rem; /* 10px */
+}
+
+.h-3{
+  height: 0.75rem; /* 12px */
+}
+
+.h-3\.5{ /* usar .h-3.5 causa erro no codigo */
+  height: 0.875rem; /* 14px */
+}
+
+.h-4{
+  height: 1rem; /* 16px */
+}
+
+.h-5{
+  height: 1.25rem; /* 20px */
+}
+
+.h-6{
+  height: 1.5rem; /* 24px */
+}
+
+.h-7{
+  height: 1.75rem; /* 28px */
+}
+
+.h-8{
+  height: 2rem; /* 32px */
+}
+
+.h-9{
+  height: 2.25rem; /* 36px */
+}
+
+.h-10{
+  height: 2.5rem; /* 40px */
+}
+
+.h-11{
+  height: 2.75rem; /* 44px */
+}
+
+.h-12{
+  height: 3rem; /* 48px */
+}
+
+.h-14{
+  height: 3.5rem; /* 56px */
+}
+
+.h-16{
+  height: 4rem; /* 64px */
+}
+
+.h-20{
+  height: 5rem; /* 80px */
+}
+
+.h-24{
+  height: 6rem; /* 96px */
+}
+
+.h-28{
+  height: 7rem; /* 112px */
+}
+
+.h-32{
+  height: 8rem; /* 128px */
+}
+
+.h-36{
+  height: 9rem; /* 144px */
+}
+
+.h-40{
+  height: 10rem; /* 160px */
+}
+
+.h-44{
+  height: 11rem; /* 176px */
+}
+
+.h-48{
+  height: 12rem; /* 192px */
+}
+
+.h-52{
+  height: 13rem; /* 208px */
+}
+
+.h-56{
+  height: 14rem; /* 224px */
+}
+
+.h-60{
+  height: 15rem; /* 240px */
+}
+
+.h-64{
+  height: 16rem; /* 256px */
+}
+
+.h-72{
+  height: 18rem; /* 288px */
+}
+
+.h-80{
+  height: 20rem; /* 320px */
+}
+
+.h-96{
+  height: 24rem; /* 384px */
+}
+
+.h-auto{
+  height: auto;
+}
+
+.h-1\/2{ /* usar .h-1/2 causa erro no codigo */
+  height: 50%;
+}
+
+.h-1\/3{ /* usar .h-1/3 causa erro no codigo */
+  height: 33.333333%;
+}
+
+.h-2\/3{ /* usar .h-2/3 causa erro no codigo */
+  height: 66.666667%;
+}
+
+.h-1\/4{ /* usar .h-1/4 causa erro no codigo */
+  height: 25%;
+}
+
+.h-2\/4{ /* usar .h-2/4 causa erro no codigo */
+  height: 50%;
+}
+
+.h-3\/4{ /* usar .h-3/4 causa erro no codigo */
+  height: 75%;
+}
+
+.h-1\/5{ /* usar .h-1/5 causa erro no codigo */
+  height: 20%;
+}
+
+.h-2\/5{ /* usar .h-1/2 causa erro no codigo */
+  height: 40%;
+}
+
+.h-3\/5{ /* usar .h-3/5 causa erro no codigo */
+  height: 60%;
+}
+
+.h-4\/5{ /* usar .h-4/5 causa erro no codigo */
+  height: 80%;
+}
+
+.h-1\/6{ /* usar .h-1/6 causa erro no codigo */
+  height: 16.666667%;
+}
+
+.h-2\/6{ /* usar .h-2/6 causa erro no codigo */
+  height: 33.333333%;
+}
+
+.h-3\/6{ /* usar .h-3/6 causa erro no codigo */
+  height: 50%;
+}
+
+.h-4\/6{ /* usar .h-4/6 causa erro no codigo */
+  height: 66.666667%;
+}
+
+.h-5\/6{ /* usar .h-5/6 causa erro no codigo */
+  height: 83.333333%;
+}
+
+.h-full{
+  height: 100%;
+}
+
+.h-screen{
+  height: 100vh;
+}
+
+.h-min{
+  height: min-content;
+}
+
+.h-max{
+  height: max-content;
+}
+
+.h-fit{
+  height: fit-content;
+}
+
+/*----------------------Min-Width----------------------------------*/
+/*---Utilitários para definir a largura mínima de um elemento.-----*/
+.min-w-0{min-width: 0px;}
+
+.min-w-full{min-width: 100%;}
+
+.min-w-min{min-width: min-content;}
+
+.min-w-max{min-width: max-content;}
+
+.min-w-fit{min-width: fit-content;}
+
+/*----------------------Max-Width--------------------------------------------------*/
+/*---------Utilitários para definir a largura máxima de um elemento.------------------*/
+.max-w-0{max-width: 0rem}; /* 0px */
+
+.max-w-none{max-width: none;}
+
+.max-w-xs{max-width: 20rem;} /* 320px */
+
+.max-w-sm{max-width: 24rem;} /* 384px */
+
+.max-w-md{max-width: 28rem;} /* 448px */
+
+.max-w-lg{max-width: 32rem;} /* 512px */
+
+.max-w-xl{max-width: 36rem;}/* 576px */
+
+.max-w-2xl{max-width: 42rem;} /* 672px */
+
+.max-w-3xl{max-width: 48rem;} /* 768px */
+
+.max-w-4xl{max-width: 56rem;} /* 896px */
+
+.max-w-5xl{max-width: 64rem;} /* 1024px */
+
+.max-w-6xl{max-width: 72rem;} /* 1152px */
+
+.max-w-7xl{max-width: 80rem;} /* 1280px */
+
+.max-w-full{max-width: 100%;}
+
+.max-w-min{max-width: min-content;}
+
+.max-w-max{max-width: max-content;}
+
+.max-w-fit{max-width: fit-content};
+  
+.max-w-prose{max-width: 65ch;}
+
+.max-w-screen-sm{max-width: 640px;}
+
+.max-w-screen-md{max-width: 768px;}
+
+.max-w-screen-lg{max-width: 1024px;}
+
+.max-w-screen-xl{max-width: 1280px;}
+
+.max-w-screen-2xl{max-width: 1536px;}
+
+/*----------------------Flexbox---------------------------------------*/
+/*----------------------Flex Direction--------------------------------*/
+/*-----Utilitários para controlar a direção de itens flexíveis.------*/
+.flex-row{flex-direction: row;}
+
+.flex-row-reverse{flex-direction: row-reverse;}	
+
+.flex-col{flex-direction: column;}
+
+.flex-col-reverse{flex-direction: column-reverse;}	
+
+/*----------------------Flex Wrap--------------------------------*/
+/*-----Utilitários para controlar como os itens flexíveis são agrupados.------*/
+.flex-wrap{flex-wrap: wrap;}	
+.flex-wrap-reverse{flex-wrap: wrap-reverse;}
+.flex-nowrap{flex-wrap: nowrap;}	
+
+/*----------------------Space Between--------------------------------*/
+/*-----Utilitários para controlar o espaço entre os elementos filhos.------*/
+.space-x-0 > * + *{margin-left: 0px;}	
+.space-y-0 > * + *{margin-top: 0px;}	
+.space-x-0\.5 > * + *{margin-left: 0.125rem;}	 /* 2px */
+.space-y-0\.5 > * + *{margin-top: 0.125rem;}	 /* 2px */
+.space-x-1 > * + *{margin-left: 0.25rem;}	 /* 4px */
+.space-y-1 > * + *{margin-top: 0.25rem;}	 /* 4px */
+.space-x-1\.5 > * + *{margin-left: 0.375rem;}	 /* 6px */
+.space-y-1\.5 > * + *{margin-top: 0.375rem;}	 /* 6px */
+.space-x-2 > * + *{margin-left: 0.5rem;}	 /* 8px */
+.space-y-2 > * + *{margin-top: 0.5rem;}	 /* 8px */
+.space-x-2\.5 > * + *{margin-left: 0.625rem;}	 /* 10px */
+.space-y-2\.5 > * + *{margin-top: 0.625rem;}	 /* 10px */
+.space-x-3 > * + *{margin-left: 0.75rem;}	 /* 12px */
+.space-y-3 > * + *{margin-top: 0.75rem;}	 /* 12px */
+.space-x-3\.5 > * + *{margin-left: 0.875rem;}	 /* 14px */
+.space-y-3\.5 > * + *{margin-top: 0.875rem;}	 /* 14px */
+.space-x-4 > * + *{margin-left: 1rem;}  /* 16px */
+.space-y-4 > * + *{margin-top: 1rem;}	 /* 16px */
+.space-x-5 > * + *{margin-left: 1.25rem;}	 /* 20px */
+.space-y-5 > * + *{margin-top: 1.25rem;}	 /* 20px */
+.space-x-6 > * + *{margin-left: 1.5rem;}	 /* 24px */
+.space-y-6 > * + *{margin-top: 1.5rem;}	 /* 24px */
+.space-x-7 > * + *{margin-left: 1.75rem;}	 /* 28px */
+.space-y-7 > * + *{margin-top: 1.75rem;}	 /* 28px */
+.space-x-8 > * + *{margin-left: 2rem;}	 /* 32px */
+.space-y-8 > * + *{margin-top: 2rem;}	 /* 32px */
+.space-x-9 > * + *{margin-left: 2.25rem;}	 /* 36px */
+.space-y-9 > * + *{margin-top: 2.25rem;}	 /* 36px */
+.space-x-10 > * + *{margin-left: 2.5rem;}	 /* 40px */
+.space-y-10 > * + *{margin-top: 2.5rem;}	 /* 40px */
+.space-x-11 > * + *{margin-left: 2.75rem;}	 /* 44px */
+.space-y-11 > * + *{margin-top: 2.75rem;}	 /* 44px */
+.space-x-12 > * + *{margin-left: 3rem;}	 /* 48px */
+.space-y-12 > * + *{margin-top: 3rem;}	 /* 48px */
+.space-x-14 > * + *{margin-left: 3.5rem;}	 /* 56px */
+.space-y-14 > * + *{margin-top: 3.5rem;}	 /* 56px */
+.space-x-16 > * + *{margin-left: 4rem;}	 /* 64px */
+.space-y-16 > * + *{margin-top: 4rem;}	 /* 64px */
+.space-x-20 > * + *{margin-left: 5rem;}	 /* 80px */
+.space-y-20 > * + *{margin-top: 5rem;}	 /* 80px */
+.space-x-24 > * + *{margin-left: 6rem;}	 /* 96px */
+.space-y-24 > * + *{margin-top: 6rem;}	 /* 96px */
+.space-x-28 > * + *{margin-left: 7rem;}	 /* 112px */
+.space-y-28 > * + *{margin-top: 7rem;}	 /* 112px */
+.space-x-32 > * + *{margin-left: 8rem;}	 /* 128px */
+.space-y-32 > * + *{margin-top: 8rem;}	 /* 128px */
+.space-x-36 > * + *{margin-left: 9rem;}	 /* 144px */
+.space-y-36 > * + *{margin-top: 9rem;}	 /* 144px */
+.space-x-40 > * + *{margin-left: 10rem;}	 /* 160px */
+.space-y-40 > * + *{margin-top: 10rem;}	 /* 160px */
+.space-x-44 > * + *{margin-left: 11rem;}	 /* 176px */
+.space-y-44 > * + *{margin-top: 11rem;}	 /* 176px */
+.space-x-48 > * + *{margin-left: 12rem;}	 /* 192px */
+.space-y-48 > * + *{margin-top: 12rem;}	 /* 192px */
+.space-x-52 > * + *{margin-left: 13rem;}	 /* 208px */
+.space-y-52 > * + *{margin-top: 13rem;}	 /* 208px */
+.space-x-56 > * + *{margin-left: 14rem;}	 /* 224px */
+.space-y-56 > * + *{margin-top: 14rem;}	 /* 224px */
+.space-x-60 > * + *{margin-left: 15rem;}	 /* 240px */
+.space-y-60 > * + *{margin-top: 15rem;}	 /* 240px */
+.space-x-64 > * + *{margin-left: 16rem;}	 /* 256px */
+.space-y-64 > * + *{margin-top: 16rem;}	 /* 256px */
+.space-x-72 > * + *{margin-left: 18rem;}	 /* 288px */
+.space-y-72 > * + *{margin-top: 18rem;}	 /* 288px */
+.space-x-80 > * + *{margin-left: 20rem;}	 /* 320px */
+.space-y-80 > * + *{margin-top: 20rem;}	 /* 320px */
+.space-x-96 > * + *{margin-left: 24rem;}	 /* 384px */
+.space-y-96 > * + *{margin-top: 24rem;}	 /* 384px */
+.space-x-px > * + *{margin-left: 1px;}	
+.space-y-px > * + *{margin-top: 1px;}	
+.space-y-reverse > * + *{--tw-space-y-reverse: 1;}	
+.space-x-reverse > * + *{--tw-space-x-reverse: 1;}	
+
+/*----------------------Flexbox/Justify Content-----------------------*/
+/*-----Utilitários para controlar como os itens flexíveis e de------*/
+/*-----grade são posicionados ao longo do eixo principal de um contêiner.---*/
+.justify-normal{justify-content: normal;}	
+.justify-start{justify-content: flex-start;}	
+.justify-end{justify-content: flex-end;}	
+.justify-center{justify-content: center;}	
+.justify-between{justify-content: space-between;}	
+.justify-around{justify-content: space-around;}	
+.justify-evenly{justify-content: space-evenly;}	
+.justify-stretch{justify-content: stretch;}	
+
+/*----------------------Flexbox/Align Items-----------------------*/
+/*-----Utilitários para controlar como os itens flexíveis e de grade são------*/
+/*-----posicionados ao longo do eixo cruzado de um contêiner.---*/
+.items-start{align-items: flex-start;}	
+.items-end{align-items: flex-end;}	
+.items-center{align-items: center;}	
+.items-baseline{align-items: baseline;}	
+.items-stretch{align-items: stretch;}	
+
+
+/*----------------------Flexbox/Align Content-----------------------*/
+/*-----Utilitários para controlar como as linhas são------*/
+/*-----posicionadas em contêineres flexíveis e de grade de------*/
+/*-----várias linhas------*/
+.content-normal{align-content: normal;}	
+.content-center{align-content: center;}	
+.content-start{align-content: flex-start;}	
+.content-end{align-content: flex-end;}	
+.content-between{align-content: space-between;}	
+.content-around{align-content: space-around;}	
+.content-evenly{align-content: space-evenly;}	
+.content-baseline{align-content: baseline;}	
+.content-stretch{align-content: stretch;}	
 
 
 
