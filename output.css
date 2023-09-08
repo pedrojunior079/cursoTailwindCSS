@@ -621,6 +621,15 @@ video {
   --tw-border-opacity: 0.2
 }
 
+.bg-blue-800{
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 64 175 / var(--tw-bg-opacity))
+}
+
+.bg-opacity-20{
+  --tw-bg-opacity: 0.2
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -2037,11 +2046,6 @@ video {
 .bg-gradient-to-tl{
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
-
-
-
-
-
 
 
 /* Fonte de Letras de Espaços/Letter Spacing */
