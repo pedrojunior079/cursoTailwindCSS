@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
+ *! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -532,4 +532,12 @@ video {
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
+}
+
+.flex{
+  display: flex
+}
+
+.justify-center{
+  justify-content: center
 }
