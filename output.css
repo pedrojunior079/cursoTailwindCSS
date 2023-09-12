@@ -644,6 +644,14 @@ video {
   margin-right: auto
 }
 
+.inline-flex{
+  display: inline-flex
+}
+
+.mb-2{
+  margin-bottom: 0.5rem
+}
+
 .w-full{
   width: 100%
 }
