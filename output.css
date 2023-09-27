@@ -2720,6 +2720,11 @@ video {
   padding-bottom: 2.75rem; /* 44px */
 }	
 
+.py-20{
+  padding-top: 5rem; /* 80px */
+  padding-bottom: 5rem; /* 80px */
+}	
+
 
 
 /* Fonte de Espaçamentos/Margin */
